@@ -1,0 +1,230 @@
+@import "rouge-dracula";
+@import "fira-code";
+
+$body-background: #151515;
+$body-foreground: #eaeaea;
+$header: #1cdc9a;
+$blockquote-color: #aaa;
+$blockquote-border: #666;
+
+body {
+	margin: 0;
+	padding: 0;
+	background: $body-background 0 0;
+	color: $body-foreground;
+	font-size: 16px;
+	line-height: 1.6;
+	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
+}
+
+/// General & 'Reset' Stuff \\\
+
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+section {
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0 10px;
+}
+
+li {
+	line-height: 1.4;
+}
+
+/// Header \\\
+
+header {
+	background: rgba(0, 0, 0, 0.1);
+	border-bottom: 1px dashed $header;
+	padding: 20px;
+	margin: 0 0 40px 0;
+
+	h1 {
+		font-size: 36px;
+		line-height: 1.5;
+		margin: 0;
+		text-align: center;
+		font-weight: bold;
+		color: $header;
+		letter-spacing: -1px;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-size: 18px;
+		font-weight: 300;
+		color: #666;
+	}
+
+	.links {
+		text-align: center;
+		font-weight: bold;
+
+		h2 {
+			display: inline;
+			font-weight: 500;
+			margin: 10px;
+		}
+	}
+}
+
+/// Main Content \\\
+
+section img {
+	max-width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: $header;
+	letter-spacing: -0.03em;
+}
+
+#main_content {
+	width: 100%;
+
+	h1 { font-size: 30px; }
+	h2 { font-size: 24px; }
+	h3 { font-size: 18px; }
+	h4 { font-size: 14px; }
+	h5 {
+		font-size: 12px;
+		text-transform: uppercase;
+		margin: 0 0 5px 0;
+	}
+	h6 {
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #999;
+		margin: 0 0 5px 0;
+	}
+}
+
+dt {
+	font-style: italic;
+	font-weight: bold;
+}
+
+ul li {
+	list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 -6 24 24'%3E%3Cpath d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z' fill='%231cdc9a'/%3E%3C/svg%3E");
+}
+
+blockquote {
+	color: $blockquote-color;
+	padding-left: 10px;
+	border-left: 1px dotted $blockquote-border;
+}
+
+pre {
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	padding: 10px;
+	font-size: 16px;
+	color: $header;
+	border-radius: 2px;
+	word-wrap: normal;
+	overflow: auto;
+	overflow-y: hidden;
+}
+
+code.highlighter-rouge {
+	background: rgba(0,0,0,0.9);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	padding: 0px 3px;
+	margin: 0px -3px;
+	color: $body-foreground;
+	border-radius: 2px;
+}
+
+table {
+	width: 100%;
+	margin: 0 0 20px 0;
+
+	th {
+		text-align: left;
+		border-bottom: 1px dashed $header;
+	}
+	td, th {
+		padding: 5px 10px;
+	}
+}
+
+hr {
+	height: 0;
+	border: 0;
+	border-bottom: 1px dashed $header;
+	color: $header;
+}
+
+time {
+	font-weight: bold;
+}
+
+/// Links \\\
+
+a {
+	color: #63c0f5;
+	text-decoration: none;
+
+	&:active, &:focus {
+		outline: 0;
+		border: none;
+	}
+}
+
+/// Make footer stick to bottom \\\
+
+.pagination, footer {
+	height: 49px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.pagination {
+	font-size: 20pt;
+
+	.page-item {
+		margin: 5px 20px;
+	}
+}
+
+
+footer {
+	border-top: 1px dashed $header;
+}
+
+#wrapper {
+	min-height: calc(100vh - 100px);
+}
+
+/// About page funsies \\\
+
+.hexeditor {
+	width: auto;
+	border-collapse: collapse;
+	border: 1px dashed $header;
+	padding: 10px;
+
+	.legend {
+		border: 0;
+	}
+
+	.offset {
+		user-select: none;
+		border-bottom: 0;
+		border-right: 1px dashed $header;
+	}
+}
+
+.ozxa {
+	image-rendering: crisp-edges;
+	float: right;
+	margin-left: 60px;
+}

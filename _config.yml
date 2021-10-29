@@ -1,0 +1,21 @@
+title: ROllerozxa
+description: "ROllerozxa's Blog"
+
+baseurl: /
+
+permalink: pretty
+paginate: 10
+paginate_path: /page/:num/
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-paginate

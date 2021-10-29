@@ -1,0 +1,18 @@
+---
+layout: page
+title: Archive
+---
+{%- assign posts = site.posts -%}
+{%- assign groupedByYear = posts | group_by_exp:"post","post.date | date:'%Y' " -%}
+
+{%- for yearitem in groupedByYear -%}
+	<h3>{{ yearitem.name }}</h3>
+	<ul>
+		{%- for item in yearitem.items -%}
+			<li>
+				{{ item.date | date:"%d %b" }}
+				<a href="{{ item.url }}">{{ item.title }}</a>
+			</li>
+		{%- endfor -%}
+	</ul>
+{%- endfor -%}

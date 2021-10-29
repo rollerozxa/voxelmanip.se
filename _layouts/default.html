@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+	<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
+</head>
+<body>
+	<script>/* Workaround for Firefox FOUC */</script>
+	<div id="wrapper">
+		<header>
+			<a href="{{ site.baseurl }}">
+				<h1>{{ site.title }}</h1>
+			</a>
+			<div class="links">
+				<a href="{{ '/posts' | relative_url }}"><h2 class="header-link">Posts</h2></a>
+				<a href="{{ '/about' | relative_url }}"><h2 class="header-link">About</h2></a>
+
+				{% comment %}<a href="{{ '/atom.xml' | relative_url }}">&nbsp;<img src="{{ 'assets/rss.svg' | relative_url }}" height="14"></a>{% endcomment %}
+			</div>
+		</header>
+		<div class="container">
+			<section id="main_content">
+				{{ content }}
+			</section>
+		</div>
+	</div>
+
+	{%- if paginator.total_pages > 1 -%}
+	<div class="pagination">
+		{%- for page in (1..paginator.total_pages) -%}
+			{%- if page == paginator.page -%}
+				<span class="page-item">{{ page }}</span>
+			{%- elsif page == 1 -%}
+				<a href="{{ '/' | relative_url }}" class="page-item">{{ page }}</a>
+			{%- else -%}
+				<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="page-item">{{ page }}</a>
+			{%- endif -%}
+		{%- endfor %}
+	</div>
+	{%- endif -%}
+
+	<footer>
+		:>
+	</footer>
+</body>
+</html>
