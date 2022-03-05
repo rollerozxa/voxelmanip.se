@@ -10,9 +10,9 @@ $blockquote-border: #666;
 body {
 	margin: 0;
 	padding: 0;
-	background: $body-background 0 0;
+	background-color: $body-background;
 	color: $body-foreground;
-	font-size: 16px;
+	font-size: 12pt;
 	line-height: 1.6;
 	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
 }
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 li {
-	line-height: 1.4;
+	line-height: 1.6;
 }
 
 /// Header \\\
@@ -160,7 +160,6 @@ hr {
 	height: 0;
 	border: 0;
 	border-bottom: 1px dashed $header;
-	color: $header;
 }
 
 time {
