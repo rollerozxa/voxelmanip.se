@@ -38,6 +38,8 @@ li {
 	line-height: 1.6;
 }
 
+.c { text-align: center; }
+
 /// Header \\\
 
 header {
@@ -148,7 +150,6 @@ table {
 	margin: 0 0 20px 0;
 
 	th {
-		text-align: left;
 		border-bottom: 1px dashed $header;
 	}
 	td, th {
@@ -222,8 +223,10 @@ footer {
 	}
 }
 
-.ozxa {
+.ozxa, .cute-ralsei {
 	image-rendering: crisp-edges;
 	float: right;
-	margin-left: 60px;
+}
+.ozxa {
+	margin-left: 30px;
 }
