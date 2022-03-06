@@ -104,24 +104,18 @@ If you'd like to contact me, here's my email address and Discord username encode
 		<th>0F</th>
 	</tr><tr>
 		<th class="offset">00000000</th>
-		<td>53</td>
-		<td>75</td>
-		<td>62</td>
+		<td>52</td>
+		<td>4F</td>
 		<td>6C</td>
-		<td>61</td>
-		<td>79</td>
+		<td>6C</td>
 		<td>65</td>
 		<td>72</td>
-		<td>20</td>
-		<td>70</td>
-		<td>6C</td>
+		<td>6F</td>
+		<td>7A</td>
+		<td>78</td>
 		<td>61</td>
-		<td>6E</td>
-		<td>6B</td>
 		<td>23</td>
 		<td>37</td>
-	</tr><tr>
-		<th class="offset">00000010</th>
 		<td>36</td>
 		<td>30</td>
 		<td>39</td>
