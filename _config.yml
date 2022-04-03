@@ -1,7 +1,11 @@
 title: ROllerozxa
 description: "ROllerozxa's Blog"
+url: https://voxelmanip.se
 
 baseurl: /
+
+exclude:
+  - CNAME
 
 permalink: pretty
 paginate: 10
@@ -9,6 +13,7 @@ paginate_path: /page/:num/
 
 sass:
   style: compressed
+  sourcemap: never
 
 defaults:
   - scope:
