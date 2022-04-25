@@ -14,7 +14,7 @@ Nowadays I'm mostly doing a mix of web development (wide range of frontend and b
 
 In terms of gaming I like Minecraft and the beforementioned Minetest, also contributing to the engine of the latter and developing games for it. I also enjoy some Euro Truck Simulator 2 every now and while, even though I treat it more like a racing game.
 
-I am heavily involved in the Principia community, having played it ever since 2013. I develop and run an unofficial community site replacement and also spearhead various archival efforts and further unofficial development of it after the abandonment by the original developers.
+I am heavily involved in the Principia community, having played it ever since 2013. I develop and run [principia-web](https://principia-web.se), an unofficial community site replacement and also spearhead various archival efforts and further unofficial development of it after the abandonment by the original developers.
 
 In terms of music, I like all kinds of tracker music, preferrably played with `openmpt123` through the terminal or with MilkyTracker left playing on the screen when I am studying. You can check out my [favourites page on The Mod Archive](https://modarchive.org/index.php?request=view_member_favourites&query=93924) for the list of tracks in my favourite tracker music collection.
 
@@ -48,36 +48,32 @@ If you'd like to contact me, here's my email address and Discord username encode
 		<th>0F</th>
 	</tr><tr>
 		<th class="offset">00000000</th>
-		<td>74</td>
-		<td>65</td>
-		<td>6D</td>
-		<td>70</td>
+		<td>72</td>
 		<td>6F</td>
-		<td>72</td>
-		<td>61</td>
-		<td>72</td>
-		<td>79</td>
-		<td>65</td>
-		<td>6D</td>
-		<td>61</td>
-		<td>69</td>
 		<td>6C</td>
-		<td>34</td>
-		<td>6D</td>
+		<td>6C</td>
+		<td>65</td>
+		<td>72</td>
+		<td>6F</td>
+		<td>7A</td>
+		<td>78</td>
+		<td>61</td>
+		<td>40</td>
+		<td>76</td>
+		<td>6F</td>
+		<td>78</td>
+		<td>65</td>
+		<td>6C</td>
 	</tr><tr>
 		<th class="offset">00000010</th>
-		<td>65</td>
-		<td>68</td>
-		<td>40</td>
-		<td>67</td>
 		<td>6D</td>
 		<td>61</td>
+		<td>6E</td>
 		<td>69</td>
-		<td>6C</td>
+		<td>70</td>
 		<td>2E</td>
-		<td>63</td>
-		<td>6F</td>
-		<td>6D</td>
+		<td>73</td>
+		<td>65</td>
 	</tr>
 </table>
 
