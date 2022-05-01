@@ -17,6 +17,11 @@ sass:
   style: compressed
   sourcemap: never
 
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols:
+    hellip: "..."
+
 defaults:
   - scope:
       path: ""
