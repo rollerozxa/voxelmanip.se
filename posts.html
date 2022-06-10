@@ -2,11 +2,14 @@
 layout: page
 title: Archive
 ---
+<h1>Posts</h1>
+<p>This is a comprehensive list of all blog posts categorised by year and sorted by their date.</p>
+
 {%- assign posts = site.posts -%}
 {%- assign groupedByYear = posts | group_by_exp:"post","post.date | date:'%Y' " -%}
 
 {%- for yearitem in groupedByYear -%}
-	<h3>{{ yearitem.name }}</h3>
+	<h2>{{ yearitem.name }}</h2>
 	<ul>
 		{%- for item in yearitem.items -%}
 			<li>

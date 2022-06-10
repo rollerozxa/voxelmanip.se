@@ -48,31 +48,33 @@ header {
 	padding: 20px;
 	margin: 0 0 40px 0;
 
-	h1 {
+	.title {
 		font-size: 36px;
 		line-height: 1.5;
 		margin: 0;
 		text-align: center;
 		font-weight: bold;
-		color: $header;
 		letter-spacing: -1px;
 		margin-bottom: 10px;
-	}
-
-	h2 {
-		font-size: 18px;
-		font-weight: 300;
-		color: #666;
+		
+		a {
+			color: $header;
+		}
 	}
 
 	.links {
 		text-align: center;
 		font-weight: bold;
 
-		h2 {
+		span {
 			display: inline;
 			font-weight: 500;
 			margin: 10px;
+			font-size: 18px;
+			
+			a {
+				color: #666;
+			}
 		}
 	}
 }
