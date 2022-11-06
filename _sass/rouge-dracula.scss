@@ -15,10 +15,10 @@
 
 /// Variables \\\
 
-$dt-gray-dark: #282a36;  // Background
+$dt-gray-dark: #21232e;  // Background
 $dt-gray: #44475a;       // Current Line & Selection
 $dt-gray-light: #f8f8f2; // Foreground
-$dt-blue: #6272a4;       // Comment
+$dt-blue: #6f82b9;       // Comment
 $dt-cyan: #8be9fd;
 $dt-green: #50fa7b;
 $dt-orange: #ffb86c;
@@ -53,20 +53,12 @@ $dt-yellow: #f1fa8c;
 		text-decoration: underline;
 	}
 
-	.bp {
-		font-style: italic;
-	}
-
 	.c,.ch,.cm,.cpf,.c1,.cs {
 		color: $dt-blue;
 	}
 
 	.kd,.kt,.nb,.nl,.nv,.vc,.vg,.vi,.vm {
 		color: $dt-cyan;
-	}
-
-	.kd,.nb,.nl,.nv,.vc,.vg,.vi,.vm {
-		font-style: italic;
 	}
 
 	.na,.nc,.nf,.fm {

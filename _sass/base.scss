@@ -56,9 +56,13 @@ header {
 		font-weight: bold;
 		letter-spacing: -1px;
 		margin-bottom: 10px;
-		
+
 		a {
 			color: $header;
+			
+			&:hover {
+				letter-spacing: 1px;
+			}
 		}
 	}
 
@@ -71,9 +75,13 @@ header {
 			font-weight: 500;
 			margin: 10px;
 			font-size: 18px;
-			
+
 			a {
-				color: #666;
+				color: #888;
+				
+				&:hover {
+					color: #aaa;
+				}
 			}
 		}
 	}
