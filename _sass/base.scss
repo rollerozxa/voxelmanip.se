@@ -1,8 +1,8 @@
 @import "rouge-dracula";
 @import "fira-code";
 
-$body-background: #151515;
-$body-foreground: #eaeaea;
+$body-background: #161616;
+$body-foreground: #efefef;
 $header: #1cdc9a;
 $blockquote-color: #aaa;
 $blockquote-border: #666;
@@ -13,8 +13,11 @@ body {
 	background-color: $body-background;
 	color: $body-foreground;
 	font-size: 12pt;
-	line-height: 1.6;
 	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
+}
+
+body, p, li {
+	line-height: 1.75;
 }
 
 /// General & 'Reset' Stuff \\\
@@ -34,16 +37,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 20px 0 10px;
 }
 
-li {
-	line-height: 1.6;
-}
-
 .c { text-align: center; }
 
 /// Header \\\
 
 header {
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.15);
 	border-bottom: 1px dashed $header;
 	padding: 20px;
 	margin: 0 0 40px 0;
@@ -198,6 +197,13 @@ a {
 }
 
 .pagination {
+	&:before {
+		font-size: 14pt;
+		vertical-align: middle;
+		content: "Pages:";
+		margin-right: 10px;
+	}
+	
 	font-size: 20pt;
 
 	.page-item {
@@ -208,6 +214,7 @@ a {
 
 footer {
 	border-top: 1px dashed $header;
+	margin-top: 50px;
 }
 
 #wrapper {
