@@ -4,6 +4,8 @@ url: https://voxelmanip.se
 
 baseurl: /
 
+lang: en_GB
+
 exclude:
   - CNAME
   - build_production.sh
@@ -32,3 +34,4 @@ defaults:
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag

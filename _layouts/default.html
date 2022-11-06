@@ -6,6 +6,8 @@
 
 	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+	{% seo %}
+	
 	<link rel="stylesheet" href="/assets/style.css">
 	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
 </head>
@@ -45,5 +47,8 @@
 	<footer>
 		&copy; 2022 ROllerozxa - <a href="/userstyles/">Customise with userstyles</a> - Have a wonderful day &lt;3
 	</footer>
+	
+	{% comment %}Thing for mastodon verification{% endcomment %}
+	<a rel="me" style="display:none" href="https://fosstodon.org/@ROllerozxa">M</a>
 </body>
 </html>
