@@ -8,7 +8,7 @@ description: Hi, I'm ROllerozxa. This is my site where I write about whatever in
 Hi, I'm ROllerozxa (pronounced *ROlleroska*). This is my site where I write about whatever interests me, in the case that someone else finds it interesting.
 
 ## About me
-I'm a 17 year old guy from Sweden who has been interested in technology since I was very young, having been introduced to it at an early age. I would thrash floppies and fill my desktop with shortcut copies, but I eventually started to learn programming, starting out writing simple Batch scripts.
+I'm a guy from Sweden who has been interested in technology since I was very young, having been introduced to it at an early age. I would thrash floppies and fill my desktop with shortcut copies, but I eventually started to learn programming, starting out writing simple Batch scripts.
 <img src="{{ 'assets/cute_drawn_ralsei.png' | relative_url }}" class="cute-ralsei" alt="Cute Ralsei" title="Cute Ralsei" onclick="this.src='{{ 'assets/cute_drawn_ralsei_squeak.png' | relative_url }}'">
 
 Nowadays I'm mostly doing a mix of web development (wide range of frontend and backend, although I prefer the latter), working on [Principia](https://principia-web.se) and working on various cool stuff with [Minetest](https://www.minetest.net), but I also like to do something new and interesting once in a while. You can check my [GitHub profile](https://github.com/rollerozxa) for what I'm doing right now, or my [YouTube channel](https://www.youtube.com/channel/UC9DVzb753ncMoR7TBuqvcIA) for some interesting videos about whatever's new.
