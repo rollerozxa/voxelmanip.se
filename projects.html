@@ -1,0 +1,17 @@
+---
+layout: page
+title: Projects
+---
+<h1>Projects</h1>
+
+<div class="projects">
+	{% for project in site.projects %}
+	<a class="project" href="{{ project.url }}">
+		<img src="/media/projects/{{ project.image }}" alt="">
+		<div class="title">{{ project.title }}</div>
+		<div class="subtitle">{{ project.timeframe }}</div>
+	</a>
+	{% endfor %}
+</div>
+
+<h3 style="text-align:center">And there's probably even more that I haven't gotten around to writing about...</h3>
