@@ -1,11 +1,12 @@
 @import "rouge-dracula";
 @import "fira-code";
 
-$body-background: #161616;
+$body-background: #151515;
 $body-foreground: #efefef;
 $header: #1cdc9a;
 $blockquote-color: #aaa;
 $blockquote-border: #666;
+$headerlink: #979797;
 
 body {
 	margin: 0;
@@ -23,8 +24,8 @@ body, p, li {
 /// General & 'Reset' Stuff \\\
 
 .container {
-	width: 90%;
-	max-width: 1000px;
+	width: 95%;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 
@@ -44,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	background: rgba(0, 0, 0, 0.15);
 	border-bottom: 1px dashed $header;
-	padding: 20px;
+	padding: 20px 20px 10px;
 	margin: 0 0 40px 0;
 
 	.title {
@@ -58,7 +59,7 @@ header {
 
 		a {
 			color: $header;
-			
+
 			&:hover {
 				letter-spacing: 1px;
 			}
@@ -67,20 +68,16 @@ header {
 
 	.links {
 		text-align: center;
-		font-weight: bold;
 
-		span {
-			display: inline;
-			font-weight: 500;
-			margin: 10px;
+		a {
+			display: inline-block;
+			margin: 2px 7px;
+			padding: 5px;
 			font-size: 18px;
+			color: $headerlink;
 
-			a {
-				color: #888;
-				
-				&:hover {
-					color: #aaa;
-				}
+			&:hover {
+				color: lighten($headerlink, 15%);
 			}
 		}
 	}
@@ -203,7 +200,7 @@ a {
 		content: "Pages:";
 		margin-right: 10px;
 	}
-	
+
 	font-size: 20pt;
 
 	.page-item {

@@ -7,7 +7,7 @@
 	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
 	{% seo %}
-	
+
 	<link rel="stylesheet" href="/assets/style.css">
 	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
 </head>
@@ -16,12 +16,12 @@
 		<header>
 			<div class="title"><a href="/">{{ site.title }}</a></div>
 			<div class="links">
-				<span><a href="/posts/">Posts</a></span>
-				<span><a href="/about/">About</a></span>
-				<span><a href="/donate/">Donate</a></span>
+				{%- for link in site.data.headerlinks -%}
+					<a href="{{ link.url }}">{{ link.title }}</a>
+				{%- endfor -%}
 			</div>
 		</header>
-		
+
 		<div class="container">
 			<section id="main_content">
 				{{ content }}
@@ -44,9 +44,9 @@
 	{%- endif -%}
 
 	<footer>
-		&copy; 2022 ROllerozxa - <a href="/userstyles/">Customise with userstyles</a> - Have a wonderful day &lt;3
+		&copy; 2021-2023 ROllerozxa - <a href="/userstyles/">Customise with userstyles</a> - Have a wonderful day &lt;3
 	</footer>
-	
+
 	{% comment %}Thing for mastodon verification{% endcomment %}
 	<a rel="me" style="display:none" href="https://fosstodon.org/@ROllerozxa">M</a>
 </body>

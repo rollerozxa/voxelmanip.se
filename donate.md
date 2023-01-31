@@ -3,7 +3,7 @@ layout: page
 title: Donations
 ---
 
-![cute image](https://grejer.voxelmanip.se/uploads/donate_banner.png)
+<p class="c"><img src="https://grejer.voxelmanip.se/uploads/donate_banner.png"></p>
 
 Hi, my name is ROllerozxa. If you've found anything I've made or done to be useful to you, now would be the time to send a donation. Just as a reminder of what I do:
 
@@ -23,7 +23,7 @@ Hi, my name is ROllerozxa. If you've found anything I've made or done to be usef
 
 - *Probably about a dozen more things...*
 
-Your financial support would help me offset server costs, buy a better computer, buy some soused herring...
+Your financial support would help me offset server costs (currently ~78kr/mo or ~7€/mo), buy some soused herring...
 
 ---
 

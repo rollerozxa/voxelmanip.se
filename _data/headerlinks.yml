@@ -1,0 +1,10 @@
+- url: /posts/
+  title: Posts
+- url: /projects/
+  title: Projects
+- url: /links/
+  title: Links
+- url: /about/
+  title: About
+- url: /donate/
+  title: Donate
