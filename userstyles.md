@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Userstyles
 ---
 
@@ -33,6 +32,8 @@ body {
 ```
 
 ## Light mode
+*(Note: This style is currently a bit broken as I've changed around the styling of the site.)*
+
 If you prefer a light mode, here is an userstyle for you... Why you ever would want this. I take no responsibility for any eyestrain or loss of sight.
 
 ```css
@@ -45,7 +46,7 @@ a {
 	color: #186d9d;
 }
 
-:root { 
+:root {
 	--main-bg-color: #007945;
 }
 header, table th, hr, .table td {

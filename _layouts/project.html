@@ -1,21 +1,19 @@
 ---
 layout: default
 ---
-<article class="proj-article">
 
-	<a href="/media/projects/{{ page.image }}">
-		<img class="showcase" src="/media/projects/{{ page.image }}">
-	</a>
+<a href="/media/projects/{{ page.image }}">
+	<img class="proj-showcase" src="/media/projects/{{ page.image }}">
+</a>
 
-	<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-	{%- if page.timeframe -%}<p><strong>Timeframe:</strong> {{ page.timeframe }}</p>{%- endif -%}
+{%- if page.timeframe -%}<p><strong>Timeframe:</strong> {{ page.timeframe }}</p>{%- endif -%}
 
-	{%- if page.technologies -%}<p><strong>Technologies used:</strong> {{ page.technologies }}</p>{%- endif -%}
+{%- if page.technologies -%}<p><strong>Technologies used:</strong> {{ page.technologies }}</p>{%- endif -%}
 
-	{%- if page.license -%}<p><strong>License:</strong> {{ page.license }}</p>{%- endif -%}
+{%- if page.license -%}<p><strong>License:</strong> {{ page.license }}</p>{%- endif -%}
 
-	{%- if page.website or page.repo -%}<p>{% if page.website %}<a href="{{ page.website }}">Website</a>{% endif %} &ndash; {% if page.repo %}<a href="{{ page.repo }}">Source Repository</a>{% endif %}</p>{%- endif -%}
+{%- if page.website or page.repo -%}<p>{% if page.website %}<a href="{{ page.website }}">Website</a>{% endif %} &ndash; {% if page.repo %}<a href="{{ page.repo }}">Source Repository</a>{% endif %}</p>{%- endif -%}
 
-	{{ content }}
-</article>
+{{ content }}

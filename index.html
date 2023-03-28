@@ -1,7 +1,5 @@
 ---
-layout: default
 ---
-
 <img src="/assets/ozxa_new_osc.png" class="ozxa">
 
 <h1>Welcome...</h1>
@@ -21,3 +19,17 @@ layout: default
 		</li>
 	{%- endfor -%}
 </ul>
+
+{%- if paginator.total_pages > 1 -%}
+<div class="pagination">
+	{%- for page in (1..paginator.total_pages) -%}
+		{%- if page == paginator.page -%}
+			<span class="page-item">{{ page }}</span>
+		{%- elsif page == 1 -%}
+			<a href="/" class="page-item">{{ page }}</a>
+		{%- else -%}
+			<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="page-item">{{ page }}</a>
+		{%- endif -%}
+	{%- endfor %}
+</div>
+{%- endif -%}

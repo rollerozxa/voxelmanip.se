@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About
 description: Hi, I'm ROllerozxa. This is my site where I write about whatever interests me, in the case that someone else finds it interesting.
 ---

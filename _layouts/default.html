@@ -12,36 +12,18 @@
 	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
 </head>
 <body>
-	<div id="wrapper">
-		<header>
-			<div class="title"><a href="/">{{ site.title }}</a></div>
-			<div class="links">
-				{%- for link in site.data.headerlinks -%}
-					<a href="{{ link.url }}">{{ link.title }}</a>
-				{%- endfor -%}
-			</div>
-		</header>
-
-		<div class="container">
-			<section id="main_content">
-				{{ content }}
-			</section>
+	<header>
+		<div class="title"><a href="/">{{ site.title }}</a></div>
+		<div class="links">
+			{%- for link in site.data.headerlinks -%}
+				<a href="{{ link.url }}">{{ link.title }}</a>
+			{%- endfor -%}
 		</div>
-	</div>
+	</header>
 
-	{%- if paginator.total_pages > 1 -%}
-	<div class="pagination">
-		{%- for page in (1..paginator.total_pages) -%}
-			{%- if page == paginator.page -%}
-				<span class="page-item">{{ page }}</span>
-			{%- elsif page == 1 -%}
-				<a href="/" class="page-item">{{ page }}</a>
-			{%- else -%}
-				<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="page-item">{{ page }}</a>
-			{%- endif -%}
-		{%- endfor %}
+	<div class="container">
+		{{ content }}
 	</div>
-	{%- endif -%}
 
 	<footer>
 		&copy; 2021-2023 ROllerozxa - <a href="/userstyles/">Customise with userstyles</a> - Have a wonderful day &lt;3

@@ -15,109 +15,51 @@ body {
 	color: $body-foreground;
 	font-size: 12pt;
 	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 body, p, li {
 	line-height: 1.75;
 }
 
-/// General & 'Reset' Stuff \\\
 
-.container {
-	width: 95%;
-	max-width: 1280px;
-	margin: 0 auto;
+/// Links \\\
+
+a {
+	color: #63c0f5;
+	text-decoration: none;
+
+	&:active, &:focus {
+		outline: 0;
+		border: none;
+	}
 }
 
-section {
-	display: block;
-	margin: 0 0 20px 0;
-}
+
+/// Header tags \\\
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 20px 0 10px;
-}
-
-.c { text-align: center; }
-
-/// Header \\\
-
-header {
-	background: rgba(0, 0, 0, 0.15);
-	border-bottom: 1px dashed $header;
-	padding: 20px 20px 10px;
-	margin: 0 0 40px 0;
-
-	.title {
-		font-size: 36px;
-		line-height: 1.5;
-		margin: 0;
-		text-align: center;
-		font-weight: bold;
-		letter-spacing: -1px;
-		margin-bottom: 10px;
-
-		a {
-			color: $header;
-
-			&:hover {
-				letter-spacing: 1px;
-			}
-		}
-	}
-
-	.links {
-		text-align: center;
-
-		a {
-			display: inline-block;
-			margin: 2px 7px;
-			padding: 5px;
-			font-size: 18px;
-			color: $headerlink;
-
-			&:hover {
-				color: lighten($headerlink, 15%);
-			}
-		}
-	}
-}
-
-/// Main Content \\\
-
-section img {
-	max-width: 100%
-}
-
-h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: $header;
 	letter-spacing: -0.03em;
 }
 
-#main_content {
-	width: 100%;
+h1 { font-size: 1.80em; }
+h2 { font-size: 1.45em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
 
-	h1 { font-size: 30px; }
-	h2 { font-size: 24px; }
-	h3 { font-size: 18px; }
-	h4 { font-size: 14px; }
-	h5 {
-		font-size: 12px;
-		text-transform: uppercase;
-		margin: 0 0 5px 0;
-	}
-	h6 {
-		font-size: 12px;
-		text-transform: uppercase;
-		color: #999;
-		margin: 0 0 5px 0;
-	}
-}
 
-dt {
-	font-style: italic;
-	font-weight: bold;
+/// Other generic element styling \\\
+
+img {
+	max-width: 100%;
 }
 
 ul li {
@@ -173,27 +115,73 @@ time {
 	font-weight: bold;
 }
 
-/// Links \\\
+.c { text-align: center; }
 
-a {
-	color: #63c0f5;
-	text-decoration: none;
 
-	&:active, &:focus {
-		outline: 0;
-		border: none;
+/// Layout \\\
+
+header, footer {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+header {
+	border-bottom: 1px dashed $header;
+	padding: 20px 20px 10px;
+	margin: 0 0 20px 0;
+
+	.title {
+		font-size: 36px;
+		line-height: 1.5;
+		margin: 0;
+
+		font-weight: bold;
+		letter-spacing: -1px;
+		margin-bottom: 10px;
+
+		a {
+			color: $header;
+
+			&:hover {
+				letter-spacing: 1px;
+			}
+		}
+	}
+
+	.links {
+		a {
+			display: inline-block;
+			margin: 2px 7px;
+			padding: 5px;
+			font-size: 18px;
+			color: $headerlink;
+
+			&:hover {
+				color: lighten($headerlink, 15%);
+			}
+		}
 	}
 }
 
-/// Make footer stick to bottom \\\
-
-.pagination, footer {
-	height: 49px;
-	line-height: 50px;
-	text-align: center;
+.container {
+	width: 95%;
+	max-width: 1280px;
+	margin: auto;
+	flex: 1;
 }
 
+footer {
+	border-top: 1px dashed $header;
+	margin-top: 20px;
+	line-height: 64px;
+}
+
+
+/// Pagination \\\
+
 .pagination {
+	text-align: center;
+
 	&:before {
 		font-size: 14pt;
 		vertical-align: middle;
@@ -208,15 +196,6 @@ a {
 	}
 }
 
-
-footer {
-	border-top: 1px dashed $header;
-	margin-top: 50px;
-}
-
-#wrapper {
-	min-height: calc(100vh - 100px);
-}
 
 /// About page funsies \\\
 
@@ -244,6 +223,7 @@ footer {
 .ozxa			{ margin-left: 30px; }
 .cute-ralsei	{ margin-top: 1em; }
 
+
 /// Projs \\\
 
 .projects {
@@ -251,7 +231,6 @@ footer {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	gap: 15px 5px;
-
 }
 
 .project {
@@ -301,11 +280,9 @@ footer {
 	}
 }
 
-.proj-article {
-	.showcase {
-		float: right;
-		max-width: 480px;
+.proj-showcase {
+	float: right;
+	max-width: 480px;
 
-		border: 1px dashed $header;
-	}
+	border: 1px dashed $header;
 }
