@@ -3,8 +3,9 @@ title: Voxelmanip Classic
 image: voxelmanip_classic
 timeframe: "2022-"
 technologies: "Minetest (...what else?)"
-license: ¯\_(ツ)_/¯
-website: https://forum.voxelmanip.se/thread.php?id=7
+license: MIT/CC-BY-SA 4.0
+website: https://classic.voxelmanip.se
+repo: https://github.com/rollerozxa/voxelmanip-classic
 ---
 
 Voxelmanip Classic is a Minetest server that I run. It is intended to be a recreation of the simple creative freebuild gameplay that existed in Minecraft Classic.

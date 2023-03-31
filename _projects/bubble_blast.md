@@ -3,7 +3,7 @@ title: Bubble Blast
 image: bubble_blast
 timeframe: "2021-"
 technologies: "LÖVE (Lua)"
-license: Undecided
+license: MIT
 repo: https://github.com/rollerozxa/bubble-blast
 ---
 
