@@ -1,6 +1,6 @@
 ---
 title: Bubble Blast
-image: bubble_blast.png
+image: bubble_blast
 timeframe: "2021-"
 technologies: "LÖVE (Lua)"
 license: Undecided

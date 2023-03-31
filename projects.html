@@ -6,11 +6,13 @@ title: Projects
 <div class="projects">
 	{% for project in site.projects %}
 	<a class="project" href="{{ project.url }}">
-		<img src="/media/projects/{{ project.image }}" alt="">
+		<img src="/media/projects/low/{{ project.image }}.jpg" alt="">
 		<div class="title">{{ project.title }}</div>
 		<div class="subtitle">{{ project.timeframe }}</div>
 	</a>
 	{% endfor %}
 </div>
 
-<h3 style="text-align:center">And there's probably even more that I haven't gotten around to writing about...</h3>
+<h3 class="c">And there's probably even more that I haven't gotten around to writing about...</h3>
+
+<p class="c">Also see <a href="https://github.com/rollerozxa?tab=repositories">my list of repositories on GitHub</a> for a full list of stuff, including smaller things not mentioned here.</p>

@@ -1,6 +1,6 @@
 ---
 title: Minetest content
-image: minetest_content.png
+image: minetest_content
 timeframe: "2021-"
 technologies: "Minetest (heh), Lua"
 license: Various (MIT-GPLv3)

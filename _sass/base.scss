@@ -31,11 +31,6 @@ body, p, li {
 a {
 	color: #63c0f5;
 	text-decoration: none;
-
-	&:active, &:focus {
-		outline: 0;
-		border: none;
-	}
 }
 
 
@@ -271,7 +266,6 @@ footer {
 	}
 
 	&:hover, &:active {
-		border: 1px dashed $header;
 		filter: brightness(1.1);
 	}
 
@@ -282,7 +276,10 @@ footer {
 
 .proj-showcase {
 	float: right;
-	max-width: 480px;
+	width: 480px;
+	max-width: 100%;
 
 	border: 1px dashed $header;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }

@@ -1,6 +1,6 @@
 ---
 title: principia-web
-image: principia-web.png
+image: principia-web
 timeframe: 2020-
 technologies: LEMMP stack - Linux (Debian), Nginx, MariaDB, memcached and PHP. Frontend uses Twig as a templating engine and the CSS is compiled from SCSS stylesheets.
 license: AGPLv3

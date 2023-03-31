@@ -1,6 +1,6 @@
 ---
 title: Cirrusboard
-image: voxelmanip_forums.png
+image: voxelmanip_forums
 timeframe: "2022-"
 technologies: "PHP, Twig, MariaDB/MySQL"
 license: MIT

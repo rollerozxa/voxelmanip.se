@@ -1,6 +1,6 @@
 ---
 title: Voxelmanip Classic
-image: voxelmanip_classic.png
+image: voxelmanip_classic
 timeframe: "2022-"
 technologies: "Minetest (...what else?)"
 license: ¯\_(ツ)_/¯

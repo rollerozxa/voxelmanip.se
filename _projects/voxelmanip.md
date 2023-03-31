@@ -1,6 +1,6 @@
 ---
 title: voxelmanip.se
-image: voxelmanip.png
+image: voxelmanip
 timeframe: "2021-"
 technologies: "HTML, CSS (SCSS), Jekyll"
 license: ¯\_(ツ)_/¯
