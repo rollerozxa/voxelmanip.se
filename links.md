@@ -43,3 +43,12 @@ That's me, on the web alright!
 
 ## Fun stuff
 - [Nose Ears](https://wuzzy.neocities.org) is a fun comic about Free software, computers, queerness and everything inbetween.
+
+## Friends
+Here's links to the websites for some of my friends. ^^ (If you do have a website and don't see yourself here, please don't be offended, just let me know. I was probably too shy to put you in here)
+
+- [Lizzy Fleckenstein](https://lizzy.rs/?style=dark.css) (gosh!)
+
+- [Danil_2461](https://danil.voxelmanip.se/)
+
+- [j45](https://j1233.minetest.land/)
