@@ -49,6 +49,8 @@ Here's links to the websites for some of my friends. ^^ (If you do have a websit
 
 - [Lizzy Fleckenstein](https://lizzy.rs/?style=dark.css) (gosh!)
 
+- [Kimapr](https://kimapr.net/)
+
 - [Danil_2461](https://danil.voxelmanip.se/)
 
-- [j45](https://j1233.minetest.land/)
+- [j45](https://j45.dev/)
