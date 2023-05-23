@@ -1,0 +1,37 @@
+// Modified version of rouge's monokai theme
+
+pre.highlight {
+	color: #ffffff;
+	background-color: #0d1011;
+
+	.gh, .go, .gp, .gu {
+		color: #aaa;
+	}
+	.sr, .nb {
+		color: #fd971f;
+	}
+	.cm, .cp, .c1, .cs, .c, .ch, .cd, .cpf {
+		color: #8b9eaf;
+	}
+	.err, .gr, .gt {
+		color: #960050;
+	}
+	.gd, .gi, .ge {
+		color: #49483e;
+	}
+	.kc, .kd, .kr, .no, .kt {
+		color: #51c6dd;
+	}
+	.mf, .mh, .il, .mi, .mo, .m, .mb, .mx, .sc, .se, .ss {
+		color: #ae81ff;
+	}
+	.sd, .s2, .sb, .sh, .si, .sx, .s1, .s, .sa, .dl {
+		color: #e6db74;
+	}
+	.na, .nc, .nd, .ne, .nf, .fm {
+		color: #a6e22e;
+	}
+	.ow, .nt, .k, .kv, .kn, .kp, .o {
+		color: #f53b7f;
+	}
+}
