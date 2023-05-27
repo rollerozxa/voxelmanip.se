@@ -27,101 +27,33 @@ Since October 2020 I've been daily driving Linux on my desktop. Right now I'm si
 I like cuddles, Ralsei and herring. I don't like cauliflower, homophobia or being called American (I'm not, ok?).
 
 ## Contact
-If you'd like to contact me, here's my email address and Discord username encoded in hexadecimal. You may pick any of a number of methods to decode it, and after that you are deserving of being able to contact me.
+You can contact me through a number of different ways. The list is ordered by rougly how frequent I check these accounts or how good of an idea it is to contact me through the platform.
 
-### Email
-
-<div class="scrollable-x">
-<table class="hexeditor">
-	<tr class="offsets">
-		<th class="legend">&nbsp;Offset</th>
-		<th>00</th>
-		<th>01</th>
-		<th>02</th>
-		<th>03</th>
-		<th>04</th>
-		<th>05</th>
-		<th>06</th>
-		<th>07</th>
-		<th>08</th>
-		<th>09</th>
-		<th>0A</th>
-		<th>0B</th>
-		<th>0C</th>
-		<th>0D</th>
-		<th>0E</th>
-		<th>0F</th>
+<table>
+	<tr>
+		<th>Discord</th>
+		<td>ROllerozxa#7609</td>
 	</tr><tr>
-		<th class="offset">00000000</th>
-		<td>72</td>
-		<td>6F</td>
-		<td>6C</td>
-		<td>6C</td>
-		<td>65</td>
-		<td>72</td>
-		<td>6F</td>
-		<td>7A</td>
-		<td>78</td>
-		<td>61</td>
-		<td>40</td>
-		<td>76</td>
-		<td>6F</td>
-		<td>78</td>
-		<td>65</td>
-		<td>6C</td>
+		<th>E-Mail</th>
+		<td id="email">rollerozxa at (this domain)</td>
 	</tr><tr>
-		<th class="offset">00000010</th>
-		<td>6D</td>
-		<td>61</td>
-		<td>6E</td>
-		<td>69</td>
-		<td>70</td>
-		<td>2E</td>
-		<td>73</td>
-		<td>65</td>
+		<th>Matrix</th>
+		<td>@rollerozxa:matrix.org</td>
+	</tr><tr>
+		<th>IRC</th>
+		<td>ROllerozxa @ irc.libera.chat <small>(w/ bouncer)</small></td>
+	</tr><tr>
+		<th>principia-web</th>
+		<td><a href="https://principia-web.se/user/1">ROllerozxa</a></td>
+	</tr><tr>
+		<th>MT Forums</th>
+		<td><a href="https://forum.minetest.net/memberlist.php?mode=viewprofile&u=29559">ROllerozxa</a></td>
+	</tr><tr>
+		<th>Physically</th>
+		<td>Meet me by <em>the</em> tree at noon...</td>
 	</tr>
 </table>
-</div>
 
-### Discord
-
-<div class="scrollable-x">
-<table class="hexeditor">
-	<tr class="offsets">
-		<th class="legend">&nbsp;Offset</th>
-		<th>00</th>
-		<th>01</th>
-		<th>02</th>
-		<th>03</th>
-		<th>04</th>
-		<th>05</th>
-		<th>06</th>
-		<th>07</th>
-		<th>08</th>
-		<th>09</th>
-		<th>0A</th>
-		<th>0B</th>
-		<th>0C</th>
-		<th>0D</th>
-		<th>0E</th>
-		<th>0F</th>
-	</tr><tr>
-		<th class="offset">00000000</th>
-		<td>52</td>
-		<td>4F</td>
-		<td>6C</td>
-		<td>6C</td>
-		<td>65</td>
-		<td>72</td>
-		<td>6F</td>
-		<td>7A</td>
-		<td>78</td>
-		<td>61</td>
-		<td>23</td>
-		<td>37</td>
-		<td>36</td>
-		<td>30</td>
-		<td>39</td>
-	</tr>
-</table>
-</div>
+<script>
+document.getElementById('email').innerHTML = atob('cm9sbGVyb3p4YUB2b3hlbG1hbmlwLnNlCg==');
+</script>

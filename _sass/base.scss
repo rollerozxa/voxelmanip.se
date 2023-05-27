@@ -93,14 +93,17 @@ code.highlighter-rouge {
 }
 
 table {
-	width: 100%;
+	width: auto;
+	border-collapse: collapse;
 	margin: 0 0 20px 0;
+	border: 1px dashed $header;
 
 	th {
-		border-bottom: 1px dashed $header;
+		text-align: center;
 	}
 	td, th {
 		padding: 5px 10px;
+		border-bottom: 1px dashed $header;
 	}
 }
 
@@ -193,32 +196,7 @@ footer {
 	}
 }
 
-
 /// About page funsies \\\
-
-.scrollable-x {
-	display: inline-block;
-	overflow-x: auto;
-	max-width: 1000px;
-	width: 90vw;
-}
-
-.hexeditor {
-	width: auto;
-	border-collapse: collapse;
-	border: 1px dashed $header;
-	padding: 10px;
-
-	.legend {
-		border: 0;
-	}
-
-	.offset {
-		user-select: none;
-		border-bottom: 0;
-		border-right: 1px dashed $header;
-	}
-}
 
 .ozxa, .cute-ralsei, .quote {
 	image-rendering: crisp-edges;
