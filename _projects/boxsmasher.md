@@ -4,6 +4,7 @@ image: boxsmasher
 timeframe: "2023-"
 technologies: "LÖVE (Lua)"
 license: N/A
+website: https://rollerozxa.itch.io/box-smasher
 repo: https://github.com/rollerozxa/boxsmasher
 ---
 
@@ -15,4 +16,8 @@ It is currently available for Android on Google Play:
 	<img alt="Get it on Google Play" src="/assets/en_badge_web_generic.png" width="240">
 </a>
 
-As it's made in Lua with LÖVE, it can also be played on any platform LÖVE supports, including desktop. Just download the source code and run it with the LÖVE runtime for your platform.
+It is also available on itch.io:
+
+<a href="https://rollerozxa.itch.io/box-smasher">
+	<img alt="Get it on itch.io" src="/assets/itch-badge.svg" width="240">
+</a>
