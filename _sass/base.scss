@@ -1,5 +1,5 @@
 @import "rouge-theme";
-@import "fira-code";
+@import "fonts";
 
 $body-background: #151515;
 $body-foreground: #efefef;
@@ -7,35 +7,44 @@ $header: #1cdc9a;
 $blockquote-color: #aaa;
 $blockquote-border: #666;
 $headerlink: #979797;
+$link: #41b4f7;
 
 body {
 	margin: 0;
 	padding: 0;
 	background-color: $body-background;
 	color: $body-foreground;
-	font-size: 12pt;
-	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
+	font-size: 14pt;
+	font-family: 'Noto Serif', 'Roboto Serif', 'Roboto Slab', serif;
 
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 
-	background: url('/media/voxelmanip_bg_1080.jpg');
+	background: url('/media/skog_bg_1080.jpg') #040404;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
 
 body, p, li {
-	line-height: 1.8;
+	line-height: 2;
 }
 
 
 /// Links \\\
 
 a {
-	color: #63c0f5;
+	color: $link;
 	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:active {
+		color: lighten($link, 10%);
+	}
 }
 
 
@@ -45,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 20px 0 10px;
 	font-weight: normal;
 	color: $header;
-	letter-spacing: -0.03em;
 }
 
 h1 { font-size: 1.80em; }
@@ -85,6 +93,7 @@ pre {
 }
 
 code.highlighter-rouge {
+	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
 	background: rgba(0,0,0,0.9);
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	padding: 0px 3px;
@@ -124,7 +133,7 @@ time {
 
 header, footer {
 	text-align: center;
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(0, 0, 0, 0.9);
 }
 
 header {
@@ -135,16 +144,15 @@ header {
 		font-size: 36px;
 		line-height: 1.5;
 		margin: 0;
-
 		font-weight: bold;
-		letter-spacing: -1px;
 		margin-bottom: 10px;
 
 		a {
 			color: $header;
 
 			&:hover {
-				letter-spacing: 1px;
+
+				text-decoration: none;
 			}
 		}
 	}
@@ -168,7 +176,7 @@ header {
 	max-width: 1280px;
 	margin: auto;
 	flex: 1;
-	background-color: rgba(5,5,5,0.9);
+	background-color: rgba(3,3,3,0.92);
 	padding: 20px;
 }
 

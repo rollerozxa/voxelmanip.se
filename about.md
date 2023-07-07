@@ -32,7 +32,7 @@ You can contact me through a number of different ways. The list is ordered by ro
 <table>
 	<tr>
 		<th>Discord</th>
-		<td>ROllerozxa#7609</td>
+		<td>rollerozxa</td>
 	</tr><tr>
 		<th>E-Mail</th>
 		<td id="email">rollerozxa at (this domain)</td>
