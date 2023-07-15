@@ -49,7 +49,11 @@ Here's links to the websites for some of my friends. ^^ (If you do have a websit
 
 - [Lizzy Fleckenstein](https://lizzy.rs/?style=dark.css) (gosh!)
 
+- [krisbug](https://krisbug.xyz)
+
 - [Kimapr](https://kimapr.net/)
+
+- [luatic](https://appgurueu.github.io/)
 
 - [Danil_2461](https://danil.voxelmanip.se/)
 
