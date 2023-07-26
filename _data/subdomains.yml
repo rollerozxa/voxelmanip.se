@@ -1,0 +1,70 @@
+- domain: "@"
+  host: ROllerozxa
+  source: https://github.com/rollerozxa/rollerozxa.github.io
+  description: ROllerozxa's website and blog
+
+- domain: apparatus-web
+  host: ROllerozxa
+  source: https://github.com/apparatus-preservation-project/apparatus-web
+  description: Unofficial community site replacement for Apparatus
+
+- domain: cirrus
+  host: GitHub
+  source: https://github.com/Cirrusboard/site
+  description: Wiki for Cirrusboard
+
+- domain: classic
+  host: ROllerozxa
+  description: Wiki for the Voxelmanip Classic server
+
+- domain: danil
+  host: GitHub
+  source: https://github.com/danil275487/danil275487.github.io
+  description: Danil's site
+
+- domain: files
+  host: ROllerozxa
+  description: ROllerozxa's public file dump
+
+- domain: forum
+  host: ROllerozxa
+  description: Voxelmanip Forums
+
+- domain: grejer
+  host: ROllerozxa
+  description: Grejer!
+
+- domain: ketchupland
+  host: GitHub
+  source: https://github.com/KetchupLand/KetchupLand.github.io
+  description: KetchupLand landing page
+
+- domain: mesetint
+  host: GitHub
+  source: https://github.com/rollerozxa/mesetint.voxelmanip.se
+  description: Minetest April Fool's joke site
+
+- domain: mese
+  host: GitHub
+  source: https://github.com/rollerozxa/mese-block-cult-2
+  description: Praise the mese block!
+
+- domain: mtplace
+  host: GitHub
+  source: https://github.com/rollerozxa/mtplace.voxelmanip.se
+  description: Landing page for mtPlace
+
+- domain: nodecore
+  host: GitHub
+  source: https://github.com/rollerozxa/nodecore.voxelmanip.se
+  description: Landing page for the NodeCore android app
+
+- domain: rollertest
+  host: GitHub
+  source: https://github.com/rollerozxa/rollertest.voxelmanip.se
+  description: Landing page for ROllertest
+
+- domain: wiki
+  host: ROllerozxa
+  source: https://github.com/rollerozxa/voxelmanip-minetest-wiki
+  description: The Voxelmanip Classic Wiki
