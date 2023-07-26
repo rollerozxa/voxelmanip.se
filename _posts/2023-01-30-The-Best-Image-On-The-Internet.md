@@ -14,12 +14,12 @@ Well this is where it takes the turn for the worse, as Jerma's true self starts 
 
 ![image](/media/The-Best-Image-On-The-Internet/1_2.png)
 
-In the most perculiar turn of events, Jerma throws the Dunkin' onto Apu, who now gets it spilled all over him. He is assumedly even more upset by this. As if this wasn't bad enough, Jerma flees the scene he created, running out the exit while also showing his massive and loud glutes.
+In the most peculiar turn of events, Jerma throws the Dunkin' onto Apu, who now gets it spilled all over him. He is assumedly even more upset by this. As if this wasn't bad enough, Jerma flees the scene he created, running out the exit while also showing his massive and loud glutes.
 
 This is such a deep and complex storytelling in only mere 4 pictures that I can only merely *begin* to pull back the deep underlying story from this.
 
 First of all, Jerma is holding a Dunkin', the Dunkin' that creates the conflict. The image takes place in a McDonald's, which would mean that Jerma would have bought it somewhere else before going to this McDonald's. This raises a number of questions. Why did Jerma buy from Dunkin' Donuts only to then visit McDonald's? Did he want a cheeseburger or some McChicken to go along with it?
 
-Or... did he plan this all out in extreme detail beforehand? It's almost like this is a common occurence for Jerma. Go and buy a drink at Dunkin', then go to the McDonald's nearby and drop it on strangers.
+Or... did he plan this all out in extreme detail beforehand? It's almost like this is a common occurrence for Jerma. Go and buy a drink at Dunkin', then go to the McDonald's nearby and drop it on strangers.
 
 I am aware that this blog post means that the ROllerozxa universe has merged together with the Jerma universe. You're welcome.

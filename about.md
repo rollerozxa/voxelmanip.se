@@ -27,7 +27,7 @@ Since October 2020 I've been daily driving Linux on my desktop. Right now I'm si
 I like cuddles, Ralsei and herring. I don't like cauliflower, homophobia or being called American (I'm not, ok?).
 
 ## Contact
-You can contact me through a number of different ways. The list is ordered by rougly how frequent I check these accounts or how good of an idea it is to contact me through the platform.
+You can contact me through a number of different ways. The list is ordered by roughly how frequent I check these accounts or how good of an idea it is to contact me through the platform.
 
 <table>
 	<tr>
@@ -53,6 +53,8 @@ You can contact me through a number of different ways. The list is ordered by ro
 		<td>Meet me by <em>the</em> tree at noon...</td>
 	</tr>
 </table>
+
+I prefer English for text communication, but if you contact me privately in Swedish I will usually respond back in Swedish.
 
 <script>
 document.getElementById('email').innerHTML = atob('cm9sbGVyb3p4YUB2b3hlbG1hbmlwLnNlCg==');
