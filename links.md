@@ -47,14 +47,6 @@ That's me, on the web alright!
 ## Friends
 Here's links to the websites for some of my friends. ^^ (If you do have a website and don't see yourself here, please don't be offended, just let me know. I was probably too shy to put you in here)
 
-- [Lizzy Fleckenstein](https://lizzy.rs/?style=dark.css) (gosh!)
-
 - [krisbug](https://krisbug.xyz)
 
-- [Kimapr](https://kimapr.net/)
-
-- [luatic](https://appgurueu.github.io/)
-
 - [Danil_2461](https://danil.voxelmanip.se/)
-
-- [j45](https://j45.dev/)
