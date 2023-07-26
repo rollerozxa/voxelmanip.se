@@ -22,8 +22,6 @@ sass:
 
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
-  typographic_symbols:
-    hellip: "..."
 
 collections:
   projects:
