@@ -4,6 +4,8 @@ title: The Linux File Structure
 
 When I first tried out Linux, one of the things that stood out to me was its file structure. It is structured in a completely different way to Windows, and I believe that when you understand it you can see how it clearly is a superior way of structuring things.
 
+<!--more-->
+
 # The root (/)
 In Linux, everything begins at the primary partition where your core system is installed, which might also be referred to as the root filesystem. This is where **everything** resides.
 

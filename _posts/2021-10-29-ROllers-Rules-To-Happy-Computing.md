@@ -1,7 +1,10 @@
 ---
 title: ROller's rules for happy computing
 ---
+
 As I've switched from the dumpster fire that is the Windows operating system, I've begun going about my way of managing my Linux system in a very particular way. These guidelines, or rules, have purely existed as ideas in my mind, and I haven't thought about writing them down until now.
+
+<!--more-->
 
 That being said, these are rules. Not laws, or commandments. Breaking these rules isn't illegal, the Linux gods will not curse you for not following these rules, nor will Linus Torvalds come to your house personally and flip you off if you break one of these rules.
 

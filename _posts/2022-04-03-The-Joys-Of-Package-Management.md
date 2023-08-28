@@ -1,7 +1,10 @@
 ---
 title: The joys of Package Management
 ---
+
 One of the reasons I find Linux to be largely superior over Windows is its use of package managers. For a Windows user, this might seem like a nit-pick when comparing the two operating systems but it really is a game changer. The implementation of package managers varies between different families of Linux distributions, and I'm writing with Arch Linux's package manager `pacman` in mind, but the idea and core concept is the same no matter the distro.
+
+<!--more-->
 
 To begin with I probably should explain what a package is, in its simplest form. It can be any type of software or data, be it an user-facing program, library or additional data for programs. Packages are shipped in file archives where its files are structured from the root of the filesystem, and usually contain additional metadata such as a description of the package, its license, and its required and optional dependencies.
 

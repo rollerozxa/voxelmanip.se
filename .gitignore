@@ -3,3 +3,4 @@ _site_production
 .sass-cache
 .vscode
 .jekyll-cache
+media

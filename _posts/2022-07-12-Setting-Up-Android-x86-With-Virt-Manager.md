@@ -6,6 +6,8 @@ Android-x86 is a project which aims to make a flavour of Android that is suitabl
 
 This post will show you how to set up an Android-x86 virtual machine on Linux using Virt-Manager, a GUI frontend for QEMU, and configuring it for optimal performance and *coolness*.
 
+<!--more-->
+
 ## First things first...
 Make sure you have Virt-Manager installed and properly set up. The [Arch Wiki article](https://wiki.archlinux.org/title/Virt-Manager) and [this video by DistroTube](https://www.youtube.com/watch?v=p1d_b_91YlU) should be enough.
 

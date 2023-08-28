@@ -4,6 +4,8 @@ title: Converting multimedia with ffmpeg
 
 `ffmpeg` is a very versatile and useful tool with the capability to compose and manipulate multimedia in all sort of complicated ways... Emphasis on complicated. However it is still possible to use `ffmpeg` for simpler things without having to learn all of its syntax and arguments. And one of the simplest things you could use `ffmpeg` for is to simply convert between various media formats.
 
+<!--more-->
+
 ---
 
 `ffmpeg` is rather smart. Very smart, in fact. If you want to convert between formats, it can usually detect what you want to do just by the file extension alone. For instance, if you want to convert an .mp3 file into an .ogg file, you simply specify the input file (preceded with a `-i`), and then a new output filename with the file extension for the format you'd want to convert it into.

@@ -1,9 +1,12 @@
 ---
 title: 5 Useful Command-line Utilities
 ---
+
 I realise I need to make more clickbaity, more digestible blog posts so I will now expand into the territory of Top 5 lists. This is how you do it right?
 
 The Linux terminal is an extremely powerful tool, allowing you to access and control your entire system just by typing commands. In addition, there exists a seemingly infinite amount of command-line utilities. What characterises all of these are just how lightweight they are, while not compromising in its power and flexibility.
+
+<!--more-->
 
 ## 5. tldr
 `tldr` is a lovely utility to get a crunched down version of the manpage for basically any command you could want. It contains real-world examples of how you would use commands along with a description of what it does. There are of course some obscure commands that do not have descriptions, but they are open for anyone to contribute to, so feel free to!

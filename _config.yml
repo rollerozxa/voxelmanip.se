@@ -4,6 +4,8 @@ url: https://voxelmanip.se
 
 baseurl: /
 
+excerpt_separator: <!--more-->
+
 lang: en_GB
 
 exclude:
