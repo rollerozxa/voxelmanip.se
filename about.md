@@ -1,8 +1,9 @@
 ---
 title: About
 description: Hi, I'm ROllerozxa. This is my site where I write about whatever interests me, in the case that someone else finds it interesting.
+ozxa_at_the_top: true
 ---
-<img src="/assets/ozxa_new_osc.png" class="ozxa" alt="ozxa" title="Ozxa">
+
 # About
 Hi, I'm ROllerozxa (pronounced *ROlleroska*, or *ROllerotska*). This is my site where I write about what I do and about whatever else interests me, in the case that someone else finds it interesting.
 

@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: $header;
 }
 
+h1 {
+	margin-top: 0;
+}
+
 h1 { font-size: 1.80em; }
 h2 { font-size: 1.45em; }
 h3 { font-size: 1.17em; }
@@ -128,6 +132,11 @@ time {
 
 .c { text-align: center; }
 
+.blogimage {
+	display: block;
+	border: 1px solid #1cdc9a;
+	margin-bottom: 20px;
+}
 
 /// Layout \\\
 
