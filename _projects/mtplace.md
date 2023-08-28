@@ -1,15 +1,17 @@
 ---
 title: mtPlace
 image: mtplace
-timeframe: "2023-"
+timeframe: "2023"
 technologies: "Minetest"
 license: N/A
 website: https://mtplace.voxelmanip.se
 repo: https://github.com/rollerozxa/mtPlace
 ---
 
-mtPlace is a canvas 512x512 pixels in size. You have 24 colours at your disposal. What will you make?
+mtPlace was a canvas 512x512 pixels in size, with 24 colours at your disposal.
 
-It was inspired by the Reddit r/place social experiments that took place during 2017 and 2022, and is a collaborative canvas hosted as a Minetest server. You paint the canvas by placing nodes on it within Minetest, and it will show up in the map [on the website](https://mtplace.voxelmanip.se) that updates every 5 minutes.
+It was inspired by the Reddit r/place social experiments that took place during 2017 and 2022, and is a collaborative canvas hosted as a Minetest server. You would paint the canvas by placing nodes on it within Minetest, and it shows up in the map on the website that updated every 5 minutes.
 
 It has been featured in the [Minetest Blog](https://blog.minetest.net/2023/03/12/February/#server-news) and dozens of players have left their mark on the server, creating a diverse landscape of everything from the players' favourite FOSS project logos, to a pride flag that they identify with.
+
+The Minetest server was shut down on 2023-06-11 after running for approximately four months. The final screenshot of the canvas as it looked like then can be seen [on the website](https://mtplace.voxelmanip.se/).

@@ -14,7 +14,8 @@
   description: Wiki for Cirrusboard
 
 - domain: classic
-  host: ROllerozxa
+  host: GitHub
+  source: https://github.com/Voxelmanip-Classic/site
   description: Wiki for the Voxelmanip Classic server
 
 - domain: danil
