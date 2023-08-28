@@ -193,6 +193,10 @@ footer {
 	border-top: 1px dashed $header;
 }
 
+header, .container, footer {
+	backdrop-filter: blur(3px);
+}
+
 
 /// Pagination \\\
 
