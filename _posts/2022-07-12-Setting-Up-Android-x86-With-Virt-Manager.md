@@ -1,5 +1,7 @@
 ---
 title: Setting up Android-x86 with Virt-Manager
+cover: /media/Setting-Up-Android-x86-With-Virt-Manager/cover.png
+cover_alt: Screenshot of Apparatus running under Android-x86
 ---
 
 Android-x86 is a project which aims to make a flavour of Android that is suitable to run natively on any regular x86-based desktop computer. It might therefore be a good option to use Android-x86 in a virtual machine you want to run Android apps on Linux, and find other options such as Anbox to either not work with your app of choice or you simply do not meet the system requirements to run Anbox.
@@ -14,7 +16,7 @@ Make sure you have Virt-Manager installed and properly set up. The [Arch Wiki ar
 Some caveats you might run into is that Virt-Manager can't find QEMU, which can be solved by starting the `libvirtd` daemon which may not automatically start. If you get an error saying the network is inactive, try running `sudo virsh net-start default` which will start up the networking setup. (and do `sudo virsh net-autostart default` which should automatically start it in the future)
 
 ## Getting started
-Go to [android-x86.org](https://android-x86.org) and download the latest ISO. I would recommend getting the 32-bit version, as the 64-bit version may give you a blank screen on bootup (YMMV of course, but take that into account if you get issues).
+Go to [android-x86.org](https://android-x86.org) and download the latest ISO. If your processor is recent enough to support SSE 4.1 you should use the 64-bit version. However if you are on an older 64-bit processor that doesn't support such extensions you should use the 32-bit version, otherwise you will get a blank screen on bootup.
 
 Then, press the "New VM" button in Virt-Manager and follow the wizard, picking the ISO you just downloaded and selecting "Android-x86 9.0" (or equivalent) as it may not give this option automatically. When at the end of the wizard, be sure to check the box that asks if you want to further configure the virtual machine before installation.
 

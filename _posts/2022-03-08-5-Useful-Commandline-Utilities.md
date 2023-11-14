@@ -1,5 +1,7 @@
 ---
 title: 5 Useful Command-line Utilities
+cover: /media/5-Useful-Commandline-Utilities/cover.png
+cover_alt: Terminal output from openmpt123
 ---
 
 I realise I need to make more clickbaity, more digestible blog posts so I will now expand into the territory of Top 5 lists. This is how you do it right?
