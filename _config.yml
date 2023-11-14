@@ -13,9 +13,10 @@ exclude:
   - build_production.sh
   - _site_production/
   - patches/
+  - "*.xcf"
 
 permalink: pretty
-paginate: 10
+paginate: 6
 paginate_path: /page/:num/
 
 sass:

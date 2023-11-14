@@ -2,7 +2,7 @@
 title: Donations
 ---
 
-<p class="c"><img src="https://grejer.voxelmanip.se/uploads/donate_banner.png"></p>
+<p class="c"><img src="https://grejer.voxelmanip.se/uploads/donate_banner.png" width="1000" height="300"></p>
 
 Hi, my name is ROllerozxa. If you've found anything I've made or done to be useful to you, now would be the time to send a donation.
 
@@ -31,7 +31,7 @@ Just as a reminder of what I do:
 <br>
 
 <a href="https://liberapay.com/ROllerozxa/donate">
-	<img alt="Donate using Liberapay" title="Donate using Liberapay" src="/assets/donate.svg" height="60">
+	<img alt="Donate using Liberapay" title="Donate using Liberapay" src="/assets/donate.svg" width="170">
 </a>
 
 Liberapay works using recurring donations, kinda like Patreon but run by a non-profit. If you would like to make a one-time donation then make a pledge and cancel after the first payment.

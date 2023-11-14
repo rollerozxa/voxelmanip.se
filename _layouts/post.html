@@ -5,7 +5,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 {% if page.subtitle %}<h3>{{ page.subtitle }}</h3>{% endif %}
 
-{% if page.cover %}<img class="blogimage" src="{{ page.cover }}">{% endif %}
+{% if page.cover %}<img class="blogimage" src="{{ page.cover }}" title="{{ page.cover_alt }}" alt="{{ page.cover_alt }}" width="1200" height="400">{% endif %}
 
 <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
 

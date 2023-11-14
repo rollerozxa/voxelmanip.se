@@ -18,9 +18,9 @@ I am heavily involved in the Principia community, being originally introduced to
 
 I'm also fairly active in the Minetest community. I contribute to the development of the engine, and maintain my own personal fork [ROllertest](https://rollertest.voxelmanip.se/) which is especially liked by mobile users due to its improved control scheme. I also make various mods and games, some which are available on [ContentDB](https://content.minetest.net/users/ROllerozxa/) and some are still WIP and not available there. Currently I run a Minetest server called [Voxelmanip Classic](https://classic.voxelmanip.se/wiki/), which runs a custom game that intends to recreate the creative freebuild gameplay of Minecraft Classic while also expanding on it.
 
-<img src="/assets/flower_uglysweater.png" class="quote" alt="Flower wearing an ugly sweater" title="Flower wearing an ugly sweater">
-
 I am also an editor for the [Minetest ContentDB](https://content.minetest.net), meaning I help moderate and maintain the official repository of mods, games and texture pack available for Minetest. I check so that new packages are properly licensed and don't have copyright issues before they go public, and step in to edit and improve the metadata of packages when necessary.
+
+<img src="/assets/flower_uglysweater.png" class="quote" alt="Flower wearing an ugly sweater" title="Flower wearing an ugly sweater">
 
 I quite like LÖVE which is a game framework for writing games in Lua, the same language as is used in Minetest's scripting API. It is very easy to use and enjoyable, I've written various games in it such as a [Bubble Blast clone](/projects/bubble_blast/), and a game called [Box Smasher](/projects/boxsmasher/).
 

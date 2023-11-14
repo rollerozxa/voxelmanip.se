@@ -26,7 +26,7 @@ That's me, on the web alright!
 
 	- [ROllerozxa's favourites](https://modarchive.org/index.php?request=view_member_favourites&query=93924)
 
-- [Arcane Toaster](https://arcanetoaster.bandcamp.com) makes some banger music (both tracker and "regular" music). My favourite has got to be [Voxel Dreams](https://arcanetoaster.bandcamp.com/album/voxel-dreams). <img src="/assets/toaster.png" align="top" height=24>
+- [Arcane Toaster](https://arcanetoaster.bandcamp.com) makes some banger music (both tracker and "regular" music). My favourite has got to be [Voxel Dreams](https://arcanetoaster.bandcamp.com/album/voxel-dreams). <img src="/assets/toaster.png" align="bottom" width=24>
 
 ## Cool softwares
 - [Principia](https://principia-web.se)... Again!
@@ -46,6 +46,8 @@ That's me, on the web alright!
 
 ## Friends
 Here's links to the websites for some of my friends. ^^ (If you do have a website and don't see yourself here, please don't be offended, just let me know. I was probably too shy to put you in here)
+
+- [Lizzy Fleckenstein](https://lizzy.rs)
 
 - [krisbug](https://krisbug.xyz)
 

@@ -6,7 +6,7 @@ title: Projects
 <div class="projects">
 	{% for project in site.projects %}
 	<a class="project" href="{{ project.url }}">
-		<img src="/media/projects/low/{{ project.image }}.jpg" alt="">
+		<img src="/media/projects/low/{{ project.image }}.jpg" alt="" width="640" height="360">
 		<div class="title">{{ project.title }}</div>
 		<div class="subtitle">{{ project.timeframe }}</div>
 	</a>
