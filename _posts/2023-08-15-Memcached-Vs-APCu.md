@@ -1,6 +1,6 @@
 ---
 title: Memcached vs. APCu for PHP
-cover: /media/Memcached-Vs-APCu/cover.png
+cover: /media/Memcached-Vs-APCu/cover.webp
 cover_alt: Image of the memcached rabbits running towards the left, with text on the bottom that says "Memcached vs. APCu"
 ---
 

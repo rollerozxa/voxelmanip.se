@@ -1,6 +1,6 @@
 ---
 title: 5 Useful Command-line Utilities
-cover: /media/5-Useful-Commandline-Utilities/cover.png
+cover: /media/5-Useful-Commandline-Utilities/cover.webp
 cover_alt: Terminal output from openmpt123
 ---
 

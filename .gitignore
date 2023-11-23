@@ -1,5 +1,7 @@
 _site
 _site_production
+_misc
+ahrefs_*
 .sass-cache
 .vscode
 .jekyll-cache

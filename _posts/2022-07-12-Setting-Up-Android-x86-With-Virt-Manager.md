@@ -1,6 +1,6 @@
 ---
 title: Setting up Android-x86 with Virt-Manager
-cover: /media/Setting-Up-Android-x86-With-Virt-Manager/cover.png
+cover: /media/Setting-Up-Android-x86-With-Virt-Manager/cover.webp
 cover_alt: Screenshot of Apparatus running under Android-x86
 ---
 

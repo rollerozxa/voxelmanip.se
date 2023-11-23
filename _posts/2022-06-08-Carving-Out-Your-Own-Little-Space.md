@@ -1,6 +1,6 @@
 ---
 title: Carving out your own little space
-cover: /media/Carving-Out-Your-Own-Little-Space/cover.png
+cover: /media/Carving-Out-Your-Own-Little-Space/cover.webp
 cover_alt: Screenshot of the Voxelmanip Forums
 ---
 
