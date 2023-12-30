@@ -1,7 +1,7 @@
 ---
 title: 5 Useful Command-line Utilities
-cover: /media/5-Useful-Commandline-Utilities/cover.webp
 cover_alt: Terminal output from openmpt123
+redirect_from: /2022/03/08/5-Useful-Commandline-Utilities/
 ---
 
 I realise I need to make more clickbaity, more digestible blog posts so I will now expand into the territory of Top 5 lists. This is how you do it right?

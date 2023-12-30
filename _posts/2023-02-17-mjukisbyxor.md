@@ -1,5 +1,7 @@
 ---
 title: Mjukisbyxor???
+no_cover: true
+redirect_from: /2023/02/17/Mjukisbyxor/
 ---
 
 I like reading through my access logs, almost as much as I like RSS feeds nowadays. So when I looked at the access logs for the Voxelmanip Forums, I was very interested to see what I thought was a new RSS client... Mjukisbyxor?

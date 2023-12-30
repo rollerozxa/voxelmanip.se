@@ -186,7 +186,7 @@ header {
 	max-width: 1280px;
 	margin: auto;
 	flex: 1;
-	background-color: rgba(3,3,3,0.92);
+	background-color: rgba(3,3,3,0.94);
 	padding: 20px;
 }
 
@@ -194,9 +194,9 @@ footer {
 	border-top: 1px dashed $header;
 }
 
-header, .container, footer {
+/*header, .container, footer {
 	backdrop-filter: blur(3px);
-}
+} (very laggy on mobile) */
 
 
 /// Pagination \\\

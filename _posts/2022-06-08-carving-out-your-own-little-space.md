@@ -1,7 +1,7 @@
 ---
 title: Carving out your own little space
-cover: /media/Carving-Out-Your-Own-Little-Space/cover.webp
 cover_alt: Screenshot of the Voxelmanip Forums
+redirect_from: /2022/06/08/Carving-Out-Your-Own-Little-Space/
 ---
 
 Nowadays, the internet is mainly concentrated to large, centralised social media services. You have Discord rather than IRC, Reddit rather than forums, Twitter rather than (micro)blogs, etc. And I personally find that to be quite sad.

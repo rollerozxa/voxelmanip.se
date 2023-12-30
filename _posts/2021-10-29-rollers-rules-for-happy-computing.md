@@ -1,5 +1,7 @@
 ---
 title: ROller's rules for happy computing
+no_cover: true
+redirect_from: /2021/10/29/ROllers-Rules-To-Happy-Computing/
 ---
 
 As I've switched from the dumpster fire that is the Windows operating system, I've begun going about my way of managing my Linux system in a very particular way. These guidelines, or rules, have purely existed as ideas in my mind, and I haven't thought about writing them down until now.

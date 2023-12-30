@@ -1,6 +1,7 @@
 ---
 ---
 
+{% if paginator.page == 1 %}
 <div class="ozxa"><canvas style="height:200px" id="the-thing" width="325" height="300"></canvas></div>
 <script src="/assets/fun.js" defer></script>
 
@@ -11,14 +12,17 @@
 <p>Wanna read more <a href="/about/">about me</a> or <a href="/projects/">about what I do</a>?</p>
 
 <h2>Latest blog posts</h2>
+{% else %}
+<h2>Blog posts (page {{ paginator.page }})</h2>
+{% endif %}
 
 <ul>
 	{%- for post in paginator.posts -%}
 		<li>
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			{% if post.cover %}<a href="{{ post.url }}">
-				<img class="blogimage" src="{{ post.cover }}" alt="{{ post.cover_alt }}" width="1200" height="400" loading="lazy">
-			</a>{% endif %}
+			{% unless post.no_cover %}<a href="{{ post.url }}">
+				<img class="blogimage" src="/media/{{ post.id | slice:12,1000 }}/cover.webp" alt="{{ post.cover_alt }}" width="1200" height="400" loading="lazy">
+			</a>{% endunless %}
 			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
 
 			<p>{{ post.excerpt }}</p>

@@ -1,7 +1,7 @@
 ---
 title: Washing your Blåhaj
-cover: /media/Washing-Your-Blaahaj/cover.webp
 cover_alt: Image of Blåhaj tucked underneath the sheets... ^-^
+redirect_from: /2023/09/29/Washing-Your-Blaahaj/
 ---
 
 For the past year or so I've been sleeping with a Blåhaj plush. He's big, cute, cuddly and I've loved him ever since I got him. However, throughout the months his face has begun to yellow from rubbing against my face, and just generally becoming a bit dirty. I was scared of washing him because I was worried he would get messed up or deformed by the washing machine, even if IKEA said that he is able to be washed completely fine.
@@ -17,7 +17,7 @@ Blåhaj is quite big, and it hurt a bit to fold and stuff him into the washing m
 
 Once the washing is finished, he'll still be quite wet, so put him somewhere to dry. I put him on the clothing hanger thing, which offers some ventilation underneath too. I occasionally wrapped a towel around him and squished him hard which I think might have dried him up a bit faster.
 
-<img src="/media/Washing-Your-Blaahaj/IMG_20230928_1143102.webp" style="height:500px">
+<img src="/media/washing-your-blaahaj/IMG_20230928_1143102.webp" style="height:500px">
 
 When you take him out, you'll probably notice that his stuffing has moved around. For me most of the stuffing was concentrated into his upper body. To move the stuffing around just shake and squish him. While you're checking up on him during the day, be sure to rotate and squish him to make sure he stays fluffy.
 

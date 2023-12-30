@@ -1,6 +1,7 @@
 ---
 title: Reinventing The Wheel
 subtitle: "<b>Alternate title:</b> Writing a Wiki software from scratch"
+redirect_from: /2022/11/06/Reinventing-The-Wheel/
 ---
 
 The current gold standard of Wiki software would have to be MediaWiki. It is developed by the Wikimedia Foundation and is used by most Wikis on the internet, including Wikipedia and related projects. While it's certainly a very well polished piece of software that is designed to be able to handle a website within the top 10 websites (Wikipedia), it is a quite large piece of software that scales down poorly to a small Wiki hosted on a low-end server.

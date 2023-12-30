@@ -1,5 +1,7 @@
 ---
 title: The joys of Package Management
+no_cover: true
+redirect_from: /2022/04/03/The-Joys-Of-Package-Management/
 ---
 
 One of the reasons I find Linux to be largely superior over Windows is its use of package managers. For a Windows user, this might seem like a nit-pick when comparing the two operating systems but it really is a game changer. The implementation of package managers varies between different families of Linux distributions, and I'm writing with Arch Linux's package manager `pacman` in mind, but the idea and core concept is the same no matter the distro.
