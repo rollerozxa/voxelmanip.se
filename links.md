@@ -49,6 +49,4 @@ Here's links to the websites for some of my friends. ^^ (If you do have a websit
 
 - [Lizzy Fleckenstein](https://lizzy.rs)
 
-- [krisbug](https://krisbug.xyz)
-
 - [Danil_2461](https://danil.voxelmanip.se/)
