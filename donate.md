@@ -6,25 +6,23 @@ title: Donations
 
 Hi, my name is ROllerozxa. If you've found anything I've made or done to be useful to you, now would be the time to send a donation.
 
-Your financial support would first of all help me pay for hosting costs (which currently is ~109kr/mo or ~10€/mo).
+# What I do
 
-Just as a reminder of what I do:
+## Principia
+I'm the maintainer for the Principia open source project, pushing forward the development of the game and making sure things hold together. I maintain the new [Principia Wiki](https://principia-web.se/wiki/) and I also develop and host [principia-web](https://principia-web.se), which started out as an unofficial community site replacement back in 2020 but has turned into the main community site with the game's open sourcing. In addition I host an [archive of the old official community site](https://archive.principia-web.se/) since a while back.
 
-- I develop and host [principia-web](https://principia-web.se), the new Principia community site which includes the forum and wiki (latter of which I am the primary contributor of).
+In the past I made various reverse engineering and archival efforts for Principia in an attempt to revive the game prior to the game's open sourcing in 2022. I've played the game since the original release in 2013 (I was 9 years old at the time) and it has been with me for more than half of my life at this point. 
 
-- I'm the maintainer of the Principia open source project, I [contribute](https://github.com/Bithack/principia/commits?author=rollerozxa) to the development of the game and just about anything else related to it now.
+## Minetest
+I've made [various mods and games for Minetest](https://content.minetest.net/users/ROllerozxa/), and I have [made some contributions to the engine](https://github.com/minetest/minetest/commits/master/?author=rollerozxa). I run the [Voxelmanip Classic](https://classic.voxelmanip.se/wiki/) server which is a simple creative freebuild server running a custom game, and I previously ran the [mtPlace](https://voxelmanip.se/projects/mtplace/) server which was a public canvas similar to reddit's r/place. I am also an editor on [the ContentDB staff team](https://content.minetest.net/users/), meaning I check the licensing and other details of packages before they are approved and made public.
 
-- I've also done various other things related to Principia in the past, such as [archival of old game versions](https://docs.google.com/spreadsheets/d/1G2YX0BV9_FSrIOvbCQtgYLE1XirCr8UaAfXUzuxjefE/htmlview#), [old community site levels](https://archive.org/details/principia-community-level-archive) and [the wiki](https://principia-preservation-project.github.io/Wiki-archive/).
+## Other...
+You might know me from something else. You can see [the projects page](https://voxelmanip.se/projects/) or [about page](https://voxelmanip.se/about/) on my website.
 
-- I make [various content for Minetest](https://content.minetest.net/users/ROllerozxa/).
+# Donations
+I would very much appreciate your donations. Primarily, the donations will go towards paying for hosting costs related to Principia (which currently is ~109kr/mo or ~10€/mo), but depending on the amount of donations I'd use some of it for other expenses.
 
-- I run The Voxelmanip Classic Server, a Minetest server.
-
-- I run the [Voxelmanip Forums](https://forum.voxelmanip.se), a cozy forum for all your cozy foruming needs.
-
-- Look cute. <sup>[Citation needed]</sup>
-
-- *Probably about a dozen more things...*
+If you want to donate through some other means than Liberapay then [reach out to me privately](https://voxelmanip.se/about/#contact) and we can discuss the details. **(But please do *not* send me Discord Nitro gifts)**
 
 ---
 

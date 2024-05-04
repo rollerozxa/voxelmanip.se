@@ -14,4 +14,4 @@ Some attempts to revive the game were made throughout the years, but it wasn't u
 
 Since late 2020, I was hosting an unofficial community site replacement for the game ([principia-web](/projects/principia-web/)) and also later became the owner of the Principia Discord server, one of the last remnants of the community after the official community site shut down. So of course, I became involved in the open source development of the game.
 
-Currently I am the maintainer of the open source project, pushing the game's development and the first FOSS release of the game (1.5.2).
+Currently I am the maintainer of the open source project, pushing the game's development forward and making sure the project stays together. 
