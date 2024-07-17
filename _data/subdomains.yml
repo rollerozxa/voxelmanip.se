@@ -3,11 +3,6 @@
   source: https://github.com/rollerozxa/rollerozxa.github.io
   description: ROllerozxa's website and blog
 
-- domain: apparatus-web
-  host: ROllerozxa
-  source: https://github.com/apparatus-preservation-project/apparatus-web
-  description: Unofficial community site replacement for Apparatus
-
 - domain: cirrus
   host: GitHub
   source: https://github.com/Cirrusboard/site
@@ -64,6 +59,11 @@
   host: GitHub
   source: https://github.com/rollerozxa/rollertest.voxelmanip.se
   description: Landing page for ROllertest
+
+- domain: sudoku
+  host: GitHub
+  source: https://github.com/rollerozxa/sudoku.voxelmanip.se
+  description: Landing page for the Sudoku Minetest game
 
 - domain: wiki
   host: ROllerozxa

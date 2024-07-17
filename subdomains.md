@@ -16,6 +16,3 @@ This page lists all (public) subdomains under the `voxelmanip.se` domain.
 		</tr>
 	{% endfor %}
 </table>
-
-## Request a subdomain
-If we're friends and you'd like a subdomain for some project, [contact me](/about/#contact) and I'll probably agree, assuming the project is legal and tasteful.
