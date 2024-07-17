@@ -22,7 +22,7 @@ You might know me from something else. You can see [the projects page](https://v
 # Donations
 I would very much appreciate your donations. Primarily, the donations will go towards paying for hosting costs related to Principia (which currently is ~109kr/mo or ~10€/mo), but depending on the amount of donations I'd use some of it for other expenses.
 
-If you want to donate through some other means than Liberapay then [reach out to me privately](https://voxelmanip.se/about/#contact) and we can discuss the details. **(But please do *not* send me Discord Nitro gifts)**
+If you want to donate through some other means then [reach out to me privately](https://voxelmanip.se/about/#contact) and we can discuss the details. **(But please do *not* send me Discord Nitro gifts)**
 
 ---
 
@@ -33,3 +33,11 @@ If you want to donate through some other means than Liberapay then [reach out to
 </a>
 
 Liberapay works using recurring donations, kinda like Patreon but run by a non-profit. If you would like to make a one-time donation then make a pledge and cancel after the first payment.
+
+<br>
+
+<a href="https://ko-fi.com/rollerozxa">
+	<img alt="Donate using Ko-fi" title="Donate using Ko-fi" src="/assets/donate-kofi.svg" width="200">
+</a>
+
+Ko-fi supports both one-time and monthly donations natively. Apparently you can also write messages to me when you donate, which may be amusing.
