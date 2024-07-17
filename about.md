@@ -41,8 +41,9 @@ You can contact me through a number of different ways. The list is ordered by ro
 	<tr>
 		<th>Discord</th>
 		<td>rollerozxa</td>
-	</tr><tr>
-		<th>E-Mail</th>
+	</tr>
+	<tr>
+		<th>XMPP & Email</th>
 		<td id="email">rollerozxa at (this domain)</td>
 	</tr><tr>
 		<th>Matrix</th>
