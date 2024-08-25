@@ -29,6 +29,8 @@ That's me, on the web alright!
 - [Arcane Toaster](https://arcanetoaster.bandcamp.com) makes some banger music (both tracker and "regular" music). My favourite has got to be [Voxel Dreams](https://arcanetoaster.bandcamp.com/album/voxel-dreams). <img src="/assets/toaster.webp" align="bottom" width=24>
 
 ## Cool softwares
+Also see the [Uses](/uses/) page for more information about the software I use.
+
 - [Principia](https://principia-web.se)... Again!
 
 - [Minetest](https://www.minetest.net) is a FOSS voxel game engine. You might see me around there.
