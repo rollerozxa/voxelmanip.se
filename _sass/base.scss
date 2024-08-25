@@ -143,7 +143,7 @@ time {
 
 header, footer {
 	text-align: center;
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(10, 10, 10, 0.94);
 }
 
 header {
@@ -186,7 +186,7 @@ header {
 	max-width: 1280px;
 	margin: auto;
 	flex: 1;
-	background-color: rgba(3,3,3,0.94);
+	background-color: rgba(10, 10, 10, 0.97);
 	padding: 20px;
 }
 
@@ -203,6 +203,7 @@ footer {
 
 .pagination {
 	text-align: center;
+	font-size: 20pt;
 
 	&:before {
 		font-size: 14pt;
@@ -210,8 +211,6 @@ footer {
 		content: "Pages:";
 		margin-right: 10px;
 	}
-
-	font-size: 20pt;
 
 	.page-item {
 		margin: 5px 20px;

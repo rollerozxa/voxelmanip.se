@@ -21,9 +21,9 @@
 		<li>
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			{% unless post.no_cover %}<a href="{{ post.url }}">
-				<img class="blogimage" src="/media/{{ post.id | slice:12,1000 }}/cover.webp" alt="{{ post.cover_alt }}" width="1200" height="400" loading="lazy">
+				<img class="blogimage" src="/media/{{ post.id | slice:12,1000 }}/cover.webp" alt="{{ post.cover_alt | escape }}" width="1200" height="400" loading="lazy">
 			</a>{% endunless %}
-			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
 
 			<p>{{ post.excerpt }}</p>
 		</li>

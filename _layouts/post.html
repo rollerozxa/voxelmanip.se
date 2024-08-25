@@ -5,8 +5,14 @@ layout: default
 <h1>{{ page.title }}</h1>
 {% if page.subtitle %}<h3>{{ page.subtitle }}</h3>{% endif %}
 
-{% unless page.no_cover %}<img class="blogimage" src="/media/{{ page.id | slice:12,1000 }}/cover.webp" title="{{ page.cover_alt }}" alt="{{ page.cover_alt }}" width="1200" height="400">{% endunless %}
+{% unless page.no_cover %}<img class="blogimage" src="/media/{{ page.id | slice:12,1000 }}/cover.webp" title="{{ page.cover_alt | escape }}" alt="{{ page.cover_alt | escape }}" width="1200" height="400">{% endunless %}
 
-<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_long_string }}</time>
 
 {{ content }}
+
+<hr style="margin-top:100px">
+
+<h2>Donations</h2>
+
+<p>Did you find the blog post to be informative, amusing or otherwise interesting? All blog posts are written by a human who would appreciate a <a href="/donate/#donations">donation</a> if you got some value out of this piece of writing.</p>
