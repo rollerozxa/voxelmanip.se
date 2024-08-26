@@ -32,39 +32,5 @@ As for music, I like all kinds of tracker music, preferrably played with `openmp
 
 Since October 2020 I've been daily driving Linux on my desktop. Right now I'm sitting on Arch Linux (btw) with KDE Plasma as my DE of choice. I use zsh with [my own config](https://github.com/rollerozxa/zshrc) for that nicer terminal feeling. I am also a maintainer for a little under hundred different packages in the Arch User Repository.
 
-I like cuddles, Ralsei and soused herring. I don't like cauliflower, homophobia or being called American.
-
 ## Contact
-You can contact me through a number of different ways. The list is ordered by roughly how frequent I check these accounts or how good of an idea it is to contact me through the platform.
-
-<table>
-	<tr>
-		<th>Discord</th>
-		<td>rollerozxa</td>
-	</tr>
-	<tr>
-		<th>XMPP & Email</th>
-		<td id="email">rollerozxa at (this domain)</td>
-	</tr><tr>
-		<th>Matrix</th>
-		<td>@rollerozxa:matrix.org</td>
-	</tr><tr>
-		<th>IRC</th>
-		<td>ROllerozxa @ irc.libera.chat <small>(w/ bouncer)</small></td>
-	</tr><tr>
-		<th>principia-web</th>
-		<td><a href="https://principia-web.se/user/1">ROllerozxa</a></td>
-	</tr><tr>
-		<th>MT Forums</th>
-		<td><a href="https://forum.minetest.net/memberlist.php?mode=viewprofile&u=29559">ROllerozxa</a></td>
-	</tr><tr>
-		<th>Physically</th>
-		<td>Meet me by <em>the</em> tree at noon...</td>
-	</tr>
-</table>
-
-I prefer English for text communication, but if you contact me privately in Swedish I will usually respond back in Swedish.
-
-<script>
-document.getElementById('email').innerHTML = atob('cm9sbGVyb3p4YUB2b3hlbG1hbmlwLnNlCg==');
-</script>
+See [Contact](/contact/)
