@@ -291,3 +291,28 @@ footer {
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
+
+/// Index \\\
+
+.header-index {
+	display: flex;
+	justify-content: space-between;
+	min-width: 330px;
+}
+
+.link-icons {
+	a {
+		display: inline-block;
+		margin: 0 10px;
+		vertical-align: text-top;
+
+		&:hover {
+			transform: scale(1.1, 1.1);
+		}
+	}
+
+	img {
+		width: 32px;
+		height: 32px;
+	}
+}
