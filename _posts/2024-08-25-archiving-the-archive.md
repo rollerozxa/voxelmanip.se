@@ -78,6 +78,6 @@ Most noticeable was that the visibility field was completely off on some levels.
 As there were a large amount of users who hadn't uploaded a level since the phpBB powered forum was prone to receiving a lot of spam registrations, I decided to only keep users who had uploaded at least one level. This reduced the ~13800 user count down to just ~1600 users.
 
 ## The result
-In the end, the result was a new community site available under [archive.principia-web.se](https://archive.principia-web.se) containing a full archive of the levels in the old official community site. The look of it is more or less identical to principia-web seeing as it was forked off it but has slightly drifted apart due to not using the same CSS.
+In the end, the result was a new community site available under [archive.principia-web.se](https://archive.principia-web.se) containing a full archive of the levels in the old official community site, and it was announced in [this news article](https://principia-web.se/news/10) on the Principia website. The look of it is more or less identical to principia-web seeing as it was forked off it but has slightly drifted apart due to not using the same CSS.
 
 Now that I host both sites it should also be more easy to integrate them tighter into eachother, though it has not happened yet. But in general, it has been an improvement over the previous setup and a full collection of all levels that were uploaded onto the old community site has been preserved for the future to come.

@@ -2,6 +2,7 @@
 title: Uses
 ---
 
+# Uses
 This page contains a list of the software I use.
 
 ## Software
