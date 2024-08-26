@@ -12,4 +12,6 @@ repo: https://github.com/rollerozxa/dirlistozxa
 
 It also optionally supports showing image thumbnails, which are generated ahead of time with a script using Imagemagick and will be displayed as the file's icon if it exists.
 
-Currently it is being used for my file dump, available at [files.voxelmanip.se](https://files.voxelmanip.se).
+The original version of dirlistozxa more or less resembles the directory listing of Apache, while a newer version (available in the [modern](https://github.com/rollerozxa/dirlistozxa/tree/modern) branch) redesigns it to be similar to the Icon view of file managers, putting more emphasis on the thumbnail image.
+
+Currently the `modern` branch version is being used for my file dump, available at [files.voxelmanip.se](https://files.voxelmanip.se).
