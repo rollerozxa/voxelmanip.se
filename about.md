@@ -34,3 +34,12 @@ Since October 2020 I've been daily driving Linux on my desktop. Right now I'm si
 
 ## Contact
 See [Contact](/contact/)
+
+## Friends
+Here's links to the websites for some of my friends.
+
+- [kittynunu](https://dolphinana.codeberg.page/) &nbsp;❤️
+
+- [Lizzy Fleckenstein](https://lizzy.rs)
+
+- [Danil_2461](https://danil.voxelmanip.se/)
