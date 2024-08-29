@@ -9,18 +9,18 @@ Hi, I'm ROllerozxa (pronounced *ROlleroska*, or *ROllerotska*). This is my site 
 
 ## About me
 I'm a 19 year old person from Sweden who has been interested in technology since I was very young, having been introduced to it at an early age. I would thrash floppies and fill my desktop with shortcut copies, but I eventually started to learn programming, starting out writing simple Batch scripts.
-<img src="/assets/cute_drawn_ralsei.png" class="cute-ralsei" alt="Cute Ralsei" title="Cute Ralsei" onclick="this.src='/assets/cute_drawn_ralsei_squeak.png'">
+<img src="/assets/cute_drawn_ralsei.webp" class="cute-ralsei" alt="Cute Ralsei" title="Cute Ralsei" onclick="this.src='/assets/cute_drawn_ralsei_squeak.webp'">
 
 I suppose I would describe myself as a programmer. I do web development, writing decent backends and shoddy frontends, dabble in game development, and occasionally do something completely different and out there. I do most of my work out in the open as open source, so you can check my [GitHub profile](https://github.com/rollerozxa/) for what I've been working on recently.
 
 I am heavily involved in the Principia community, being originally introduced to the game back in 2013. During its abandonment by the original developers I spearheaded various archival efforts and further unofficial development, such as reverse engineering the game and [launching a new community site for it](/projects/principia-web/). Now that Principia is open source [I have become the project maintainer](/projects/principia/) and push forward develoment of the game, along with maintaining the website and community spaces.
-<img src="/assets/quote.png" class="quote" alt="quote" title="Quote">
+<img src="/assets/quote.webp" class="quote" alt="quote" title="Quote">
 
 I'm also fairly active in the Minetest community. I contribute to the development of the engine, and maintain my own personal fork [ROllertest](https://rollertest.voxelmanip.se/) which is especially liked by mobile users due to its improved control scheme. I also make various mods and games, some which are available on [ContentDB](https://content.minetest.net/users/ROllerozxa/) and some are still WIP and not available there. Currently I run a Minetest server called [Voxelmanip Classic](https://classic.voxelmanip.se/wiki/), which runs a custom game that intends to recreate the creative freebuild gameplay of Minecraft Classic while also expanding on it.
 
 I am also an editor for the [Minetest ContentDB](https://content.minetest.net), meaning I help moderate and maintain the official repository of mods, games and texture pack available for Minetest. I check so that new packages are properly licensed and don't have copyright issues before they go public, and step in to edit and improve the metadata of packages when necessary.
 
-<img src="/assets/flower_uglysweater.png" class="quote" alt="Flower wearing an ugly sweater" title="Flower wearing an ugly sweater">
+<img src="/assets/flower_uglysweater.webp" class="quote" alt="Flower wearing an ugly sweater" title="Flower wearing an ugly sweater">
 
 I quite like LÖVE which is a game framework for writing games in Lua, the same language as is used in Minetest's scripting API. It is very easy to use and enjoyable, I've written various games in it such as a [Bubble Blast clone](/projects/bubble_blast/), and a game called [Box Smasher](/projects/boxsmasher/).
 

@@ -13,11 +13,11 @@ Box Smasher was a game originally written as the final assignment for my program
 It is currently available for Android on Google Play:
 
 <a href="https://play.google.com/store/apps/details?id=se.voxelmanip.boxsmasher">
-	<img alt="Get it on Google Play" src="/assets/en_badge_web_generic.png" width="240">
+	<img alt="Get it on Google Play" src="/assets/buttons/google_play.webp" width="240">
 </a>
 
 It is also available on itch.io:
 
 <a href="https://rollerozxa.itch.io/box-smasher">
-	<img alt="Get it on itch.io" src="/assets/itch-badge.svg" width="240">
+	<img alt="Get it on itch.io" src="/assets/buttons/itch.svg" width="240">
 </a>
