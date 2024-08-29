@@ -6,3 +6,4 @@ ahrefs_*
 .vscode
 .jekyll-cache
 media
+.bundle
