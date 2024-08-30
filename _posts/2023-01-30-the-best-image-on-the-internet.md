@@ -7,7 +7,8 @@ A while back I came across an image while randomly browsing the internet, a meme
 
 <!--more-->
 
-![image](/media/the-best-image-on-the-internet/1_1.webp)
+{% include image.html
+	url="/media/the-best-image-on-the-internet/1_1.webp" %}
 
 It starts out by throwing you straight into the plot with a heartwrenching image of Apu lying on the floor crying after having fallen and spilling his food all over the floor. From the shadow, you can notice that someone is standing in front of him, Jerma. He is then introduced as the second character of the story in the second image. He is holding a Dunkin' Donuts milkshake (Note for people outside of the United States of America - Dunkin' Donuts is some place where they sell donuts, dunks, and milkshakes I guess), and stretching out his arm as if he's offering it to Apu.
 
@@ -15,7 +16,8 @@ Right now this image seems all in all pretty wholesome. Jerma gives Apu his Dunk
 
 Well this is where it takes the turn for the worse, as Jerma's true self starts to manifest, the inherently flawed human being that Jerma in reality is. Some people might have realised just seeing his face in the second image. But here it goes.
 
-![image](/media/the-best-image-on-the-internet/1_2.webp)
+{% include image.html
+	url="/media/the-best-image-on-the-internet/1_2.webp" %}
 
 In the most peculiar turn of events, Jerma throws the Dunkin' onto Apu, who now gets it spilled all over him. He is assumedly even more upset by this. As if this wasn't bad enough, Jerma flees the scene he created, running out the exit while also showing his massive and loud glutes.
 
