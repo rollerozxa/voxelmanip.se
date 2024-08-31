@@ -4,6 +4,8 @@ url: https://voxelmanip.se
 
 baseurl: /
 
+destination: /tmp/rollerozxa_blog_site
+
 excerpt_separator: <!--more-->
 
 lang: en_GB
