@@ -1,5 +1,6 @@
 ---
 title: Subdomains
+description: This page lists all (public) subdomains under the voxelmanip.se domain.
 ---
 
 # Subdomains

@@ -8,7 +8,11 @@ website: https://cirrus.voxelmanip.se
 repo: https://github.com/Cirrusboard/Cirrusboard
 ---
 
-Cirrusboard began as a high school work project (Gymnasiearbete) originally with the purpose to replace the old codebase that Voxelmanip Forums ran. This is the abstract for the report I wrote about it:
+Cirrusboard began as a high school work project (Gymnasiearbete) originally with the purpose to replace the old codebase that Voxelmanip Forums ran.
+
+<!--more-->
+
+This is the abstract for the report I wrote about it:
 
 > This report details the development of a new forum software. The purpose of it was to both be a general purpose software and one that can replace the previous codebase that my website Voxelmanip Forums ran on, in order to see that it is functional and performant for a real-world forum.
 >

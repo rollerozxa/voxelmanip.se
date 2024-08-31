@@ -1,5 +1,6 @@
 ---
 title: Donations
+description: Hi, my name is ROllerozxa. If you've found anything I've made or done to be useful to you, now would be the time to send a donation.
 ---
 
 <p class="c"><img src="/media/donate_banner.webp" width="1000" height="300"></p>

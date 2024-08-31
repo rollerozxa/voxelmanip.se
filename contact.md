@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: You can contact me through a number of different ways.
 ---
 
 # Contact

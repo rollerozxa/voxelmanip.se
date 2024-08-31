@@ -1,5 +1,6 @@
 ---
 title: Files
+description: On my computer, I have a folder by the name of '~/public-files/' where I've started to put files in. These files then get synced to my server with rsync, and is made available at files.voxelmanip.se.
 fileozxa_at_the_top: true
 ---
 

@@ -10,6 +10,8 @@ repo: https://github.com/rollerozxa/boxsmasher
 
 Box Smasher was a game originally written as the final assignment for my programming course in high school. It is a physics-based puzzle game where you throw balls at various constructions composed of boxes, and the aim is to rid the level of all boxes with a limited amount of balls.
 
+<!--more-->
+
 It is currently available for Android on Google Play:
 
 <a href="https://play.google.com/store/apps/details?id=se.voxelmanip.boxsmasher">

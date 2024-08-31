@@ -12,6 +12,8 @@ Principia is a game by Bithack that was originally released back in 2013 for And
 
 Enter principia-web, a project I started to make an unofficial recreation of the Principia community. This would include reverse engineering the game, its level format, and reimplement the protocols it used to communicate with the community site.
 
+<!--more-->
+
 While my project to recreate the Principia community site technically started as far back as April 2019, it wasn't until February 2020 that I properly begun development on it and created a Git repository for it. The development progressed during 2020 up until the 26th of December 2020, when I considered the most essential functions to be complete and launched the site running on a Raspberry Pi server sitting on my desk.
 
 This was my first ever project that was public in any large capacity, and taught me valuable skills in server hosting, making an user friendly project, and a lot more about coding in general.

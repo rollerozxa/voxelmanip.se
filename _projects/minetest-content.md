@@ -9,6 +9,8 @@ website: https://content.minetest.net/users/ROllerozxa/
 
 I've made various content for Minetest...
 
+<!--more-->
+
 ## Released content
 - **[Floppies](https://content.minetest.net/packages/ROllerozxa/floppy/)** - A rather silly mod that adds floppies you can throw around onto the ground.
 

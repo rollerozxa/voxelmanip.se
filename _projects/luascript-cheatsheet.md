@@ -10,6 +10,8 @@ repo: https://github.com/principia-game/luascript-cheatsheet
 
 [Principia](/projects/principia/) is a physics-based sandbox game that contains, among many other things, scripting support using the easily embeddable Lua language. It provides its own API on top of the Lua standard library that interfaces with the game world and provides additional functionality
 
+<!--more-->
+
 There are countless amounts of reference sheets for working with various programming languages, libraries, programs, etc. available on the internet in printable PDF form, usually labelled as "Cheatsheets". As such, I decided to make a cheatsheet of my own that details the entire LuaScript API in Principia. I designed and layouted it using web technology with HTML and CSS and then rendered it to a PDF using Weasyprint.
 
 The resulting cheatsheet, one colour version and one version optimised for greyscale printers, are available for purchase on itch.io:

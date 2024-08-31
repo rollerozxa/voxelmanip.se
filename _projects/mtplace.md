@@ -10,6 +10,8 @@ repo: https://github.com/rollerozxa/mtPlace
 
 mtPlace was a canvas 512x512 pixels in size, with 24 colours at your disposal.
 
+<!--more-->
+
 It was inspired by the Reddit r/place social experiments that took place during 2017 and 2022, and is a collaborative canvas hosted as a Minetest server. You would paint the canvas by placing nodes on it within Minetest, and it shows up in the map on the website that updated every 5 minutes.
 
 It has been featured in the [Minetest Blog](https://blog.minetest.net/2023/03/12/February/#server-news) and dozens of players have left their mark on the server, creating a diverse landscape of everything from the players' favourite FOSS project logos, to a pride flag that they identify with.
