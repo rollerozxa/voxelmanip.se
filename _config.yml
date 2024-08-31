@@ -19,6 +19,9 @@ permalink: pretty
 paginate: 6
 paginate_path: /page/:num/
 
+redirect_from:
+  json: false
+
 sass:
   style: compressed
   sourcemap: never
