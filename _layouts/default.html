@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<link rel="stylesheet" href="/assets/style.css{{ cachebuster }}">
-	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
+	<link rel="alternate" href="/atom.xml" type="application/atom+xml" title="ATOM Feed">
+	<link rel="sitemap" href="/sitemap.xml" type="application/xml" title="Sitemap">
 
 	{% seo %}
 
