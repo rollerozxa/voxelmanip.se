@@ -8,7 +8,7 @@ website: https://rollerozxa.itch.io/principia-luascript-api-cheatsheet
 repo: https://github.com/principia-game/luascript-cheatsheet
 ---
 
-[Principia](/projects/principia/) is a physics-based sandbox game that contains, among many other things, scripting support using the easily embeddable Lua language. It provides its own API on top of the Lua standard library that interfaces with the game world and provides additional functionality
+[Principia](/projects/principia/) is a physics-based sandbox game that contains, among many other things, scripting support using the easily embeddable Lua language. It provides its own API on top of the Lua standard library that both interfaces with the game world and provides additional functionality for all sorts of creations.
 
 <!--more-->
 
