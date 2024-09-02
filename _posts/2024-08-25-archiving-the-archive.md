@@ -63,7 +63,7 @@ Extracting level metadata was more tricky, since there's significantly more vari
 
 After fighting with different page behaviours, malformed level pages, messed up text encodings and mojibake, I ended up with a massive JSON file with various level metadata which I then imported into the database.
 
-To parse the headers of Principia level files, usually I use the [.plvl Kaitai](https://github.com/principia-preservation-project/kaitai/blob/master/kaitai/plvl.ksy) which I wrote to document the format *a long time ago*, predating even the source code release. It still generally holds up though, and I use it for parsing uploaded levels on principia-web despite recieving the source code for an utility program that the official community site was using to extract metadata out of level files uploaded.
+To parse the headers of Principia level files, usually I use the [.plvl Kaitai](https://github.com/principia-preservation-project/kaitai/blob/master/kaitai/plvl.ksy) which I wrote to document the format *a long time ago*, predating even the source code release. It still generally holds up though, and I use it for parsing uploaded levels on principia-web despite receiving the source code for an utility program that the official community site was using to extract metadata out of level files uploaded.
 
 I wrote a PHP script that would directly parse every level file I had locally, and then populate the database with further metadata. In addition to populating the description for locked levels, this turns out to also fix a lot of mojibake, as the titles and descriptions inside of the actual level file appears to be less prone to mojibake than if it has been stored in the old community site's MySQL database.
 

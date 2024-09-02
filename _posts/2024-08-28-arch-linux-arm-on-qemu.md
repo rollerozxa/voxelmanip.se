@@ -8,7 +8,7 @@ Arch Linux ARM is an unofficial flavour porting Arch Linux to ARMv7 and ARMv8, b
 
 <!--more-->
 
-I wanted an ARM emulated virtual machine to do some testing on with ARM binaries, and chose ALARM as it's an ARM flavour of the distro I do very much enjoy. However there does not seem to be a lot of information on how to set up an ARM virtual machine, and due to how different the ARM ecosystem is there is no ISO file you can simply boot and install a distro from. 
+I wanted an ARM emulated virtual machine to do some testing on with ARM binaries, and chose ALARM as it's an ARM flavour of the distro I do very much enjoy. However there does not seem to be a lot of information on how to set up an ARM virtual machine, and due to how different the ARM ecosystem is there is no ISO file you can simply boot and install a distro from.
 
 This blog post contains recollected instructions from how I went about setting it up, including installing things to get a graphical environment up and running. Some of the instructions may extend to other ARM-based distros if you can find a generic image distributed as a tarball that has support for the "virt" board in the kernel.
 
@@ -136,7 +136,7 @@ Install `ly`, `openbox` and some Xorg stuff.
 sudo pacman -S ly openbox libbsd libmd xorg-{server,setxkbmap,xauth,xkbcomp,xrandr}
 ```
 
-Install some graphical terminal. If you pick something not in the default Openbox menu you'll have to add it. For simplicitly's sake you could use `xterm` (`xfce4-terminal` and `urxvt` would also work):
+Install some graphical terminal. If you pick something not in the default Openbox menu you'll have to add it. For simplicity's sake you could use `xterm` (`xfce4-terminal` and `urxvt` would also work):
 
 ```bash
 sudo pacman -S xterm
