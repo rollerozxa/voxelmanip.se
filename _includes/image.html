@@ -1,7 +1,7 @@
 <figure>
 	<a href="{{ include.url }}">
 		<img src="{{ include.url }}"
-			{% if include.max_width %}style="max-width:{{ include.max_width }}px"{% endif %}
+			{% if include.max_width %}style="width:{{ include.max_width }}px"{% endif %}
 			{% if include.alt %}alt="{{ include.alt }}"{% endif %}>
 	</a>
 	{%- if include.caption -%}
