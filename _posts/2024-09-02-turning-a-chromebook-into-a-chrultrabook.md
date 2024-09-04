@@ -22,7 +22,27 @@ The default Chrome OS bootloader for x86-based devices has a special area contai
 
 The first order of business when doing anything with a Chromebook (!!That you yourself own!!) is enabling Developer Mode on it. It's a quite simple process consisting of [entering into Recovery Mode](https://docs.chrultrabook.com/docs/firmware/recovery-mode.html) and either disabling something called "OS Verification" or enabling Developer Mode. It will wipe any existing data on the device, but hopefully you haven't put anything important on the Chromebook anyways.
 
+{% include image.html
+	url="/media/turning-a-chromebook-into-a-chrultrabook/transitioning_developer_mode.webp"
+	alt="The screen that comes up when enabling Developer Mode. It says 'Your system is transitioning to Developer Mode. Local data has been cleared.', and some warnings about no support and no warranty."
+	caption="My system is transitioning? Well good for them!"
+	max_width=700 %}
+
 While Chromebooks already come with a payload in RW_LEGACY, it may be outdated or unusable for actually booting something. Thankfully it can be updated [using MrChromebox's firmware utility script](https://docs.chrultrabook.com/docs/firmware/flashing-firmware.html) and you can get to it by pressing Ctrl+L on the obnoxious "OS Verification is off" screen where a boot option menu appears.
+
+I chose a 32GB USB flash drive I had laying around to install Arch Linux onto, and plugged in another USB drive with an installation medium. While regular non-SSD based USB flash drives are generally terrible for booting an OS off of as they focus more on sequential write speeds rather than random access writes, it is not as much of an issue booting Linux on it compared to Windows To Go which will absolutely hammer your flash drive with writes.
+
+Once installed I do what I usually do when I have a piece of hardware with a screen and some reasonable graphics capability - Run [Principia](https://principia-web.se) on it, along with some other things.
+
+{% include image.html
+	url="/media/turning-a-chromebook-into-a-chrultrabook/chromebook_folded.webp"
+	alt="Image of the Chromebook running Principia inside of KDE Plasma. The keyboard has been folded all the way back so it acts as a tablet, and there is an USB stick protuding from the left side of the screen."
+	caption="It both has a touchscreen and can be folded all the way back allowing it to act like a tablet."
+	max_width=920 %}
+
+While it was already running fully featured Linux, it was doing so off a USB drive which you need to keep plugged in at all times, and you also need to specify it each time in the boot menu when booting the Chromebook. Great novelty, but we can do better! In addition to booting an external OS with RW_LEGACY, you can also flash the bootloader entirely with a custom Coreboot image, allowing you to wipe it clean of Chrome OS and install any operating system you would want to the internal drive. The ultimate Chrultrabook.
+
+I wanted to get around to doing this full bootloader flash one day but until then it was sitting on the shelf alongside the USB drive and charger. At least, until a very special person came into my life.
 
 ## A sweetie appears
 In February I got an email from someone who had come across me on Mastodon. They were living in Sweden, likes FOSS, and also mentioned the fact they had flashed Coreboot on multiple of their computers. We began talking over Matrix and among the first things I began talking about was this Chromebook I had gotten regular Linux booting off an USB drive using RW_LEGACY. I then mentioned that I wanted to sometime in the future flash the main UEFI bootloader to allow for booting regular Linux off the internal drive. With Coreboot.
