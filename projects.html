@@ -1,12 +1,12 @@
 ---
 title: Projects
 ---
-<h1>Projects</h1>
 
 <div class="projects">
 	{% for project in site.projects %}
 	<a class="project" href="{{ project.url }}">
-		<img src="/media/projects/low/{{ project.image }}.webp" alt="" width="640" height="360">
+		<img src="/media/projects/low/{{ project.image }}.webp" alt=""
+			width="640" height="360">
 		<div class="title">{{ project.title }}</div>
 		<div class="subtitle">{{ project.timeframe }}</div>
 	</a>

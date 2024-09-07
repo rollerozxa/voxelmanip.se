@@ -4,7 +4,6 @@ description: Hi, I'm ROllerozxa. This is my site where I write about whatever in
 ozxa_at_the_top: true
 ---
 
-# About
 Hi, I'm ROllerozxa (pronounced *ROlleroska*, or *ROllerotska*). This is my site where I write about what I do and about whatever else interests me, in the case that someone else finds it interesting.
 
 ## About me

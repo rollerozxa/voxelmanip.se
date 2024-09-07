@@ -1,0 +1,12 @@
+- url: /atom.xml
+  icon: rss.svg
+
+- url: https://github.com/rollerozxa
+  icon: github.svg
+
+- url: https://fosstodon.org/@rollerozxa
+  icon: mastodon.svg
+  relme: true
+
+- url: https://youtube.com/@rollerozxa
+  icon: youtube.svg

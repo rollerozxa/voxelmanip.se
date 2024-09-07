@@ -3,7 +3,6 @@ title: Contact
 description: You can contact me through a number of different ways.
 ---
 
-# Contact
 You can contact me through a number of different ways. The list is ordered by roughly how frequently I check these accounts or how good of an idea it is to contact me through the platform.
 
 <table>

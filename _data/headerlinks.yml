@@ -1,12 +1,17 @@
 - url: /posts/
   title: Posts
+
 - url: /projects/
   title: Projects
+
 - url: /uses/
   title: Uses
+
 - url: /files/
   title: Files
+
 - url: /about/
   title: About
+
 - url: /donate/
   title: Donate

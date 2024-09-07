@@ -3,7 +3,6 @@ title: Uses
 description: This page contains a list of the software I use.
 ---
 
-# Uses
 This page contains a list of the software I use.
 
 ## Software
