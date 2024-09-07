@@ -1,9 +1,7 @@
-_site
-_site_production
+_drafts
 _misc
-ahrefs_*
-.sass-cache
-.vscode
-.jekyll-cache
-media
 .bundle
+.jekyll-cache
+.sass-cache
+Gemfile.lock
+media/projects/low/

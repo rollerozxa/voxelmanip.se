@@ -12,6 +12,7 @@ title: Posts
 	<ul>
 		{%- for item in yearitem.items -%}
 			<li>
+				{% if item.draft %}🚧{% endif %}
 				{{ item.date | date:"%d %b" }}
 				<a href="{{ item.url }}">{{ item.title }}</a>
 			</li>

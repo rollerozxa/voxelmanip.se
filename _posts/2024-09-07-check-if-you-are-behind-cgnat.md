@@ -12,7 +12,7 @@ So if you are planning to set up a publicly accessible from home, whether it be 
 To prepare, you will need to obtain your external IP as websites on the internet see it. There are many places that can tell you it but one way is to go to [DuckDuckGo](https://duckduckgo.com) and simply search "what is my ip address". It will show your IP address below the search field (along with a GeoIP lookup which may or may not be accurate).
 
 {% include image.html
-	url="/media/check-if-you-are-behind-cgnat/external_ip.webp"
+	name="external_ip.webp"
 	alt="Screenshot of DuckDuckGo, searching for 'what is my ip address'. Below it shows the IP address as well as an approximate location." %}
 
 ## Performing a traceroute

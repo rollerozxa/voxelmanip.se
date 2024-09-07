@@ -23,7 +23,7 @@ The default Chrome OS bootloader for x86-based devices has a special area contai
 The first order of business when doing anything with a Chromebook (!!That you yourself own!!) is enabling Developer Mode on it. It's a quite simple process consisting of [entering into Recovery Mode](https://docs.chrultrabook.com/docs/firmware/recovery-mode.html) and either disabling something called "OS Verification" or enabling Developer Mode. It will wipe any existing data on the device, but hopefully you haven't put anything important on the Chromebook anyways.
 
 {% include image.html
-	url="/media/turning-a-chromebook-into-a-chrultrabook/transitioning_developer_mode.webp"
+	name="transitioning_developer_mode.webp"
 	alt="The screen that comes up when enabling Developer Mode. It says 'Your system is transitioning to Developer Mode. Local data has been cleared.', and some warnings about no support and no warranty."
 	caption="My system is transitioning? Well good for them!"
 	max_width=700 %}
@@ -35,7 +35,7 @@ I chose a 32GB USB flash drive I had laying around to install Arch Linux onto, a
 Once installed I do what I usually do when I have a piece of hardware with a screen and some reasonable graphics capability - Run [Principia](https://principia-web.se) on it, along with some other things.
 
 {% include image.html
-	url="/media/turning-a-chromebook-into-a-chrultrabook/chromebook_folded.webp"
+	name="chromebook_folded.webp"
 	alt="Image of the Chromebook running Principia inside of KDE Plasma. The keyboard has been folded all the way back so it acts as a tablet, and there is an USB stick protuding from the left side of the screen."
 	caption="It both has a touchscreen and can be folded all the way back allowing it to act like a tablet."
 	max_width=920 %}
@@ -57,7 +57,7 @@ By default the more sensitive parts of the Chromebook storage are locked from wr
 In my device's case, the battery connection is used to control the write protection state. So to disable write protect, you need to disconnect the battery and then boot it off of external power to flash the bootloader. This was easier said than done, and meant disassembling the laptop down to the core to be able to disconnect the battery, partially assembling it enough that the basic hardware components were functional to be able to boot into Chrome OS and flash the bootloader.
 
 {% include image.html
-	url="/media/turning-a-chromebook-into-a-chrultrabook/chromebook_internals.webp"
+	name="chromebook_internals.webp"
 	alt="Fully disassembled Chromebook with both sides of it lying on a table."
 	caption="The operation table, my SO's very small desk"
 	max_width=700 %}
@@ -71,7 +71,7 @@ It prompted us to make a backup of the previous firmware which we did (my SO has
 I was sitting in my SO's lap while running the script, so we hugged while it was installing the new firmware which took a bit of time. When the Chromebook was rebooted, we were greeted by the Coreboot rabbit. Success.
 
 {% include image.html
-	url="/media/turning-a-chromebook-into-a-chrultrabook/coreboot_bootup.webp"
+	name="coreboot_bootup.webp"
 	alt="The Coreboot logo shown on an otherwise black screen."
 	caption="Never been so happy to see a rabbit." %}
 

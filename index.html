@@ -8,7 +8,7 @@
 <h1 class="header-index">ROllerozxa<span class="link-icons">
 	<a href="/atom.xml"><img src="/assets/icons/rss.svg"></a><!--
 	--><a href="https://github.com/rollerozxa"><img src="/assets/icons/github.svg"></a><!--
-	--><a href="https://fosstodon.org/@rollerozxa"><img src="/assets/icons/mastodon.svg"></a><!--
+	--><a rel="me" href="https://fosstodon.org/@rollerozxa"><img src="/assets/icons/mastodon.svg"></a><!--
 	--><a href="https://youtube.com/@rollerozxa"><img src="/assets/icons/youtube.svg"></a>
 </span></h1>
 
@@ -28,7 +28,7 @@
 		<li>
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			{% unless post.no_cover %}<a href="{{ post.url }}">
-				<img class="blogimage" src="/media/{{ post.id | slice:12,1000 }}/cover.webp" alt="{{ post.cover_alt | escape }}" width="1200" height="400" loading="lazy">
+				<img class="blogimage" src="/media/{{ post.slug }}/cover.webp" alt="{{ post.cover_alt | escape }}" width="1200" height="400" loading="lazy">
 			</a>{% endunless %}
 			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
 

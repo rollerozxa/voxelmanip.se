@@ -18,7 +18,7 @@ Blåhaj is quite big, and it hurt a bit to fold and stuff him into the washing m
 Once the washing is finished, he'll still be quite wet, so put him somewhere to dry. I put him on the clothing hanger thing, which offers some ventilation underneath too. I occasionally wrapped a towel around him and squished him hard which I think might have dried him up a bit faster.
 
 {% include image.html
-	url="/media/washing-your-blaahaj/IMG_20230928_1143102.webp"
+	name="IMG_20230928_1143102.webp"
 	alt="Blåhaj lying on his back on a clothing hanger"
 	max_width=480 %}
 
