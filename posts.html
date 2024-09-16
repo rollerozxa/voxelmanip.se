@@ -13,7 +13,7 @@ title: Posts
 		{%- for item in yearitem.items -%}
 			<li>
 				{% if item.draft %}🚧{% endif %}
-				{{ item.date | date:"%d %b" }}
+				<strong>{{ item.date | date:"%d %b %y" }}</strong> -
 				<a href="{{ item.url }}">{{ item.title }}</a>
 			</li>
 		{%- endfor -%}

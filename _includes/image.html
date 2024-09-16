@@ -1,5 +1,5 @@
 <figure>
-	<a href="{{ include.url }}">
+	<a href="{% if include.url %}{{ include.url }}{% else %}/media/{{ page.slug }}/{{ include.name }}{% endif %}">
 		<img src="{% if include.url %}{{ include.url }}{% else %}/media/{{ page.slug }}/{{ include.name }}{% endif %}"
 			{% if include.max_width %}style="width:{{ include.max_width }}px"{% endif %}
 			{% if include.alt %}alt="{{ include.alt }}"{% endif %}>
