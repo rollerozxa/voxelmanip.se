@@ -1,5 +1,6 @@
 ---
 title: ROller's rules for happy computing
+tags: Linux
 no_cover: true
 redirect_from: /2021/10/29/ROllers-Rules-To-Happy-Computing/
 ---

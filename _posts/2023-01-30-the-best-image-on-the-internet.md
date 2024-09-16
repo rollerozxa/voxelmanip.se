@@ -1,5 +1,6 @@
 ---
 title: The (arguably) Best Image on the Internet - An Analysis
+tags: Humourous
 redirect_from: /2023/01/30/The-Best-Image-On-The-Internet/
 ---
 

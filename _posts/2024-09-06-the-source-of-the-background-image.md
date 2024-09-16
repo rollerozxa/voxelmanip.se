@@ -1,5 +1,6 @@
 ---
 title: The Source of the Background Image
+tags: Meta
 ---
 
 So I received an email about the picture that I use as a background image on my website. They were asking about the source of it as they couldn't find it from a reverse image search assuming it was a stock image I had taken from somewhere.

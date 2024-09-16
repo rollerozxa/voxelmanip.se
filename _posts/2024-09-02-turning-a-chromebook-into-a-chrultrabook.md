@@ -1,5 +1,6 @@
 ---
 title: Turning a Chromebook into a Chrultrabook
+tags: Storytime Linux
 ---
 
 **Chromebook** is the name of Google's brand of mostly low-end laptops running Chrome OS, an operating system whose primary functionality is running the Google Chrome browser.

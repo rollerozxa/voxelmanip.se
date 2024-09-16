@@ -1,5 +1,6 @@
 ---
 title: 5 Useful Command-line Utilities
+tags: Linux Listicle
 cover_alt: Terminal output from openmpt123
 redirect_from: /2022/03/08/5-Useful-Commandline-Utilities/
 ---

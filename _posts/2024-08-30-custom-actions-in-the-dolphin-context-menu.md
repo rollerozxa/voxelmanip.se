@@ -1,5 +1,6 @@
 ---
 title: Custom Actions in the Dolphin Context Menu
+tags: Linux
 ---
 
 Whenever you right click in Dolphin a context menu appears with a list of various actions you can take depending on the context, if you have selected a particular filetype or a folder. Having not quite yet ascended to the plane of doing all my file management from the terminal, I thought it would be useful to make custom actions for things that I currently do by opening a terminal from Dolphin.

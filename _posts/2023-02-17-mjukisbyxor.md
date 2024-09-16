@@ -1,5 +1,6 @@
 ---
 title: Mjukisbyxor???
+tags: Humourous
 no_cover: true
 redirect_from: /2023/02/17/Mjukisbyxor/
 ---

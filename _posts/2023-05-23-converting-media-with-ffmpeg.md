@@ -1,5 +1,6 @@
 ---
 title: Converting multimedia with ffmpeg
+tags: Guide
 redirect_from: /2023/05/23/Converting-Media-With-ffmpeg/
 ---
 

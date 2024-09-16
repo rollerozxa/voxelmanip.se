@@ -1,5 +1,6 @@
 ---
 title: Carving out your own little space
+tags: Web
 cover_alt: Screenshot of the Voxelmanip Forums
 redirect_from: /2022/06/08/Carving-Out-Your-Own-Little-Space/
 ---

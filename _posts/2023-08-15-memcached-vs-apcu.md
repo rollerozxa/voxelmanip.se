@@ -1,5 +1,6 @@
 ---
 title: Memcached vs. APCu for PHP
+tags: PHP
 cover_alt: Image of the memcached rabbits running towards the left, with text on the bottom that says "Memcached vs. APCu"
 redirect_from: /2023/08/15/Memcached-Vs-APCu/
 ---
