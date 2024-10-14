@@ -1,0 +1,35 @@
+- id: email
+  name: Email
+  value: rollerozxa (at this domain)
+  note:
+
+- id: xmpp
+  name: XMPP
+  value: rollerozxa (at this domain)
+  note: OMEMO encryption welcome!
+
+- id: discord
+  name: Discord
+  value: rollerozxa
+  note: No Nitro gifts please!
+
+- id: matrix
+  name: Matrix
+  value: "@rollerozxa:matrix.org"
+  note: Encryption welcome!
+
+- id: irc
+  name: IRC
+  value: ROllerozxa @ <a href="https://libera.chat/">irc.libera.chat</a>
+
+- id: mastodon
+  name: Mastodon
+  value: <a href="https://fosstodon.org/@rollerozxa">@rollerozxa@fosstodon.org</a>
+
+- id: principia-web
+  name: principia-web
+  value: <a href="https://principia-web.se/user/1">ROllerozxa</a>
+
+- id: mt-forums
+  name: Minetest Forums
+  value: <a href="https://forum.minetest.net/memberlist.php?mode=viewprofile&u=29559">ROllerozxa</a>

@@ -39,6 +39,4 @@ Here's links to the websites for some of my friends.
 
 - [kittynunu](https://dolphinana.codeberg.page/) &nbsp;❤️
 
-- [Lizzy Fleckenstein](https://lizzy.rs)
-
 - [Danil_2461](https://danil.voxelmanip.se/)
