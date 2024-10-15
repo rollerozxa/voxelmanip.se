@@ -63,7 +63,7 @@
 - domain: sudoku
   host: GitHub
   source: https://github.com/rollerozxa/sudoku.voxelmanip.se
-  description: Landing page for the Sudoku Minetest game
+  description: Landing page for the Sudoku Luanti game
 
 - domain: wiki
   host: ROllerozxa

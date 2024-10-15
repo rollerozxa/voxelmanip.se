@@ -1,13 +1,13 @@
 ---
-title: Minetest content
+title: Luanti content
 image: minetest_content
 timeframe: "2021-"
-technologies: "Minetest (heh), Lua"
+technologies: "Luanti (heh), Lua"
 license: Various (MIT-GPLv3)
 website: https://content.minetest.net/users/ROllerozxa/
 ---
 
-I've made various content for Minetest...
+I've made various content for Luanti...
 
 <!--more-->
 
