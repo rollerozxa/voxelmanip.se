@@ -11,7 +11,22 @@ Such was likely the case with El Telco Loco, a fictional mobile operator that us
 <!--more-->
 
 ## Jajaja... Va?
-El Telco Loco is Spanish for "The Crazy Telco", Telco referring to a company providing telecommunications services. You can also tell how well it rhymes and rolls off the tongue when you say it, and it existed in the `SimulatedCommands` class of the telephony component in the Android Open Source Project. The string is present as far back as the Android M3 RC20a pre-release SDK build from November 2007, and I am sure the person on the original Android development team felt very proud about their funny pun.
+El Telco Loco is Spanish for "The Crazy Telco", Telco referring to a company providing telecommunications services. You can also tell how well it rhymes and rolls off the tongue when you say it, and it existed in the `SimulatedCommands` class of the telephony component in the Android Open Source Project:
+
+```java
+// [com.android.internal.telephony.test.SimulatedCommands]
+public void getOperator(Message result) {
+	String[] ret = new String[3];
+
+	ret[0] = "El Telco Loco";
+	ret[1] = "Telco Loco";
+	ret[2] = "001001";
+
+	resultSuccess(result, ret);
+}
+```
+
+The string is present as far back as the Android M3 RC20a pre-release SDK build from November 2007, and I am sure the person on the original Android development team felt very proud about their funny pun.
 
 Normally the values present in `SimulatedCommands` should not be visible on any end user build of Android, as they are only used to simulate the presence of telephony in a testing environment. And every Android device that gets released to consumers will have functioning telephony, right? A phone would be quite useless without being able to use it like a phone after all.
 
@@ -40,6 +55,9 @@ Some old builds from the Android-x86 project, such as their initial Android 1.6 
 	name="android-x86-carrier-info.webp"
 	alt="Two screenshots shown side-to-side. One screenshot shows the Network name as 'El Telco Loco', and the second screenshot shows the Baseband version as being 'SimulatedCommands'." %}
 
-After Android 2.3 Gingerbread, Google went on to develop Android Honeycomb which was designed for the larger screens of tablets in mind, and assumedly other considerations to bring tablets up to a first class citizen in the Android ecosystem. While nowadays the 3.x Honeycomb line is mostly forgotten, both due to Google not releasing AOSP sources for it and being very quickly overshadowed by 4.0 Ice Cream Sandwich and the subsequent 4.x versions, it was undeniably a big step for Android that shaped it into what it became during 4.x and later versions.
+## The aftermath
+After Android 2.3 Gingerbread, Google went on to develop Android Honeycomb which was designed for the larger screens of tablets in mind. Assumedly other considerations were made during Honeycomb's development to bring tablets up to a first class citizen in the Android ecosystem, such as Android natively understanding the concept of a telephonyless device without manufacturers needing to resort to workarounds.
+
+Nowadays the 3.x Honeycomb line is mostly forgotten, both due to Google not releasing AOSP sources for it and being very quickly overshadowed by 4.0 Ice Cream Sandwich and the subsequent 4.x versions. But it was undeniably a big step for Android that shaped it into what it became during 4.x and later versions, 4.1 Jelly Bean being the version that shipped by the original Nexus 7 tablet for example.
 
 As for our crazy telecommunications company, it was removed and replaced with a more obviously fake carrier name [in an AOSP commit in January 2016](https://android.googlesource.com/platform/frameworks/opt/telephony/+/59d1e823d9a%5E%21/#F0) corresponding with some development version of Android Nougat, and the story ends there.
