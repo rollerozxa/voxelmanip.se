@@ -34,6 +34,13 @@ Since October 2020 I've been daily driving Linux on my desktop. Right now I'm si
 ## Contact
 See [Contact](/contact/)
 
+## Domains
+Links to some other domains I own. For a list of subdomains under `voxelmanip.se` see [Subdomains](/subdomains/).
+
+- [principia-web.se](https://principia-web.se) - Website for Principia
+
+- [luanti.se](https://luanti.se) - Unofficial Swedish website for Luanti
+
 ## Friends
 Here's links to the websites for some of my friends.
 
