@@ -1,0 +1,38 @@
+Android:
+  description: The Android operating system.
+
+Euro-Truck-Simulator-2:
+  description: Truck simulator game developed by SCS Software originally released in 2012.
+
+Guide:
+  description: Instructions on how to do something, usually based on personal experience with something.
+
+History:
+  description: A narrative retelling of past events, usually things that don't involve me but that I found interesting enough to write about.
+
+Humourous:
+  description: Amusing posts mostly for entertainment value.
+
+Linux:
+  description: Linux distributions, packaging, the terminal command-line and everything inbetween.
+
+Listicle:
+  description: Posts that follow a typical list format.
+
+Meta:
+  description: Posts about the blog itself.
+
+Minecraft:
+  description: Voxel sandbox game developed by Mojang.
+
+PHP:
+  description: Programming language primarily used for web development.
+
+School:
+  description: Posts originally written as school assignments.
+
+Storytime:
+  description: Telling a story about something I have made or done.
+
+Web:
+  description: The web, its technology and the development of thereof.
