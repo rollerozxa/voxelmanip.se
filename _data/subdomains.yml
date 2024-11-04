@@ -26,6 +26,11 @@
   host: ROllerozxa
   description: Voxelmanip Forums
 
+- domain: gps
+  host: GitHub
+  source: https://github.com/rollerozxa/gps.voxelmanip.se
+  description: Browser geolocation viewer
+
 - domain: grejer
   host: ROllerozxa
   description: Grejer!
@@ -64,6 +69,16 @@
   host: GitHub
   source: https://github.com/rollerozxa/sudoku.voxelmanip.se
   description: Landing page for the Sudoku Luanti game
+
+- domain: totp
+  host: GitHub
+  source: https://github.com/rollerozxa/totp.voxelmanip.se
+  description: TOTP code generator
+
+- domain: webcam
+  host: GitHub
+  source: https://github.com/rollerozxa/webcam.voxelmanip.se
+  description: Webcam tester
 
 - domain: wiki
   host: ROllerozxa
