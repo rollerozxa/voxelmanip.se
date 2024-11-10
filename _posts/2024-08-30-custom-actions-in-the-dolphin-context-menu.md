@@ -1,5 +1,5 @@
 ---
-title: Custom Actions in the Dolphin Context Menu
+title: Custom actions in the Dolphin context menu
 tags: Linux
 ---
 

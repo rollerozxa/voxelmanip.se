@@ -1,5 +1,5 @@
 ---
-title: The Linux File Structure
+title: The Linux file structure
 tags: Linux School
 no_cover: true
 redirect_from: /2022/02/12/The-Linux-File-Structure/

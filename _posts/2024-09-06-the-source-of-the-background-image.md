@@ -1,5 +1,5 @@
 ---
-title: The Source of the Background Image
+title: The source of the background image
 tags: Meta
 ---
 

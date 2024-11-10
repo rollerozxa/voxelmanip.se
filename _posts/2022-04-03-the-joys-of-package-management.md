@@ -1,5 +1,5 @@
 ---
-title: The joys of Package Management
+title: The joys of package management
 tags: Linux
 no_cover: true
 redirect_from: /2022/04/03/The-Joys-Of-Package-Management/
