@@ -29,11 +29,11 @@ This page contains a list of the software I use.
 - **Office Suite**: [LibreOffice](https://www.libreoffice.org/) (but I usually use a text editor & Markdown when I can)
 - **BitTorrent client**: [qBittorrent](https://www.qbittorrent.org/)
 - **Browser**: [Firefox](https://www.mozilla.org/sv-SE/firefox/new/) / [NetSurf](https://www.netsurf-browser.org/) (& Chromium for site testing)
-- **Image editing**: [GIMP](https://www.gimp.org/) (what else?)
+- **Image editing**: [GIMP](https://www.gimp.org/)
 - **Audio editing**: [Audacity](https://www.audacityteam.org/)
 - **Video editing**: [Kdenlive](https://kdenlive.org/en/)
 - **Vector image editor**: [Inkscape](https://inkscape.org/)
-- **Hex editor**: [GHex](https://wiki.gnome.org/Apps/Ghex) (YUCK) / [`hexcurse`](https://github.com/LonnyGomes/hexcurse)
+- **Hex editor**: [GHex](https://wiki.gnome.org/Apps/Ghex) / [`hexcurse`](https://github.com/LonnyGomes/hexcurse)
 - **Writing maths**: [Rnote](https://rnote.flxzt.net/)
 - **Disk space analyser**: [Filelight](https://apps.kde.org/sv/filelight/) / [QDirStat](https://github.com/shundhammer/qdirstat) / [`dust`](https://github.com/bootandy/dust)
 - **Archiver**: [Ark](https://apps.kde.org/ark/) / [`7z`](https://7-zip.org)[!]
@@ -42,7 +42,7 @@ This page contains a list of the software I use.
 - **Screen recording**: [OBS Studio](https://obsproject.com/)
 - **Image optimisation**: [`optipng`](https://optipng.sourceforge.net/) / [`guetzli`](https://github.com/google/guetzli) / [`pngquant`](https://pngquant.org/)
 - **Multimedia conversion**: `ffmpeg`
-- **TOTP authenticator**: `oathtool` ([OATH Toolkit](https://www.nongnu.org/oath-toolkit/))
+- **TOTP authenticator**: [`oathtool`](https://www.nongnu.org/oath-toolkit/) / [totp.voxelmanip.se](https://totp.voxelmanip.se)
 - **Filesystem search**: `find` & `grep`
 - **Bragging**: `hyfetch`
 - **System resource monitor**: [`btop`](https://github.com/aristocratos/btop)
