@@ -1,0 +1,146 @@
+- id: BILBIL01A1
+  name: Arts 1a1
+  points: 50
+  grade: D
+
+- id: CADCAD01
+  name: CAD 1
+  points: 50
+  grade: B
+
+- id: DAODAC0
+  name: Computing & networking
+  points: 100
+  grade: A
+
+- id: DIGDIG01
+  name: Digital design 1
+  points: 100
+  grade: A
+
+- id: ENGENG05
+  name: English 5
+  points: 100
+  grade: A
+
+- id: ENGENG06
+  name: English 6
+  points: 100
+  grade: A
+
+- id: ENGENG07
+  name: English 7
+  points: 100
+  grade: A
+
+- id: HÅLMIJ0
+  name: Environmental studies
+  points: 100
+  grade: B
+
+- id: FYSFYS01A
+  name: Physics 1a
+  points: 150
+  grade: C
+
+- id: FYSFYS02
+  name: Physics 2
+  points: 100
+  grade: E
+  notes:
+
+- id: GEOGEO01
+  name: Geography 1
+  points: 100
+  grade: E
+
+- id: GYARTE
+  name: Gymnasiearbete
+  points: 100
+  grade: OK
+  notes: '<a href="/projects/cirrusboard/">Cirrusboard</a> - "Webbapplication with LEMP-stack"'
+
+- id: HISHIS01A1
+  name: History 1a1
+  points: 50
+  grade: D
+
+- id: IDRIDR01
+  name: Exercise and health
+  points: 100
+  grade: E
+
+- id: KEMKEM01
+  name: Chemistry 1
+  points: 100
+  grade: D
+
+- id: MATMAT01C
+  name: Mathematics 1c
+  points: 100
+  grade: A
+
+- id: MATMAT02C
+  name: Mathematics 2c
+  points: 100
+  grade: C
+
+- id: MATMAT03C
+  name: Mathematics 3c
+  points: 100
+  grade: C
+
+- id: MATMAT04
+  name: Mathematics 4
+  points: 100
+  grade: C
+
+- id: MATMAT05
+  name: Mathematics 5
+  points: 100
+  grade: E
+
+- id: MEPMEI01
+  name: Media production 1
+  points: 100
+  grade: B
+
+- id: PRRPRR01
+  name: Programming 1
+  points: 100
+  grade: A
+
+- id: RELREL01
+  name: Religion studies 1
+  points: 50
+  grade: D
+
+- id: SAMSAM01B
+  name: Social studies 1
+  points: 100
+  grade: C
+
+- id: SVESVE01
+  name: Swedish 1
+  points: 100
+  grade: C
+
+- id: SVESVE02
+  name: Swedish 2
+  points: 100
+  grade: C
+
+- id: SVESVE03
+  name: Swedish 3
+  points: 100
+  grade: B
+
+- id: TEKTEK01
+  name: Technical development 1
+  points: 150
+  grade: B
+
+- id: WEUWEB01
+  name: Web development
+  points: 100
+  grade: A
