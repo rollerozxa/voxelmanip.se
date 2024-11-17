@@ -4,9 +4,13 @@ title: Posts (by tag)
 
 <p>This is a comprehensive list of all blog posts categorised by tag and sorted by their date.</p>
 
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless
-	forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign tags_list
-	= site_tags | split:',' | sort_natural %}
+{% capture site_tags %}
+	{%- for tag in site.tags -%}
+		{{ tag | first }}
+		{%- unless forloop.last %},{% endunless %}
+	{%- endfor -%}
+{% endcapture %}
+{% assign tags_list = site_tags | split:',' | sort_natural %}
 
 {% for tag in tags_list %}
 	<h2>{{ tag | replace: "-", " " }}</h2>
@@ -14,11 +18,7 @@ title: Posts (by tag)
 
 	<ul>
 		{% for post in site.tags[tag] %}
-			<li>
-				{% if post.draft %}🚧{% endif %}
-				<strong>{{ post.date | date:"%d %b %y" }}</strong> -
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			</li>
+			{% include post_entry_short.html post=post %}
 		{% endfor %}
 	</ul>
 {% endfor %}

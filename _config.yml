@@ -11,10 +11,7 @@ excerpt_separator: <!--more-->
 lang: en_GB
 
 exclude:
-  - CNAME
   - build_production.sh
-  - _site_production/
-  - patches/
   - "*.xcf"
 
 permalink: pretty

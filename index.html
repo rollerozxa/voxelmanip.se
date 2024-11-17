@@ -17,6 +17,7 @@
 				<a href="{{ post.url }}">
 					<img class="blogimage"
 						src="/media/{{ post.slug }}/cover.webp"
+						title="{{ post.cover_alt | escape }}"
 						alt="{{ post.cover_alt | escape }}"
 						width="1200" height="400"
 						loading="lazy">
