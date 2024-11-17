@@ -3,6 +3,11 @@ title: Contact
 description: You can contact me through a number of different ways.
 ---
 
+<div class="box">
+	<h3>Questions about Principia?</h3>
+	<p>Unless there is something that actually needs my personal attention, please ask them in Principia community channels such as the <a href="https://principia-web.se/forum/">forums</a> or the <a href="https://principia-web.se/discord">Discord</a>, or read on the <a href="https://principia-web.se/wiki/">Wiki</a>. I don't have time to give private support to everyone.</p>
+</div>
+
 You can contact me through a number of different ways. The list is ordered by roughly how frequently I check these accounts or how good of an idea it is to contact me through the platform.
 
 <table>

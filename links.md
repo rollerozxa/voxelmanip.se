@@ -3,4 +3,4 @@ title: Links
 sitemap: false
 ---
 
-Page decomissioned.
+Page decommissioned.
