@@ -12,6 +12,8 @@ title: Posts
 
 	<h2>{{ year }}</h2>
 
+	<p><strong>{{ posts | size }}</strong> posts consisting of <strong>{{ site.word_counts_by_year[year] | thousand_delimiter }}</strong> words in total.</p>
+
 	<ul>
 		{%- for post in posts -%}
 			{% include post_entry_short.html post=post %}
