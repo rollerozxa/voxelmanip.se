@@ -1,6 +1,7 @@
 ---
 title: How Let's Encrypt almost killed 1/3 of Android
 tags: Android History
+cover_alt: Image showing the Let's Encrypt logo to the left and the Android robot to the right with its limbs and antennae disconnected from the body and lying on the ground. The eyes are X'es implying it is dead.
 ---
 
 Nowadays HTTPS is no longer a luxury only afforded by your bank and other high security websites, but something every website simply should have. Because why shouldn't you, when there are free certificate authorities that allow you to conveniently secure your site for visitors as well as giving you access to transferring over HTTP/2?

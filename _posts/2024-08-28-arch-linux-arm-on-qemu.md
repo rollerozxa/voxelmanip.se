@@ -1,6 +1,7 @@
 ---
 title: Emulating Arch Linux ARM on x86 with QEMU
 tags: Linux Guide
+cover_alt: Screenshot of hyfetch output from the resulting Arch Linux ARM virtual machine running with QEMU.
 ---
 
 QEMU is usually used for creating virtual machines that operate with the same architecture as the host. However, QEMU is also an emulator that can emulate a wide variety of guest architectures on a host architecture.

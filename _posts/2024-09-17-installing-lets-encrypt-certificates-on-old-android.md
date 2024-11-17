@@ -1,6 +1,7 @@
 ---
 title: Installing Let's Encrypt certificates on old versions of Android
 tags: Android Guide
+cover_alt: Image showing the Let's Encrypt logo to the left and the Android robot to the right holding a marshmallow (referencing Android 6), the marshmallow has the Let's Encrypt padlock logo edited onto it.
 ---
 
 If you have tried to use any older Android device running Android Oreo 7.1 or below, you might have noticed insecure connection errors when trying to access websites in the browser, or Webview boxes in apps that show a blank page. The problem you are running into is likely that the site uses Let's Encrypt for their HTTPS certificates, who began dropping support for Android 7.1 and below in February of 2024 as a result of dropping the certificate that provided compatibility for older versions of Android.

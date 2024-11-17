@@ -1,6 +1,7 @@
 ---
 title: The source of the background image
 tags: Meta
+cover_alt: The background image, blurred and with three question marks in front of it.
 ---
 
 So I received an email about the picture that I use as a background image on my website. They were asking about the source of it as they couldn't find it from a reverse image search assuming it was a stock image I had taken from somewhere.

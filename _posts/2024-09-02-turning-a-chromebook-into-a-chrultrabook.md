@@ -1,6 +1,7 @@
 ---
 title: Turning a Chromebook into a Chrultrabook
 tags: Storytime Linux
+cover_alt: Photo of the screen of ROllerozxa's Chromebook showing the hyfetch output after it was corebooted and running Arch Linux. The wallpaper is Kirby swimming underwater.
 ---
 
 **Chromebook** is the name of Google's brand of mostly low-end laptops running Chrome OS, an operating system whose primary functionality is running the Google Chrome browser.
