@@ -12,12 +12,21 @@ title: Posts (by tag)
 {% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort_natural %}
 
+<div class="tags">
+	{% for tag in tags_list %}
+		<a class="tag" href="#{{ tag }}">{{ tag | replace: "-", " " }} ({{ site.tags[tag] | size }})</a>
+	{% endfor %}
+</div>
+
 {% for tag in tags_list %}
-	<h2>{{ tag | replace: "-", " " }}</h2>
-	<p>{{ site.data.tags[tag].description | default: "<strong>(Give me a description!!)</strong>" }}</p>
+	{%- assign posts = site.tags[tag] -%}
+
+	<h2 id="{{ tag }}">{{ tag | replace: "-", " " }}</h2>
+
+	<p>{{ site.data.tags[tag].description | default: "<strong class='warning'>(Give me a description!!)</strong>" }}</p>
 
 	<ul>
-		{% for post in site.tags[tag] %}
+		{% for post in posts %}
 			{% include post_entry_short.html post=post %}
 		{% endfor %}
 	</ul>

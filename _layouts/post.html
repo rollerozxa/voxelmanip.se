@@ -1,22 +1,39 @@
 ---
 layout: default
+no_header: true
 ---
 
-{% if page.subtitle %}
-	<h3>{{ page.subtitle }}</h3>
-{% endif %}
-
 {% unless page.no_cover %}
-	<img class="blogimage"
+	<img class="blogimage centerise"
 		src="/media/{{ page.slug }}/cover.webp"
 		title="{{ page.cover_alt | escape }}"
 		alt="{{ page.cover_alt | escape }}"
 		width="1200" height="400">
 {% endunless %}
 
-<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">
-	{{ page.date | date_to_long_string }}
-</time>
+<h1>{{ page.title }}</h1>
+
+{% if page.subtitle %}
+	<h3>{{ page.subtitle }}</h3>
+{% endif %}
+
+<div class="blogmeta">
+	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">
+		<a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a>
+	</time>
+
+	<span>{{ content | number_of_words }} words</span>
+
+	{% if page.tags.size != 0 %}
+		<div class="tags">
+		{% for tag in page.tags %}
+			<a class="tag" href="/posts-by-tag/#{{ tag }}">{{ tag | replace: "-", " " }}</a>
+		{% endfor %}
+		</div>
+	{% endif %}
+</div>
+
+{% if page.no_cover == nil and page.cover_alt == nil %}<p class="warning">Post does not have a cover alt!</p>{% endif %}
 
 {{ content }}
 

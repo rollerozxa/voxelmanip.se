@@ -4,19 +4,28 @@ title: Posts
 
 <p>This is a comprehensive list of all blog posts categorised by year and sorted by their date.</p>
 
+<p>For a list of posts categorised by tags see <a href="/posts-by-tag/">Posts (by tag)</a>.</p>
+
 {%- assign grouped_by_year = site.posts | group_by_exp:"post","post.date | date:'%Y' " -%}
 
 {%- for yearitem in grouped_by_year -%}
-	{% assign year = yearitem.name | abs %}
-	{% assign posts = yearitem.items %}
+	{%- assign year = yearitem.name | abs -%}
+	{%- assign posts = yearitem.items -%}
+
+	{%- assign word_count = 0 -%}
+
+	{%- for post in posts -%}
+		{%- assign post_word_count = post.content | number_of_words -%}
+	  	{%- assign word_count = word_count | plus: post_word_count -%}
+	{%- endfor %}
 
 	<h2>{{ year }}</h2>
 
-	<p><strong>{{ posts | size }}</strong> posts consisting of <strong>{{ site.word_counts_by_year[year] | thousand_delimiter }}</strong> words in total.</p>
+	<p><strong>{{ posts | size }}</strong> posts consisting of <strong>{{ word_count | thousand_delimiter }}</strong> words in total.</p>
 
 	<ul>
 		{%- for post in posts -%}
 			{% include post_entry_short.html post=post %}
 		{%- endfor -%}
 	</ul>
-{%- endfor -%}
+{% endfor -%}
