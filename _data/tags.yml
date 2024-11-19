@@ -13,6 +13,9 @@ History:
 Humourous:
   description: Amusing posts mostly for entertainment value.
 
+Informational:
+  description: Posts whose primary purpose is to inform about something.
+
 Linux:
   description: Linux distributions, packaging, the terminal command-line and everything inbetween.
 
