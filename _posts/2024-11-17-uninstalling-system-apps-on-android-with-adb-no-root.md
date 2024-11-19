@@ -8,9 +8,9 @@ If you've ever owned a couple Android devices you're definitively familiar with 
 
 Rooting your Android device usually makes you able to write to the system partition and delete system apps, but as time has gone on rooting has come with more headaches than the niceties it used to give you. While there are some that still choose to root their Android phone for the freedom it gives, a lot of us who may have done it in the past no longer do so just for the peace of mind of not having to deal with apps that check the device's "integrity".
 
-Thankfully there is still a way of getting rid of any unwanted system apps on Android using ADB, which does not require your device to be rooted.
-
 <!--more-->
+
+Thankfully there is still a way of getting rid of any unwanted system apps on Android using ADB, which does not require your device to be rooted.
 
 ## USB Debugging and ADB
 You have probably already got this set up but I'll give a quick rundown.
