@@ -1,6 +1,6 @@
 ---
 title: Archiving the Archive
-tags: Storytime Web
+tags: Project Web
 cover_alt: Screenshot of the new community site archive site at archive.principia-web.se
 ---
 

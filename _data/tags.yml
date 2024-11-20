@@ -31,6 +31,9 @@ Minecraft:
 PHP:
   description: Programming language primarily used for web development.
 
+Project:
+  description: Detailing a story about something I have made or done.
+
 School:
   description: Posts originally written as school assignments.
 
