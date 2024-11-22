@@ -1,5 +1,5 @@
-@import "rouge-theme";
-@import "fonts";
+@use "rouge-theme" as *;
+@use "fonts" as *;
 
 $body-background: #151515;
 $body-foreground: #efefef;
