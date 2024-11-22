@@ -3,7 +3,7 @@
 
 <h1 class="header-index">ROllerozxa<span class="link-icons">
 	{%- for link in site.data.indexlinks -%}
-		<a {% if link.relme %}rel="me"{% endif %} href="{{ link.url }}"><img src="/assets/icons/{{ link.icon }}"></a>
+		<a {% if link.relme %}rel="me"{% endif %} href="{{ link.url }}"><img src="/assets/icons/{{ link.icon }}" title="{{ link.title }}" alt="{{ link.title }}"></a>
 	{%- endfor -%}
 </span></h1>
 
