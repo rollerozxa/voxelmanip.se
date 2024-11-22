@@ -1,6 +1,7 @@
 title: ROllerozxa
 description: "ROllerozxa's personal website and blog"
 url: https://voxelmanip.se
+author: ROllerozxa
 
 baseurl: /
 
@@ -52,6 +53,6 @@ defaults:
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
