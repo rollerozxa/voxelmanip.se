@@ -40,10 +40,3 @@ Links to some other domains I own. For a list of subdomains under `voxelmanip.se
 - [principia-web.se](https://principia-web.se) - Website for Principia
 
 - [luanti.se](https://luanti.se) - Unofficial Swedish website for Luanti
-
-## Friends
-Here's links to the websites for some of my friends.
-
-- [kittynunu](https://dolphinana.codeberg.page/) &nbsp;❤️
-
-- [Danil_2461](https://danil.voxelmanip.se/)
