@@ -7,7 +7,7 @@ ozxa_at_the_top: true
 Hi, I'm ROllerozxa (pronounced *ROlleroska*, or *ROllerotska*). This is my site where I write about what I do and about whatever else interests me, in the case that someone else finds it interesting.
 
 ## About me
-I'm a 19 year old person from Sweden who has been interested in technology since I was very young, having been introduced to it at an early age. I would thrash floppies and fill my desktop with shortcut copies, but I eventually started to learn programming, starting out writing simple Batch scripts.
+I'm a 20 year old person from Sweden who has been interested in technology since I was very young, having been introduced to it at an early age. I would thrash floppies and fill my desktop with shortcut copies, but I eventually started to learn programming, starting out writing simple Batch scripts.
 <img src="/assets/cute_drawn_ralsei.webp" class="cute-ralsei" alt="Cute Ralsei" title="Cute Ralsei" onclick="this.src='/assets/cute_drawn_ralsei_squeak.webp'">
 
 I suppose I would describe myself as a programmer. I do web development, writing decent backends and shoddy frontends, dabble in game development, and occasionally do something completely different and out there. I do most of my work out in the open as open source, so you can check my [GitHub profile](https://github.com/rollerozxa/) for what I've been working on recently.
