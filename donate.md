@@ -1,10 +1,10 @@
 ---
 title: Donations
 description: Hi, my name is ROllerozxa. If you've found anything I've made or done to be useful to you, now would be the time to send a donation.
-no_title: true
+no_header: true
 ---
 
-<p class="c"><img src="/media/donate_banner.webp" width="1000" height="300"></p>
+<p class="c"><img src="/media/donate_banner.webp" width="1000" height="300" alt="Donate!"></p>
 
 Hi, my name is ROllerozxa. If you've found anything I've made or done to be useful to you, now would be the time to send a donation.
 
