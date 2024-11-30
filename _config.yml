@@ -26,9 +26,6 @@ sass:
   style: compressed
   sourcemap: never
 
-kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-
 collections:
   projects:
     output: true

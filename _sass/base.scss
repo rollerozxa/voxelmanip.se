@@ -6,8 +6,9 @@ $body-foreground: #efefef;
 $header: #1cdc9a;
 $blockquote-color: #c2c2c2;
 $blockquote-border: #666;
-$headerlink: #979797;
+$headerlink: #adadad;
 $link: #41b4f7;
+$link_active: #72c7f9;
 
 body {
 	margin: 0;
@@ -43,7 +44,7 @@ a, a code.highlighter-rouge {
 	}
 
 	&:active {
-		color: lighten($link, 10%);
+		color: $link_active;
 	}
 }
 
@@ -138,6 +139,12 @@ time {
 
 .c { text-align: center; }
 
+.postentry {
+	margin: 20px 0;
+	padding: 10px;
+	border-bottom: 1px dashed $header;
+}
+
 .blogimage {
 	display: block;
 	border: 1px dashed $header;
@@ -165,12 +172,12 @@ time {
 
 	a.tag {
 		display: inline-block;
-		background-color:#2e2e2e;
+		background-color: #2e2e2e;
 		color: white;
 		padding: 0 7px;
 
 		&:hover {
-			background-color: darken(#2e2e2e, 5%);
+			background-color: #212121;
 			text-decoration: none;
 		}
 	}
@@ -234,7 +241,6 @@ header {
 			color: $header;
 
 			&:hover {
-
 				text-decoration: none;
 			}
 		}
@@ -249,7 +255,7 @@ header {
 			color: $headerlink;
 
 			&:hover {
-				color: lighten($headerlink, 15%);
+				color: #d3d3d3;
 			}
 		}
 	}
@@ -268,6 +274,10 @@ header {
 
 footer {
 	border-top: 1px dashed $header;
+
+	p {
+		line-height: 1.5;
+	}
 }
 
 /*header, .container, footer {
@@ -310,6 +320,7 @@ footer {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	gap: 15px 5px;
+	margin-top: 20px;
 }
 
 .project {

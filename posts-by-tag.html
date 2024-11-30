@@ -26,8 +26,8 @@ title: Posts (by tag)
 	<p>{{ site.data.tags[tag].description | default: "<strong class='warning'>(Give me a description!!)</strong>" }}</p>
 
 	<ul>
-		{% for post in posts %}
+		{%- for post in posts -%}
 			{% include post_entry_short.html post=post %}
-		{% endfor %}
+		{%- endfor -%}
 	</ul>
 {% endfor %}

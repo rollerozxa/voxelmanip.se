@@ -1,0 +1,19 @@
+{% assign post = include.post %}
+<div class="postentry">
+	{% unless post.no_cover %}
+		<a href="{{ post.url }}">
+			<img class="blogimage centerise"
+				src="/media/{{ post.slug }}/cover.webp"
+				title="{{ post.cover_alt | escape }}"
+				alt="{{ post.cover_alt | escape }}"
+				width="1200" height="400"
+				loading="lazy">
+		</a>
+	{% endunless %}
+
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+	{% include blogmeta.html post=page clickable_time=false %}
+
+	<p>{{ post.excerpt }}</p>
+</div>

@@ -1,0 +1,16 @@
+{% assign post = include.post %}
+<div class="blogmeta">
+	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">
+		{% if include.clickable_time %}<a href="{{ post.url }}">{% endif %}{{ post.date | date_to_long_string }}{% if include.clickable_time %}</a>{% endif %}
+	</time>
+
+	<span>{{ post.content | number_of_words }} words</span>
+
+	{%- if post.tags.size != 0 -%}
+		<div class="tags">
+		{%- for tag in post.tags -%}
+			<a class="tag" href="/posts-by-tag/#{{ tag }}">{{ tag | replace: "-", " " }}</a>
+		{%- endfor -%}
+		</div>
+	{%- endif -%}
+</div>

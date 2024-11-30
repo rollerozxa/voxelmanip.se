@@ -17,21 +17,7 @@ no_header: true
 	<h3>{{ page.subtitle }}</h3>
 {% endif %}
 
-<div class="blogmeta">
-	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">
-		<a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a>
-	</time>
-
-	<span>{{ content | number_of_words }} words</span>
-
-	{% if page.tags.size != 0 %}
-		<div class="tags">
-		{% for tag in page.tags %}
-			<a class="tag" href="/posts-by-tag/#{{ tag }}">{{ tag | replace: "-", " " }}</a>
-		{% endfor %}
-		</div>
-	{% endif %}
-</div>
+{% include blogmeta.html post=page clickable_time=true %}
 
 {% if page.no_cover == nil and page.cover_alt == nil %}<p class="warning">Post does not have a cover alt!</p>{% endif %}
 
