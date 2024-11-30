@@ -56,7 +56,7 @@ This page contains a list of the software I use.
 - **IRC client**: [Quassel IRC](https://quassel-irc.org/) (formerly HexChat but GTK2 isn't getting any newer...)
 - **Content blocker**: [µBlock Origin](https://github.com/gorhill/uBlock)
 - **Performance overlay**: [MangoHud](https://github.com/flightlessmango/MangoHud)
-- **Gaming**: Steam[!], [Luanti](https://www.minetest.net/), [Principia](https://principia-web.se/)
+- **Gaming**: Steam[!], [Luanti](https://www.luanti.org/), [Principia](https://principia-web.se/)
 - **Console gaming (emulation)**: Dolphin, MelonDS, Citra, mGBA, PCSX2 etc.
 
 (`[!]` denotes software that is proprietary)
