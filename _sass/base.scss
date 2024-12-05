@@ -219,6 +219,10 @@ figure {
 .center { text-align: center; }
 .right { text-align: right; }
 
+.pixelated {
+	image-rendering: pixelated;
+}
+
 /// Layout \\\
 
 header, footer {
