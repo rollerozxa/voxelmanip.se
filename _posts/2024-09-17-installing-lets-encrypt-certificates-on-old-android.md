@@ -10,7 +10,7 @@ While there are alternative browsers such as Firefox that bundle their own CA st
 
 <!--more-->
 
-If you'd like to learn more about the cause of this happening to websites secured by Let's Encrypt, [the previous blog post](/2024/09/16/how-lets-encrypt-almost-killed-one-third-of-android/) goes over this in great narrative detail. But if you just fix it, then read on in this blog post.
+If you'd like to learn more about the cause of this happening to websites secured by Let's Encrypt, [the previous blog post](/2024/09/16/how-lets-encrypt-almost-killed-one-third-of-android/) goes over this in great narrative detail. But if you just want to fix it, then read on in this blog post.
 
 ## First things first
 In order to access most of the encrypted Internet nowadays you need to support TLSv1.2. Android has supported TLSv1.2 since Android 4.1, but was disabled unless the target API level was high enough. Android 4.4 Kitkat and onwards should always have TLSv1.2 support, which includes Android 5 Lollipop, Android 6 Marshmallow and Android 7 Oreo which support TLSv1.2 but do not have the Let's Encrypt certificate.
