@@ -29,7 +29,7 @@ In terms of gaming I like the beforementioned Principia and Luanti, albeit with 
 
 As for music, I like all kinds of tracker music, preferably played with `openmpt123` through the terminal or with MilkyTracker left playing on the screen when I am studying. You can check out my [favourites page on The Mod Archive](https://modarchive.org/index.php?request=view_member_favourites&query=93924) for the list of tracks in my favourite tracker music collection.
 
-Since October 2020 I've been daily driving Linux on my desktop. Right now I'm sitting on Arch Linux (btw) with KDE Plasma as my DE of choice. I use zsh with [my own config](https://github.com/rollerozxa/zshrc) for that nicer terminal feeling. I am also a maintainer for a little under hundred different packages in the Arch User Repository.
+Since October 2020 I've been daily driving Linux on my desktop. Right now I'm sitting on Arch Linux on both my desktop and laptop, with KDE Plasma as my DE of choice and I use zsh with [my own config](https://github.com/rollerozxa/zshrc) for that nicer terminal feeling. For a more detailed list of the software I use see my [Uses](/uses/) page.
 
 ## Contact
 See [Contact](/contact/)
