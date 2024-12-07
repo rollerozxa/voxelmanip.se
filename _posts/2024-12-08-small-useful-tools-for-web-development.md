@@ -20,7 +20,9 @@ Once you have selected your fonts along with the weight variants and charset sup
 ## [RealFaviconGenerator](https://realfavicongenerator.net/)
 Nowadays, the so-called "favicon" goes a lot further than just providing a simple favicon.ico at the root of your website. You've got icons in varying sizes for desktop and mobile, manifest metadata and maybe even more? It's gotten quite messy over the years.
 
-With RealFaviconGenerator you upload a full sized icon to the website and then you have the option of customising how it will look like across browsers as well as on iOS and Android. It will then generate all the icons you need along with the HTML tags you should put in the head of pages. It will also not generate obsolete icons you don't need anymore such as the Windows Metro icon and the MacBook Touch Bar icon, as well as favouring a favicon in vector format over making a dozen different sizes of bitmap favicons. If you provide a vector image as the input then this is what it will use for the vector favicon rather than embedding a bitmap, and rasterise the rest of the icons it generates.
+With RealFaviconGenerator you upload a full sized icon to the website and then you have the option of customising how it will look like across browsers as well as on iOS and Android. It will then generate all the icons you need along with the HTML tags you should put in the head of pages.
+
+It will also not generate obsolete icons you don't need anymore such as the Windows Metro icon and the MacBook Touch Bar icon, as well as favouring a favicon in vector format over making a dozen different sizes of bitmap favicons. If you provide a vector image as the input then this is what it will use for the vector favicon rather than embedding a bitmap, and rasterise the rest of the icons it generates.
 
 In general it turns generating favicons for a website into a pretty straightforward experience.
 
