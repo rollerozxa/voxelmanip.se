@@ -32,7 +32,8 @@
   description: Browser geolocation viewer
 
 - domain: grejer
-  host: ROllerozxa
+  host: Github
+  source: https://github.com/rollerozxa/grejer.voxelmanip.se
   description: Grejer!
 
 - domain: ketchupland
@@ -83,4 +84,4 @@
 - domain: wiki
   host: ROllerozxa
   source: https://github.com/rollerozxa/voxelmanip-minetest-wiki
-  description: The Voxelmanip Classic Wiki
+  description: The Voxelmanip Luanti Wiki
