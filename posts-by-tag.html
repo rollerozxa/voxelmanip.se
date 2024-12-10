@@ -23,7 +23,7 @@ title: Posts (by tag)
 
 	<h2 id="{{ tag }}">{{ tag | replace: "-", " " }}</h2>
 
-	<p>{{ site.data.tags[tag].description | default: "<strong class='warning'>(Give me a description!!)</strong>" }}</p>
+	{% if site.data.tags[tag].description %}<p>{{ site.data.tags[tag].description }}</p>{% endif %}
 
 	<ul>
 		{%- for post in posts -%}
