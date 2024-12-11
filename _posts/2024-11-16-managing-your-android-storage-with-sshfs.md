@@ -1,6 +1,6 @@
 ---
 title: Managing your Android storage with SSHFS
-tags: Android Guide
+tags: Android Guides
 cover_alt: Screenshot of the root of my Android phone's external storage as mounted through SSHFS.
 ---
 

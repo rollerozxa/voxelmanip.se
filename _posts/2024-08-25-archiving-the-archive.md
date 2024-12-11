@@ -1,6 +1,6 @@
 ---
 title: Archiving the Archive
-tags: Project Web
+tags: Projects Web
 cover_alt: Screenshot of the new community site archive site at archive.principia-web.se
 ---
 

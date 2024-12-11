@@ -4,7 +4,7 @@ Android:
 Euro-Truck-Simulator-2:
   description: Truck simulator game developed by SCS Software originally released in 2012.
 
-Guide:
+Guides:
   description: Instructions on how to do something, usually based on personal experience with something.
 
 History:
@@ -19,7 +19,7 @@ Informational:
 Linux:
   description: Linux distributions, packaging, the terminal command-line and everything inbetween.
 
-Listicle:
+Listicles:
   description: Posts that follow a typical list format.
 
 Meta:
@@ -31,14 +31,14 @@ Minecraft:
 PHP:
   description: Programming language primarily used for web development.
 
-Project:
+Projects:
   description: Detailing a story about something I have made or done.
 
 School:
-  description: Posts originally written as school assignments.
+  description: Posts originally written as school assignments, or posts talking about school assignments.
 
-Storytime:
-  description: Telling a story about something I have made or done.
+Terminal:
+  description: The text-based command-line interface, usually called the terminal or the commandline depending on the OS.
 
 Web:
   description: The web, its technology and the development of thereof.

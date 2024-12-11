@@ -1,6 +1,6 @@
 ---
 title: Visualising disk usage on a headless server with QDirStat
-tags: Guide Linux
+tags: Guides Linux
 cover_alt: Screenshot of the treemap of QDirStat showing a lot of coloured blocks representing differently sized files.
 ---
 

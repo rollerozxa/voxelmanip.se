@@ -1,6 +1,6 @@
 ---
 title: Setting up Android-x86 with Virt-Manager
-tags: Android Guide
+tags: Android Guides
 cover_alt: Screenshot of Apparatus running under Android-x86
 redirect_from: /2022/07/12/Setting-Up-Android-x86-With-Virt-Manager/
 ---

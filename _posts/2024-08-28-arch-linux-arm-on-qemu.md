@@ -1,6 +1,6 @@
 ---
 title: Emulating Arch Linux ARM on x86 with QEMU
-tags: Linux Guide
+tags: Linux Guides
 cover_alt: Screenshot of hyfetch output from the resulting Arch Linux ARM virtual machine running with QEMU.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: TOTP - The most misunderstood 2FA method
-tags: Informational Guide
+tags: Informational Guides
 cover_alt: "'TOTP - Time-based one time password'. The Google Authenticator logo is used as an asterisk above TOTP, in the background are screenshots of 2FA instructions for various services."
 ---
 

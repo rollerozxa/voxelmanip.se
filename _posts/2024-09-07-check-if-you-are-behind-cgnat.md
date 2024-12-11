@@ -1,6 +1,6 @@
 ---
 title: How to check if you are behind CGNAT
-tags: Guide
+tags: Guides
 cover_alt: Screenshot of terminal output from trying to do a traceroute on voxelmanip.se.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Reinventing The Wheel
-tags: Project Web
+tags: Projects Web
 cover_alt: Screenshot of the main page of the Principia Wiki.
 subtitle: "<b>Alternate title:</b> Writing a Wiki software from scratch"
 redirect_from: /2022/11/06/Reinventing-The-Wheel/

@@ -1,6 +1,6 @@
 ---
 title: Turning a Chromebook into a Chrultrabook
-tags: Linux Project
+tags: Linux Projects
 cover_alt: Photo of the screen of ROllerozxa's Chromebook showing the hyfetch output after it was corebooted and running Arch Linux. The wallpaper is Kirby swimming underwater.
 ---
 

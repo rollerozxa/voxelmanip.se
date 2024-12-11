@@ -1,6 +1,6 @@
 ---
 title: Converting multimedia with ffmpeg
-tags: Guide
+tags: Guides Terminal
 cover_alt: ffmpeg logo
 redirect_from: /2023/05/23/Converting-Media-With-ffmpeg/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Small useful tools for web development
-tags: Listicle Web
+tags: Listicles Web
 cover_alt: Screenshots of the Google Webfonts helper, RealFaviconGenerator and Pictogrammers websites stacked on top of eachother.
 ---
 

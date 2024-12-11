@@ -1,6 +1,6 @@
 ---
 title: Installing Let's Encrypt certificates on old versions of Android
-tags: Android Guide
+tags: Android Guides
 cover_alt: Image showing the Let's Encrypt logo to the left and the Android robot to the right holding a marshmallow (referencing Android 6), the marshmallow has the Let's Encrypt padlock logo edited onto it.
 ---
 

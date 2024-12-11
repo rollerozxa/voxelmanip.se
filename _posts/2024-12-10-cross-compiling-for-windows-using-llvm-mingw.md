@@ -1,6 +1,6 @@
 ---
 title: Cross-compiling for Windows using llvm-mingw
-tags: Guide Linux Windows
+tags: Guides Linux Windows
 cover_alt: Screenshot of terminal output from configuring SDL for crosscompiling using llvm-mingw. The LLVM logo and the MinGW-w64 logo is shown to the right.
 ---
 

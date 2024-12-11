@@ -1,6 +1,6 @@
 ---
 title: Washing your Blåhaj
-tags: Guide
+tags: Guides
 cover_alt: Image of Blåhaj tucked underneath the sheets... ^-^
 redirect_from: /2023/09/29/Washing-Your-Blaahaj/
 ---
