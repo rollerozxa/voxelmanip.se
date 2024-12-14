@@ -1,7 +1,7 @@
 ---
 title: SDL_LEAN_AND_MEAN
 tags: Informational SDL
-cover_alt: The SDL logo with crudely drawn limbs and a face on it. It has angry eyebrows and it is running fast, as noted by the
+cover_alt: The SDL logo with crudely drawn limbs and a face on it. It has angry eyebrows and it is running fast, as noted by the speed lines
 ---
 
 As storage space becomes larger and larger even on the most modest of phones and bandwidth is becoming evermore plentiful, software tends to become larger in size over time as the necessity to optimise filesizes decreases. But there are also people who wish to reverse the trend by trying to conserve the amount of space their resulting program becomes through going closer to the metal or finding clever ways to cut down the size of their dependencies.
