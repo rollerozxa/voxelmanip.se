@@ -38,7 +38,7 @@ While you should *never* test your Windows programs with only Wine and should al
 
 {% include image.html
 	name="asteroids.webp"
-	alt="Screenshot of the directory tree of QDirStat showing some of the largest folders in the root of a server." %}
+	alt="Screenshot of the Asteroids game running under Wine" %}
 
 The above command compiles for 64-bit x86 which is likely what you are on right now, but to compile for another architecture you would want to switch out the `x86_64` in the beginning of the executable name. llvm-mingw supports all four relatively recent processor architectures that Windows support, which are the following:
 
