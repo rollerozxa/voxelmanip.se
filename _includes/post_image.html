@@ -1,0 +1,6 @@
+<img class="blog-image centerise"
+	src="/media/{{ include.name }}/cover.webp"
+	title="{{ include.alt | escape }}"
+	alt="{{ include.alt | escape }}"
+	width="1200" height="400"
+	{% if include.lazy %}loading="lazy"{% endif %}>

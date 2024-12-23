@@ -1,0 +1,48 @@
+@use "_vars" as *;
+
+.header-index {
+	display: flex;
+	justify-content: space-between;
+	min-width: 330px;
+}
+
+.link-icons {
+	text-align: right;
+
+	a {
+		display: inline-block;
+		margin: 0 10px;
+		vertical-align: text-top;
+
+		&:hover {
+			transform: scale(1.1, 1.1);
+		}
+	}
+
+	img {
+		width: 32px;
+		height: 32px;
+	}
+}
+
+.postentry {
+	margin: 20px 0;
+	padding: 10px;
+	border-bottom: 1px dashed $header;
+}
+
+.pagination {
+	text-align: center;
+	font-size: 20pt;
+
+	&:before {
+		font-size: 14pt;
+		vertical-align: middle;
+		content: "Pages:";
+		margin-right: 10px;
+	}
+
+	.page-item {
+		margin: 5px 20px;
+	}
+}

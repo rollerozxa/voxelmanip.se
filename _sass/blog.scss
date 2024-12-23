@@ -1,0 +1,38 @@
+@use "_vars" as *;
+
+.blog-image {
+	display: block;
+	border: 1px dashed $header;
+	margin-bottom: 20px;
+
+	&.centerise {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.blog-meta {
+	margin-top: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 0 25px;
+	align-items: center;
+}
+
+.tags {
+	display: flex;
+	gap:15px;
+	flex-flow: row wrap;
+
+	a.tag {
+		display: inline-block;
+		background-color: #2e2e2e;
+		color: white;
+		padding: 0 7px;
+
+		&:hover {
+			background-color: #212121;
+			text-decoration: none;
+		}
+	}
+}

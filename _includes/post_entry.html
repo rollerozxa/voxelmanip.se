@@ -2,12 +2,7 @@
 <div class="postentry">
 	{% unless post.no_cover %}
 		<a href="{{ post.url }}">
-			<img class="blogimage centerise"
-				src="/media/{{ post.slug }}/cover.webp"
-				title="{{ post.cover_alt | escape }}"
-				alt="{{ post.cover_alt | escape }}"
-				width="1200" height="400"
-				loading="lazy">
+			{% include post_image.html name=post.slug alt=post.cover_alt lazy=true %}
 		</a>
 	{% endunless %}
 
@@ -15,5 +10,5 @@
 
 	{% include blogmeta.html post=page clickable_time=false %}
 
-	<p>{{ post.excerpt }}</p>
+	{{ post.excerpt }}
 </div>

@@ -4,11 +4,7 @@ no_header: true
 ---
 
 {% unless page.no_cover %}
-	<img class="blogimage centerise"
-		src="/media/{{ page.slug }}/cover.webp"
-		title="{{ page.cover_alt | escape }}"
-		alt="{{ page.cover_alt | escape }}"
-		width="1200" height="400">
+	{% include post_image.html name=page.slug alt=page.cover_alt %}
 {% endunless %}
 
 <h1>{{ page.title }}</h1>

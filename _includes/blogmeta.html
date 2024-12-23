@@ -1,5 +1,5 @@
 {% assign post = include.post %}
-<div class="blogmeta">
+<div class="blog-meta">
 	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">
 		{% if include.clickable_time %}<a href="{{ post.url }}">{% endif %}{{ post.date | date_to_long_string }}{% if include.clickable_time %}</a>{% endif %}
 	</time>

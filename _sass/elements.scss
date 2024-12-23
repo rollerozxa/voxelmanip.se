@@ -1,0 +1,108 @@
+@use "_vars" as *;
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $body-background;
+	color: $body-foreground;
+	font-size: 14pt;
+	font-family: 'Noto Serif', 'Roboto Serif', 'Roboto Slab', serif;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	background: url('/media/skog_bg_1080.webp') #040404;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body, p, li {
+	line-height: 2;
+}
+
+
+/// Links \\\
+
+a, a code.highlighter-rouge {
+	color: $link;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:active {
+		color: $link_active;
+	}
+}
+
+
+/// Header tags \\\
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0 0;
+	font-weight: normal;
+	color: $header;
+}
+
+h1 { font-size: 1.80em; margin-top: 0; }
+h2 { font-size: 1.45em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
+
+
+/// Other generic element styling \\\
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul li {
+	list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 -6 24 24'%3E%3Cpath d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z' fill='%231cdc9a'/%3E%3C/svg%3E");
+}
+
+blockquote {
+	color: $blockquote-color;
+	padding-left: 10px;
+	border-left: 1px solid $blockquote-border;
+}
+
+table {
+	width: auto;
+	border-collapse: collapse;
+	margin: 0 0 20px 0;
+	border: 1px dashed $header;
+
+	th {
+		text-align: center;
+	}
+	td, th {
+		padding: 5px 10px;
+		border-bottom: 1px dashed $header;
+	}
+}
+
+hr {
+	height: 0;
+	border: 0;
+	border-bottom: 1px dashed $header;
+}
+
+figure {
+	text-align: center;
+	margin: 10px 0;
+
+	figcaption {
+		font-style: italic;
+		margin-top: 3px;
+	}
+
+	img {
+		border-radius: 6px;
+	}
+}

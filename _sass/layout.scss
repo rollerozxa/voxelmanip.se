@@ -1,0 +1,60 @@
+@use "_vars" as *;
+
+header, footer {
+	text-align: center;
+	background: rgba(10, 10, 10, 0.94);
+}
+
+header {
+	border-bottom: 1px dashed $header;
+	padding: 20px 20px 10px;
+
+	.title {
+		font-size: 36px;
+		line-height: 1.5;
+		margin: 0;
+		font-weight: bold;
+		margin-bottom: 10px;
+
+		a {
+			color: $header;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.links {
+		a {
+			display: inline-block;
+			margin: 2px 7px;
+			padding: 5px;
+			font-size: 18px;
+			color: $headerlink;
+
+			&:hover {
+				color: #d3d3d3;
+			}
+		}
+	}
+}
+
+.content {
+	flex: 1;
+}
+
+.container {
+	max-width: 1280px;
+	margin: auto;
+	background-color: rgba(10, 10, 10, 0.97);
+	padding: 20px;
+}
+
+footer {
+	border-top: 1px dashed $header;
+
+	p {
+		line-height: 1.5;
+	}
+}

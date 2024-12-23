@@ -1,0 +1,65 @@
+@use "_vars" as *;
+
+.projects {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	gap: 15px 5px;
+	margin-top: 20px;
+}
+
+.project {
+	position: relative;
+
+	border: 1px dashed $header;
+	border-radius: 5px;
+	padding: 0;
+	line-height: 0;
+
+	img {
+		width: 410px;
+		margin: 0;
+		border-radius: 5px;
+		display: inline-block;
+		padding: 0;
+	}
+
+	.title, .subtitle {
+		background-color: rgba(0, 0, 0, 0.9);
+		color: #ffffff;
+		display: inline-block;
+		position: absolute;
+		left: 0;
+
+		line-height: 1.5;
+		padding: 0px 20px;
+	}
+
+	.title {
+		top: 125px;
+		font-size: 24pt;
+		font-weight: bold;
+	}
+
+	.subtitle {
+		top: 173px;
+	}
+
+	&:hover, &:active {
+		filter: brightness(1.1);
+	}
+
+	&:active {
+		filter: brightness(0.9);
+	}
+}
+
+.proj-showcase {
+	float: right;
+	width: 480px;
+	max-width: 100%;
+
+	border: 1px dashed $header;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,26 @@
+@use "_vars" as *;
+
+.warning { color: red; }
+.warning, time { font-weight: bold; }
+
+.box {
+	border: 1px dashed $header;
+	padding: 0 10px;
+	margin: 1.5em 0;
+
+	h3 {
+		margin-top: 5px;
+		margin-bottom: -5px;
+	}
+}
+
+.mono { font-family: monospace; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.pixelated { image-rendering: pixelated; }
+
+.side-img {
+	float: right;
+	margin: 0px 10px;
+}
