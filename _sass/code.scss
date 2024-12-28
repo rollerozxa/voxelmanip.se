@@ -11,6 +11,7 @@ pre {
 	word-wrap: normal;
 	overflow: auto;
 	overflow-y: hidden;
+	tab-size: 4;
 }
 
 // Codeblocks
@@ -38,7 +39,7 @@ pre.highlight {
 		color: #8b9eaf;
 	}
 	.err, .gr, .gt {
-		color: #960050;
+		color: #f03c80;
 	}
 	.gd, .gi, .ge {
 		color: #49483e;
