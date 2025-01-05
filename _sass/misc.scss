@@ -24,3 +24,24 @@
 	float: right;
 	margin: 0px 10px;
 }
+
+.sponsors-button {
+	display: inline-block;
+	background-color: #191919;
+	border: 1px solid #343434;
+	border-radius: 5px;
+	padding: 5px 30px;
+	color: white;
+	margin: 15px 0;
+
+	&:hover {
+		background-color: #202020;
+		text-decoration: none;
+	}
+
+	.label {
+		vertical-align: top;
+		margin-left: 5px;
+		font-family: sans-serif;
+	}
+}
