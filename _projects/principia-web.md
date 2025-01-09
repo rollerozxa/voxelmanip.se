@@ -20,6 +20,6 @@ This was my first ever project that was public in any large capacity, and taught
 
 The site also features a forum and wiki, latter of which was written entirely from scratch purpose built for principia-web. You can read more about the first iteration of the Wiki software [in this blog post](/2022/11/06/Reinventing-The-Wheel/), which has been forked off as a separate Wiki software called [Wikiozxa](/projects/wikiozxa). The Principia Wiki has since then been rewritten to be backed by a Git repository, which will likely be written about in a blog post sometime.
 
-Recently (August 2022), the original author of Principia came back and open sourced it, as was promised to the community some years back. With this, principia-web has become the main community site that the open source Principia uses in addition to me [stepping up to become the maintainer of the open source project](/projects/principia/).
+In August of 2022, the original author of Principia came back and open sourced it, as was promised to the community some years back. With this, principia-web has become the main community site that the open source Principia uses in addition to me [stepping up to become the maintainer of the open source project](/projects/principia/).
 
-...Not bad for a first project.
+...Not bad for a first project. In January of 2025 I wrote [a blog post going over the story of principia-web in more detail](/2025/01/09/the-story-of-principia-web/).
