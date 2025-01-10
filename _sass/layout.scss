@@ -2,19 +2,16 @@
 
 header, footer {
 	text-align: center;
-	background: rgba(10, 10, 10, 0.94);
+	background: rgba(10, 10, 10, 0.96);
 }
 
 header {
 	border-bottom: 1px dashed $header;
-	padding: 20px 20px 10px;
+	padding: 7px 20px 10px;
 
 	.title {
 		font-size: 36px;
-		line-height: 1.5;
-		margin: 0;
 		font-weight: bold;
-		margin-bottom: 10px;
 
 		a {
 			color: $header;
@@ -25,17 +22,15 @@ header {
 		}
 	}
 
-	.links {
-		a {
-			display: inline-block;
-			margin: 2px 7px;
-			padding: 5px;
-			font-size: 18px;
-			color: $headerlink;
+	.links a {
+		display: inline-block;
+		margin: 2px 7px;
+		padding: 5px;
+		font-size: 18px;
+		color: $headerlink;
 
-			&:hover {
-				color: #d3d3d3;
-			}
+		&:hover {
+			color: #d3d3d3;
 		}
 	}
 }
@@ -45,10 +40,17 @@ header {
 }
 
 .container {
-	max-width: 1280px;
+	max-width: 1240px;
 	margin: auto;
-	background-color: rgba(10, 10, 10, 0.97);
+	background-color: rgba(10, 10, 10, 0.98);
 	padding: 20px;
+	box-sizing: content-box;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		padding: 20px 10px;
+	}
 }
 
 footer {

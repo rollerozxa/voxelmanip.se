@@ -1,11 +1,11 @@
 @use "_vars" as *;
 
-// Inline preformatted text
+// Codeblocks
 pre {
 	background: rgba(0, 0, 0, 0.9);
 	border: 1px solid rgba(255, 255, 255, 0.15);
+	font-size: 1rem;
 	padding: 10px;
-	font-size: 16px;
 	color: $header;
 	border-radius: 4px;
 	word-wrap: normal;
@@ -14,9 +14,12 @@ pre {
 	tab-size: 4;
 }
 
-// Codeblocks
+pre, .mono, code {
+	font-family: "Fira Mono", "Roboto Mono", "Terminal", monospace;
+}
+
+// Inline preformatted text
 code.highlighter-rouge {
-	font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Terminal", monospace;
 	background: rgba(0,0,0,0.9);
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	padding: 0px 3px;

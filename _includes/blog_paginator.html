@@ -2,7 +2,7 @@
 <div class="pagination">
 	{%- for page in (1..paginator.total_pages) -%}
 		{%- if page == paginator.page -%}
-			<span class="page-item">{{ page }}</span>
+			<span class="page-item current-page">{{ page }}</span>
 		{%- elsif page == 1 -%}
 			<a href="/" class="page-item">{{ page }}</a>
 		{%- else -%}

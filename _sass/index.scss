@@ -33,16 +33,22 @@
 
 .pagination {
 	text-align: center;
-	font-size: 20pt;
-
-	&:before {
-		font-size: 14pt;
-		vertical-align: middle;
-		content: "Pages:";
-		margin-right: 10px;
-	}
+	font-size: 1.4em;
 
 	.page-item {
-		margin: 5px 20px;
+		margin: 5px 5px;
+		display: inline-block;
+		background-color: #2e2e2e;
+		color: white;
+		padding: 0 14px;
+
+		&.current-page {
+			background-color: #2c4d28;
+		}
+	}
+
+	a.page-item:hover {
+		background-color: #212121;
+		text-decoration: none;
 	}
 }

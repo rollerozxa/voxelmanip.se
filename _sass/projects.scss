@@ -6,6 +6,8 @@
 	justify-content: space-around;
 	gap: 15px 5px;
 	margin-top: 20px;
+	margin-left: -7px;
+	margin-right: -7px;
 }
 
 .project {
@@ -36,13 +38,13 @@
 	}
 
 	.title {
-		top: 125px;
-		font-size: 24pt;
+		top: 140px;
+		font-size: 22pt;
 		font-weight: bold;
 	}
 
 	.subtitle {
-		top: 173px;
+		top: 184px;
 	}
 
 	&:hover, &:active {
