@@ -4,7 +4,7 @@ tags: Projects Web
 cover_alt: Screenshot of the front page of principia-web.se, showing the navigation bar and the featured levels at the time of the screenshot.
 ---
 
-principia-web is two things: it is both an open source implementation of a Principia community site that can communicate with the client, and it is the name of the new Principia community site. While Principia is now an open source project with the source code being available for everyone to read and understand how things work, when I started working on principia-web in late 2019 this was far from the case.
+[principia-web](https://principia-web.se/) is two things: it is both an open source implementation of a Principia community site that can communicate with the client, and it is the name of the new Principia community site. While Principia is now [an open source project](https://github.com/Bithack/principia/) with the source code being available for everyone to read and understand how things work, when I started working on principia-web in late 2019 this was far from the case.
 
 Back then, it was still an abandoned proprietary game with little to nothing known about its internals, file formats or how it interfaced with the community site. The official community site had shut down in early 2018 and the remains of the community resided in a small Discord server, which I was a part of. But I was determined to take on this project, which I did not fully know the scope of at the time, and create a new website for the community to upload and share Principia levels.
 
