@@ -3,8 +3,8 @@ title: Box Smasher
 image: boxsmasher
 timeframe: "2023-"
 technologies: "LÖVE (Lua)"
-license: N/A
-website: https://rollerozxa.itch.io/box-smasher
+license: GPLv3
+website: https://boxsmasher.voxelmanip.se
 repo: https://github.com/rollerozxa/boxsmasher
 ---
 
@@ -12,14 +12,4 @@ Box Smasher was a game originally written as the final assignment for my program
 
 <!--more-->
 
-It is currently available for Android on Google Play:
-
-<a href="https://play.google.com/store/apps/details?id=se.voxelmanip.boxsmasher">
-	<img alt="Get it on Google Play" src="/assets/buttons/google_play.webp" width="240">
-</a>
-
-It is also available on itch.io:
-
-<a href="https://rollerozxa.itch.io/box-smasher">
-	<img alt="Get it on itch.io" src="/assets/buttons/itch.svg" width="240">
-</a>
+You can find information about how to download it on [the download page of the Box Smasher website](https://boxsmasher.voxelmanip.se/download/).

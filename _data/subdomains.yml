@@ -2,6 +2,11 @@
   host: ROllerozxa
   source: https://github.com/rollerozxa/rollerozxa.github.io
   description: ROllerozxa's website and blog
+  
+- domain: boxsmasher
+  host: GitHub
+  source: https://github.com/rollerozxa/boxsmasher.voxelmanip.se
+  description: Website for Box Smasher
 
 - domain: cirrus
   host: GitHub
