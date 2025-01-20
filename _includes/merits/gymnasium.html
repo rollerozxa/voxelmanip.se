@@ -1,0 +1,18 @@
+<table>
+	<tr>
+		<th>Course</th>
+		<th>Name</th>
+		<th>Points</th>
+		<th>Grade</th>
+		<th>Notes</th>
+	</tr>
+	{% for course in site.data.merits.gymnasium %}
+		<tr>
+			<td class="right mono">{{ course.id }}</td>
+			<td>{{ course.name }}</td>
+			<td class="right">{{ course.points }}</td>
+			<td class="right">{{ course.grade }}</td>
+			<td>{{ course.notes }}</td>
+		</tr>
+	{% endfor %}
+</table>

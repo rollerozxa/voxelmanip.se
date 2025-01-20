@@ -1,0 +1,25 @@
+{% assign total_credits = 0 %}
+
+<table>
+	<tr>
+		<th>Course</th>
+		<th>Name</th>
+		<th>Credits</th>
+		<th>Status</th>
+	</tr>
+	{% for course in site.data.merits.uni_se %}
+		{%- assign total_credits = total_credits | plus: course.credits -%}
+		<tr>
+			<td class="right mono">{{ course.id }}</td>
+			<td>{{ course.name }}</td>
+			<td class="right">{{ course.credits }}{% if course.total_credits %}/{{ course.total_credits }}{% endif %}</td>
+			<td>{{ course.status | default: "Completed" }}</td>
+		</tr>
+	{% endfor %}
+	<tr>
+		<td></td>
+		<td class="right"><strong>Total:</strong></td>
+		<td class="right"><strong>{{ total_credits }}</strong></td>
+		<td></td>
+	</tr>
+</table>

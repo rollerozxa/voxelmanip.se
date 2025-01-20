@@ -1,0 +1,66 @@
+
+- id: DT195G
+  name: Operating Systems
+  credits: 0.0
+  total_credits: 7.5
+  status: Upcoming
+
+- id: DT042G
+  name: Methods and Tools in Software Projects
+  credits: 0.0
+  total_credits: 7.5
+  status: Upcoming
+
+- id: DT031G
+  name: Application Development for the Android Platform
+  credits: 4.0
+  total_credits: 7.5
+  status: Waiting
+
+- id: DT190G
+  name: Web Development with Javascript
+  credits: 2.5
+  total_credits: 7.5
+  status: Waiting
+
+- id: DT182G
+  name: Scientific Writing and Argumentation
+  credits: 7.5
+
+- id: DT181G
+  name: Object Oriented Programming II
+  credits: 3.5
+  total_credits: 7.5
+  status: Waiting
+
+- id: DT180G
+  name: Object Oriented Programming I
+  credits: 7.5
+
+- id: MA140G
+  name: Discrete Mathematics for Programmers
+  credits: 7.5
+
+- id: DT194G
+  name: Software Engineering
+  credits: 7.5
+
+- id: DT188G
+  name: Databases - Modelling and Implementing
+  credits: 7.5
+
+- id: DT151G
+  name: Data and Computer Communications, with Applications in Linux
+  credits: 7.5
+
+- id: DT146G
+  name: Web Programming with HTML5, CSS3 and JavaScript
+  credits: 7.5
+
+- id: DT179G
+  name: Programming Fundamentals
+  credits: 7.5
+
+- id: DT186G
+  name: Introduction to Software Engineering
+  credits: 7.5
