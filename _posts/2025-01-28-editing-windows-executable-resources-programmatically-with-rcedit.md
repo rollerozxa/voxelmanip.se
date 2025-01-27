@@ -21,7 +21,7 @@ For the Windows version of the LÖVE runtime it supports a so-called "fused" mod
 cat love.exe game.love > game.exe
 ```
 
-Once you run `game.exe`, it will read the embedded .love file and launch it, giving the game full control over the experience. But the executable file itself will, outside of the different filename, remain quite LÖVE-y.
+Once you run `game.exe`, it will read the embedded `.love` file and launch it, giving the game full control over the experience. But the executable file itself will, outside of the different filename, remain quite LÖVE-y.
 
 {% include image.html
 	name="fused_game_exe.webp"
