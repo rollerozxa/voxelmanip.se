@@ -1,6 +1,9 @@
 Android:
   description: The Android operating system.
 
+Anecdotes:
+  description: Recollections of personal events, usually with some lesson to be learned.
+
 Euro-Truck-Simulator-2:
   description: Truck simulator game developed by SCS Software originally released in 2012.
 
