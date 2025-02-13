@@ -13,9 +13,7 @@
 
 - id: DT031G
   name: Application Development for the Android Platform
-  credits: 4.0
-  total_credits: 7.5
-  status: Waiting
+  credits: 7.5
 
 - id: DT190G
   name: Web Development with Javascript
