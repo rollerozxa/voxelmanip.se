@@ -1,6 +1,7 @@
 ---
 title: Voxelmanip Classic
 image: voxelmanip_classic
+date: 2022-03-20
 timeframe: "2022-"
 technologies: "Luanti (...what else?)"
 license: MIT/CC-BY-SA 4.0

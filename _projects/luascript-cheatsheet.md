@@ -1,6 +1,7 @@
 ---
 title: LuaScript Cheatsheet
 image: luascript_cheatsheet
+date: 2024-07-23
 timeframe: "2024"
 technologies: "HTML & CSS"
 license: N/A

@@ -1,6 +1,7 @@
 ---
 title: Principia (FOSS)
 image: principia
+date: 2022-08-11
 timeframe: 2022-
 technologies: C/C++
 license: BSD-3

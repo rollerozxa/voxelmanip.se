@@ -1,10 +1,10 @@
 ---
 title: Wikiozxa
 image: wikiozxa
-timeframe: "2022-"
+date: 2022-12-16
+timeframe: "2022-2023"
 technologies: "PHP, MariaDB/MySQL"
 license: N/A
-website: https://classic.voxelmanip.se
 repo: https://github.com/rollerozxa/wikiozxa
 ---
 
@@ -14,4 +14,4 @@ Wikiozxa is a wiki software forked off of the wiki I originally wrote for [princ
 
 It used to run both the [Voxelmanip Classic](https://classic.voxelmanip.se/wiki/) and [Cirrusboard](https://cirrus.voxelmanip.se/) wikis but ended up later being converted to static sites and migrated onto GitHub Pages.
 
-Currently, a fork of the software (that replaces the MariaDB database with reading Markdown files from a Git repository) powers [The Voxelmanip Luanti Wiki](https://wiki.voxelmanip.se/).
+A [fork of the software](https://github.com/rollerozxa/voxelmanip-wiki-wikiozxa) that replaces the MariaDB database with reading Markdown files from a Git repository used to power The Voxelmanip Luanti Wiki, until it was decommissioned in favour of the contents being migrated to the new Luanti Documentation site.

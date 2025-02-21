@@ -1,10 +1,13 @@
 ---
 title: Luanti content
 image: minetest_content
+date: 2021-06-06
 timeframe: "2021-"
 technologies: "Luanti (heh), Lua"
 license: Various (MIT-GPLv3)
 website: https://content.luanti.org/users/ROllerozxa/
+redirect_from:
+- /projects/minetest-content/
 ---
 
 I've made various content for Luanti...

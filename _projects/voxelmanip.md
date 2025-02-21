@@ -1,11 +1,12 @@
 ---
 title: voxelmanip.se
 image: voxelmanip
+date: 2021-09-30
 timeframe: "2021-"
 technologies: "HTML, CSS (SCSS), Jekyll"
 license: ¯\_(ツ)_/¯
 website: https://voxelmanip.se
-repo: https://github.com/rollerozxa/rollerozxa.github.io
+repo: https://github.com/rollerozxa/voxelmanip.se
 ---
 
 I've always wanted some kind of blog and site where I can write about stuff. And, as such... It was made, and you are here now.

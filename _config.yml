@@ -30,7 +30,7 @@ collections:
   projects:
     output: true
     layout: project
-    sort_by: timeframe
+    sort_by: date
 
 defaults:
   - scope:

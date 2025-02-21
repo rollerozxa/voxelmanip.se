@@ -1,6 +1,7 @@
 ---
 title: Box Smasher
 image: boxsmasher
+date: 2023-03-12
 timeframe: "2023-"
 technologies: "LÖVE (Lua)"
 license: GPLv3
@@ -12,4 +13,10 @@ Box Smasher was a game originally written as the final assignment for my program
 
 <!--more-->
 
-You can find information about how to download it on [the download page of the Box Smasher website](https://boxsmasher.voxelmanip.se/download/).
+For more information, Box Smasher has [its own website about the game](https://boxsmasher.voxelmanip.se/). It is also available on F-Droid and itch.io:
+
+<a href="https://f-droid.org/packages/se.voxelmanip.boxsmasher/">
+	<img src="/assets/buttons/fdroid.webp" alt="Get it on F-Droid" style="height:80px"></a>
+<span>&nbsp;&nbsp;</span>
+<a href="https://rollerozxa.itch.io/box-smasher">
+	<img src="/assets/buttons/itch.svg" alt="Available on itch.io" style="height:80px"></a>
