@@ -1,8 +1,8 @@
 - domain: "@"
   host: ROllerozxa
-  source: https://github.com/rollerozxa/rollerozxa.github.io
+  source: https://github.com/rollerozxa/voxelmanip.se
   description: ROllerozxa's website and blog
-  
+
 - domain: boxsmasher
   host: GitHub
   source: https://github.com/rollerozxa/boxsmasher.voxelmanip.se
@@ -64,7 +64,7 @@
 - domain: nodecore
   host: GitHub
   source: https://github.com/rollerozxa/nodecore.voxelmanip.se
-  description: Landing page for the NodeCore android app
+  description: Landing page for the NodeCore Android app
 
 - domain: rollertest
   host: GitHub
@@ -75,6 +75,11 @@
   host: GitHub
   source: https://github.com/rollerozxa/sudoku.voxelmanip.se
   description: Landing page for the Sudoku Luanti game
+
+- domain: tippity-type
+  host: GitHub
+  source: https://github.com/rollerozxa/tippity-type
+  description: Web-based typing speed test game
 
 - domain: totp
   host: GitHub
@@ -87,6 +92,6 @@
   description: Webcam tester
 
 - domain: wiki
-  host: ROllerozxa
-  source: https://github.com/rollerozxa/voxelmanip-minetest-wiki
-  description: The Voxelmanip Luanti Wiki
+  host: GitHub
+  source: https://github.com/rollerozxa/voxelmanip-wiki
+  description: (Formerly) The Voxelmanip Luanti Wiki
