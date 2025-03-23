@@ -25,6 +25,9 @@ Linux:
 Listicles:
   description: Posts that follow a typical list format.
 
+Luanti:
+  description: Free and open source voxel game engine & platform. Formerly known as Minetest.
+
 Meta:
   description: Posts about the blog itself.
 
