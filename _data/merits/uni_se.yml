@@ -37,9 +37,7 @@
 
 - id: DT181G
   name: Object Oriented Programming II
-  credits: 3.5
-  total_credits: 7.5
-  status: Waiting... >:(
+  credits: 7.5
 
 - id: DT180G
   name: Object Oriented Programming I
