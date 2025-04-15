@@ -2,7 +2,7 @@
 title: Tensy
 image: tensy
 date: 2024-09-09
-timeframe: "2024-2025"
+timeframe: "2024-"
 technologies: C & SDL3
 license: GPLv3
 repo: https://github.com/rollerozxa/tensy
