@@ -28,6 +28,9 @@ Listicles:
 Luanti:
   description: Free and open source voxel game engine & platform. Formerly known as Minetest.
 
+Markdown:
+  description: A ubiquitous yet conceptually simple markup language.
+
 Meta:
   description: Posts about the blog itself.
 
