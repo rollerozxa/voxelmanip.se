@@ -11,17 +11,15 @@
   total_credits: 7.5
   status: Ongoing
 
-- id: DT195G
-  name: Operating Systems
-  credits: 3.0
-  total_credits: 7.5
-  status: Waiting
-
 - id: DT042G
   name: Methods and Tools in Software Projects
   credits: 3.0
   total_credits: 7.5
   status: Waiting
+
+- id: DT195G
+  name: Operating Systems
+  credits: 7.5
 
 - id: DT031G
   name: Application Development for the Android Platform
