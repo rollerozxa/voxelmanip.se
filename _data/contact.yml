@@ -18,14 +18,6 @@
   value: "@rollerozxa:matrix.org"
   note: Encryption welcome!
 
-- id: irc
-  name: IRC
-  value: ROllerozxa @ <a href="https://libera.chat/">irc.libera.chat</a>
-
 - id: mastodon
   name: Mastodon
   value: <a href="https://hachyderm.io/@ROllerozxa">@ROllerozxa@hachyderm.io</a>
-
-- id: principia-web
-  name: principia-web
-  value: <a href="https://principia-web.se/user/1">ROllerozxa</a>
