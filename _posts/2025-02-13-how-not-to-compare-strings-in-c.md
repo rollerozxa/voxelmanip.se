@@ -166,7 +166,7 @@ $ x86_64-w64-mingw32-clang string.c string2.c -flto -o string.exe && wine string
 000000014000354F
 ```
 
-Which brings us back to how GCC only did this when optimisation is enabled &ndash; deduplicating string literals across compilation units is only possible when you have the full picture of the entire program's compilation units at the very end of the build process, and you are linking them together into the final executable. However rudimentary it may be, it is indeed a *link-time optimisation*.
+Which brings us back to how GCC only did this when optimisation is enabled &mdash; deduplicating string literals across compilation units is only possible when you have the full picture of the entire program's compilation units at the very end of the build process, and you are linking them together into the final executable. However rudimentary it may be, it is indeed a *link-time optimisation*.
 
 ## Closing words
 The reason it ended up working by accident does indeed make sense when you start to peek under the hood and look at certain optimisations that are done by the compiler, but this is very much an optimisation done at the compiler's discretion that you should *never* rely on, as it is very clearly **undefined behaviour**. Even if you are using the same compiler, just changing the target can be enough to change the code generation in unexpected ways.

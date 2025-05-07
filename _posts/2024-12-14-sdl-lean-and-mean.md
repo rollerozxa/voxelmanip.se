@@ -33,7 +33,7 @@ The build option is not exposed as a proper CMake option, which [is intentional]
 
 `-DCMAKE_C_FLAGS="-DSDL_LEAN_AND_MEAN=1"`
 
-Then build. To check that the flag has been applied apart from comparing the size difference from a , you can check in the `libSDL3.a` static library that files like `SDL_RLEaccel.c.obj` and `SDL_render_sw.c.obj` are stubbed &ndash; they should only be mere bytes in size compared to the other object files.
+Then build. To check that the flag has been applied apart from comparing the size difference from a , you can check in the `libSDL3.a` static library that files like `SDL_RLEaccel.c.obj` and `SDL_render_sw.c.obj` are stubbed &mdash; they should only be mere bytes in size compared to the other object files.
 
 ## How much will it save?
 For testing, I will be compiling SDL3 commit [6cc9ce1](https://github.com/libsdl-org/SDL/commit/6cc9ce183d904489bf8e33e26b91d6012667e1b0) in release mode.

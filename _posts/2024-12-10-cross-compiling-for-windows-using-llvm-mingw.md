@@ -15,7 +15,7 @@ The versatility of the toolchain and the convenience of the distribution has led
 ## Downloading it
 The toolchain is reproducibly built using a bunch of scripts in the repository that are run in Github Actions. Prebuilt toolchains are available on the [GitHub releases page](https://github.com/mstorsjo/llvm-mingw/releases).
 
-The `.zip` artifacts are native toolchains that run on Windows, while the `.tar.xz` artifacts are cross-compilation toolchains that run on Linux (as well as one for macOS). The architecture names refer to the architecture that the toolchain itself can run on, not the builds it can produce &ndash; all of the toolchain downloads can compile for all four architectures.
+The `.zip` artifacts are native toolchains that run on Windows, while the `.tar.xz` artifacts are cross-compilation toolchains that run on Linux (as well as one for macOS). The architecture names refer to the architecture that the toolchain itself can run on, not the builds it can produce &mdash; all of the toolchain downloads can compile for all four architectures.
 
 There are also two different variants of downloads, UCRT and MSVCRT, referring to the C runtime that the toolchain is built to run compiled programs against. MSVCRT is a C runtime that has been found in Windows ever since Windows 98. [It is old and crusty](https://www.msys2.org/docs/environments/#msvcrt-vs-ucrt). UCRT is much newer, being introduced with Windows 10 and [has also been made available all the way back to Windows Vista](https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-c0514201-7fe6-95a3-b0a5-287930f3560c) through Windows Update.
 

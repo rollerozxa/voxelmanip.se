@@ -27,7 +27,7 @@ Most programs are destined to have to deal with both CRLF and LF, or convert to 
 
 In a moment of brilliance by whoever decided on the web standards, they felt that web developers aren't suffering enough and decided that CRLF is the default form of newline in HTTP. It is used for newlines in HTTP headers, and it is used for form data, to the horror of any web developer who has to watch in terror as their backend parses these cursed line endings.
 
-Many code functions have been written to solve one problem &ndash; strip those damn `\r` characters. This code snippets originates from a mentally ill PHP developer's codebase (The illness caused either by CRLF or PHP, doctors are still uncertain about the cause):
+Many code functions have been written to solve one problem &mdash; strip those damn `\r` characters. This code snippets originates from a mentally ill PHP developer's codebase (The illness caused either by CRLF or PHP, doctors are still uncertain about the cause):
 
 ```php
 function normalise($text) {

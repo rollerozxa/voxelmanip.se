@@ -131,7 +131,7 @@ SDL_FRect srcrect = {
 	GLYPH_HEIGHT };
 ```
 
-Then the destination rect, which should be pretty self-explanatory &ndash; just the size of a glyph, scaled to the scale.
+Then the destination rect, which should be pretty self-explanatory &mdash; just the size of a glyph, scaled to the scale.
 
 ```c
 SDL_FRect dstrect = {
