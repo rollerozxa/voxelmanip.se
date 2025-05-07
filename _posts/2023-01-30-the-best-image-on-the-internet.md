@@ -12,7 +12,7 @@ A while back I came across an image while randomly browsing the internet, a meme
 {% include image.html
 	name="1_1.webp" %}
 
-It starts out by throwing you straight into the plot with a heartwrenching image of Apu lying on the floor crying after having fallen and spilling his food all over the floor. From the shadow, you can notice that someone is standing in front of him, Jerma. He is then introduced as the second character of the story in the second image. He is holding a Dunkin' Donuts milkshake (Note for people outside of the United States of America - Dunkin' Donuts is some place where they sell donuts, dunks, and milkshakes I guess), and stretching out his arm as if he's offering it to Apu.
+It starts out by throwing you straight into the plot with a heartwrenching image of Apu lying on the floor crying after having fallen and spilling his food all over the floor. From the shadow, you can notice that someone is standing in front of him, Jerma. He is then introduced as the second character of the story in the second image. He is holding a Dunkin' Donuts milkshake (Note for people outside of the United States of America &ndash; Dunkin' Donuts is some place where they sell donuts, dunks, and milkshakes I guess), and stretching out his arm as if he's offering it to Apu.
 
 Right now this image seems all in all pretty wholesome. Jerma gives Apu his Dunkin', helps him up from the floor, they walk off both being happy... Right?
 

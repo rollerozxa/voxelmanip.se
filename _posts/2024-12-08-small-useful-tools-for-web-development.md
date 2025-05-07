@@ -37,4 +37,4 @@ Meta tags are invisible HTML tags that are put in the head of the document for s
 There are likely hundreds of other similar sites that do the same thing of visualising the metadata in a way common services do it, but this is the one I typically use sometimes to make sure everything looks right on a live site.
 
 ## ["How to Center in CSS"](http://howtocenterincss.com)
-This one is admittedly a bit tongue-in-cheek and perhaps dated now in 2024 (wow look, it mentions IE6!) when support for Flexbox has become almost universal, making centering things a much more straightforward process most of the time. Nonetheless it may of course be useful when you're really lost and you ask yourself the age old question - How do I center in CSS?
+This one is admittedly a bit tongue-in-cheek and perhaps dated now in 2024 (wow look, it mentions IE6!) when support for Flexbox has become almost universal, making centering things a much more straightforward process most of the time. Nonetheless it may of course be useful when you're really lost and you ask yourself the age old question: How do I center in CSS?

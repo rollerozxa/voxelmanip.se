@@ -117,7 +117,7 @@ SDL_Point cell = {
 	(character-32) / (FONT_WIDTH/GLYPH_WIDTH) };
 ```
 
-The magic number 32 corresponds to the starting character of the font atlas in ASCII. If you look at a [character set for ASCII](https://en.wikipedia.org/wiki/ASCII#Character_set) you can see two rows of control characters that precede the space character - the Monogram bitmap font starts at the space character so we simply realign it so you can provide ASCII character codes and get the corresponding glyph in the atlas.
+The magic number 32 corresponds to the starting character of the font atlas in ASCII. If you look at a [character set for ASCII](https://en.wikipedia.org/wiki/ASCII#Character_set) you can see two rows of control characters that precede the space character. The Monogram bitmap font then starts at the space character so we simply realign it so you can provide ASCII character codes and get the corresponding glyph in the atlas.
 
 Now the glyph needs to be cut out from the atlas texture. The `SDL_RenderTexture` function takes two rect arguments, the first `srcrect` is what we're interested in.
 
@@ -131,7 +131,7 @@ SDL_FRect srcrect = {
 	GLYPH_HEIGHT };
 ```
 
-Then the destination rect, which should be pretty self-explanatory - just the size of a glyph, scaled to the scale.
+Then the destination rect, which should be pretty self-explanatory &ndash; just the size of a glyph, scaled to the scale.
 
 ```c
 SDL_FRect dstrect = {

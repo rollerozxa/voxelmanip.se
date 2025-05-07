@@ -33,7 +33,7 @@ pandoc document.md --output=document.pdf --pdf-engine=weasyprint
 
 Your Markdown document `document.md` will now have been converted into `document.pdf`, and is ready for viewing in your favourite PDF reader.
 
-To make things even smoother, I have a Bash script (which I call `markdown-hydrator`) that does this - converting a Markdown file with the filename passed to the script which will generate a `.pdf` with the same filename, and then opening it in my PDF reader [Okular](https://okular.kde.org/) for previewing.
+To make things even smoother, I have a Bash script (which I call `markdown-hydrator`) that does this &ndash; converting a Markdown file with the filename passed to the script which will generate a `.pdf` with the same filename, and then opening it in my PDF reader [Okular](https://okular.kde.org/) for previewing.
 
 ```bash
 #!/bin/bash
