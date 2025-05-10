@@ -3,6 +3,11 @@
   source: https://github.com/rollerozxa/voxelmanip.se
   description: ROllerozxa's website and blog
 
+- domain: android
+  host: GitHub
+  source: https://github.com/rollerozxa/android.voxelmanip.se
+  description: The Old Android Game Archive
+
 - domain: boxsmasher
   host: GitHub
   source: https://github.com/rollerozxa/boxsmasher.voxelmanip.se
@@ -27,6 +32,11 @@
   host: ROllerozxa
   description: ROllerozxa's public file dump
 
+- domain: floodfill
+  host: GitHub
+  source: https://github.com/rollerozxa/floodfill
+  description: Web version of <a href="/projects/floodfill/">Flood Fill</a>
+
 - domain: forum
   host: ROllerozxa
   description: Voxelmanip Forums
@@ -39,7 +49,7 @@
 - domain: grejer
   host: Github
   source: https://github.com/rollerozxa/grejer.voxelmanip.se
-  description: Grejer!
+  description: (Formerly) Grejer!
 
 - domain: ketchupland
   host: GitHub
@@ -75,6 +85,11 @@
   host: GitHub
   source: https://github.com/rollerozxa/sudoku.voxelmanip.se
   description: Landing page for the Sudoku Luanti game
+
+- domain: tensy
+  host: GitHub
+  source: https://github.com/rollerozxa/tensy
+  description: Web version of <a href="/projects/tensy/">Tensy</a>
 
 - domain: tippity-type
   host: GitHub
