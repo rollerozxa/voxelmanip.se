@@ -161,6 +161,10 @@ The result is a .vpk file that is able to run in Vita3K, and assumedly also on r
 	alt="Screenshot of Tensy in-game, running in the Vita3K emulator."
 	max_width=750 %}
 
+While working on the Vita port, I noticed something was off with SDL's mouse event emulation. There is a hint by the name of [`SDL_HINT_VITA_TOUCH_MOUSE_DEVICE`](https://wiki.libsdl.org/SDL3/SDL_HINT_VITA_TOUCH_MOUSE_DEVICE) which determines from what touchscreen(s) SDL should create emulated mouse events for, as the Vita actually has two touchscreens including the one on the back of the console. The default is supposed to emulate only the front touchscreen, but from my testing it seemed to be completely off from the values that were documented on the SDL wiki.
+
+Turns out this was an off-by-one bug, and [my fix for this](https://github.com/libsdl-org/SDL/commit/cdc5483cf9683fabf0a897954a510574e61af418) ended up being the first commit I have gotten into the main SDL repository. While I have made edits in the SDL wiki's GitHub repository prior to this, this was my first code contribution to SDL. It's always a nice feeling when your personal project ends up uncovering and subsequently fixing a bug in such a well-known library.
+
 ## What more is there?
 I ended up porting the game to quite the amount of platforms. But there are still a wide range of more platforms that SDL supports out of the box:
 
@@ -176,7 +180,9 @@ In addition to this, there are downstream forks that maintain support for platfo
 Considering running Tensy on the Wii U would be pretty nifty, I might end up writing the bare necessities for a SDL3 -> SDL2 compatibility layer for Tensy unless a SDL3 port is developed before I get to that.
 
 ## Conclusion
-In the end, I ported the game to 7 different platforms, each with their own set of architectures to cover. While doing this, I also took the time to set up CI in GitHub Actions to build the game for every supported platform when I push new commits for the game. Then when a successful build is made, it then gets uploaded to the [rolling](https://github.com/rollerozxa/tensy/releases/tag/rolling) release tag to act as a permanent storage for the latest builds of the game for every platform. The process of keeping all ports alive becomes very streamlined and easy to manage, and a lot of scaffolding becomes reusable for future projects.
+In the end, I ported the game to 7 different platforms, each with their own set of architectures to cover. While doing this, I also took the time to set up CI in GitHub Actions to build the game for every supported platform when I push new commits for the game. Then when a successful build is made, it then gets uploaded to the [rolling](https://github.com/rollerozxa/tensy/releases/tag/rolling) release tag to act as a permanent storage for the latest builds of the game for every platform. The latest version of the web version also gets deployed to GitHub Pages and is currently what is available on [tensy.voxelmanip.se](https://tensy.voxelmanip.se).
+
+The process of keeping all ports alive becomes very streamlined and easy to manage, and a lot of scaffolding becomes reusable for future projects.
 
 For instance when I picked back up a Lua game project which I had been working on earlier in 2024, by the name of [Flood Fill](/projects/floodfill/), I wanted to rewrite it into C as the SDL2 bindings for Lua I were using were really starting to hold it down by the end. I started from the Tensy codebase (as well as the additional experience with C that I had gotten from it) and in an instant I had immediately ported the game to 7 platforms. This little thing that was originally written in Lua was now ready to run on a Vita after a day or two of rewriting parts of the game into C.
 
