@@ -13,11 +13,6 @@
   value: rollerozxa
   note: No Nitro gifts please!
 
-- id: matrix
-  name: Matrix
-  value: "@rollerozxa:matrix.org"
-  note: Encryption welcome!
-
 - id: mastodon
   name: Mastodon
   value: <a href="https://hachyderm.io/@ROllerozxa">@ROllerozxa@hachyderm.io</a>
