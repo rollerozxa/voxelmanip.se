@@ -1,5 +1,6 @@
 ---
 title: Merits
+description: This page contains the various educational merits I have.
 ---
 
 This page contains the various educational merits I have.

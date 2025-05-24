@@ -9,6 +9,8 @@ license: MIT (mostly)
 
 This page aims to serve as an umbrella for various small web tools I have written and made available for others to also use.
 
+<!--more-->
+
 Most of them were created to serve my own use cases &mdash; maybe I want to check the geolocation data my browser emits, have a simple TOTP code generator at hand, or check that my webcam is functional before going into a meeting. But some of them have ended up being useful to others, either spreading through word of mouth suggesting them to others, or through discovering them in Google search results. Being web-based, they are accessible on anything with a web browser, including smartphones.
 
 Common with all the tools is that they are completely client-side. JavaScript does all of the dynamic functionality and nothing leaves the user's browser. This of course also makes them able to be saved locally by downloading the website's source repository and keeping it locally, for offline use.
