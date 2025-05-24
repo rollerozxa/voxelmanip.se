@@ -1,0 +1,19 @@
+{% assign meta_description = page.description | default: page.excerpt | strip_html | normalize_whitespace | default: site.description | escape -%}
+
+<meta name="description" content="{{ meta_description }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ROllerozxa">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% if page.layout == "post" %}
+	{% unless page.no_cover %}
+		<meta property="og:image" content="{{ site.url }}/media/{{ page.slug }}/cover.webp">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content="{{ site.url }}/media/{{ page.slug }}/cover.webp">
+	{% endunless %}
+{% endif %}
+<meta name="fediverse:creator" content="@ROllerozxa@hachyderm.io">
+<meta name="theme-color" content="#1cdc9a">
