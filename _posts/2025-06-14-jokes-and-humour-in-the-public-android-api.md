@@ -15,7 +15,7 @@ While it may initially look like a joke when it's described as returning true if
 
 It is referring to the [UI Exerciser Monkey](https://developer.android.com/studio/test/other-testing-tools/monkey), which is a developer tool for Android that simulates random sequences of user input in order to stress-test apps. So this method will return a boolean of whether the Monkey is currently running or not.
 
-The introduction of such a method to detect the usage of the Monkey appears to have an origin in something that happened during Android's development, as per a quote from the book *[Androids: The Team that Built the Android Operating System](https://play.google.com/store/books/details/Chet_Haase_Androids)*:
+The introduction of such a method to detect the usage of the Monkey appears to have an origin in something that happened during Android's development, as per a quote from the book *[Androids: The Team that Built the Android Operating System](https://www.chethaase.com/androids)*:
 
 > One day I walked into the monkey lab to hear a voice say, '911 -What's your emergency?" That situation resulted in Dianne adding a new function to the API, `isUserAMonkey()` which is used to gate actions that monkeys shouldn't take during tests (including dialing the phone and resetting the device).
 
