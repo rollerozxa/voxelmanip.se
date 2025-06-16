@@ -26,7 +26,7 @@ public void getOperator(Message result) {
 }
 ```
 
-The string is present as far back as the Android M3 RC20a pre-release SDK build from November 2007, and I am sure the person on the original Android development team felt very proud about their funny pun.
+The string is present as far back as the Android M3 RC20a pre-release SDK build from November 2007, and I am sure the person on the original Android development team felt very proud about their funny pun. (Edit: Someone pointed out that the name may have been a play on the restaurant name El Taco Loco, which sounds like a plausible origin considering it does exist on the US west coast)
 
 Normally the values present in `SimulatedCommands` should not be visible on any end user build of Android, as they are only used to simulate the presence of telephony in a testing environment. And every Android device that gets released to consumers will have functioning telephony, right? A phone would be quite useless without being able to use it like a phone after all.
 
