@@ -8,6 +8,11 @@
   source: https://github.com/rollerozxa/android.voxelmanip.se
   description: The Old Android Game Archive
 
+- domain: apparatus
+  host: GitHub
+  source: https://github.com/rollerozxa/apparatus.voxelmanip.se
+  description: Unofficial website for Apparatus
+
 - domain: boxsmasher
   host: GitHub
   source: https://github.com/rollerozxa/boxsmasher.voxelmanip.se
