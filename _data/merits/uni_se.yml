@@ -1,15 +1,11 @@
 
 - id: DT167G
   name: Software Security
-  credits: 3.5
-  total_credits: 7.5
-  status: Waiting
+  credits: 7.5
 
 - id: DT183G
   name: Data Structures and Algorithms
-  credits: 4.0
-  total_credits: 7.5
-  status: Waiting
+  credits: 7.5
 
 - id: DT042G
   name: Methods and Tools in Software Projects
