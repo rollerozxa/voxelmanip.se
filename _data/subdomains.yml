@@ -28,6 +28,11 @@
   source: https://github.com/Voxelmanip-Classic/site
   description: Wiki for the Voxelmanip Classic server
 
+- domain: colorbackgrounds
+  host: GitHub
+  source: https://github.com/rollerozxa/colorbackgrounds.voxelmanip.se
+  description: Colored Desktop Backgrounds
+
 - domain: danil
   host: GitHub
   source: https://github.com/danil275487/danil275487.github.io
@@ -45,6 +50,11 @@
 - domain: forum
   host: ROllerozxa
   description: Voxelmanip Forums
+
+- domain: gbghackeri
+  host: GitHub
+  source: https://github.com/rollerozxa/gbghackeri.voxelmanip.se
+  description: Göteborgs hackeri
 
 - domain: gps
   host: GitHub
