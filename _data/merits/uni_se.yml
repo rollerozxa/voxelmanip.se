@@ -1,4 +1,16 @@
 
+- id: DT175G
+  name: Artificial Intelligence for Agents
+  credits: 0.0
+  total_credits: 7.5
+  status: Ongoing
+
+- id: DT214G
+  name: Principles and Practices in Software Testing
+  credits: 0.0
+  total_credits: 7.5
+  status: Ongoing
+
 - id: DT167G
   name: Software Security
   credits: 7.5
