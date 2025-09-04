@@ -1,0 +1,12 @@
+---
+title: Notes
+description: This directory contains miscellaneous notes about things that may be of interest to others but don't warrant an entire blog post, including but not limited to code snippets, useful commands and random musings.
+---
+
+<p>This directory contains miscellaneous notes about things that may be of interest to others but don't warrant an entire blog post, including but not limited to code snippets, useful commands and random musings.</p>
+
+<ul>
+	{% for note in site.notes %}
+		<li><a href="{{ note.url }}">{{ note.title }}</a></li>
+	{% endfor %}
+</ul>

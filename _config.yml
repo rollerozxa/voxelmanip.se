@@ -31,12 +31,20 @@ collections:
     output: true
     layout: project
     sort_by: date
+  notes:
+    output: true
+    layout: note
 
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "note"
   - scope:
       path: ""
       type: "posts"
