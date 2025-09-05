@@ -50,14 +50,14 @@ Ko-fi supports both one-time and monthly donations natively. Apparently you can 
 <br>
 
 <a href="https://rollerozxa.itch.io">
-	<img id="itch" src="/assets/buttons/itch_generic.svg" alt="itch.io" style="height:80px"></a>
+	<img id="itch" src="/assets/buttons/itch_generic.svg" alt="itch.io" width="240"></a>
 
 I have various games and other creative works available on Itch.io, which you can pay for.
 
 <br>
 
 <a href="https://hetzner.cloud/?ref=FE5BiIwBUUfN">
-	<img id="hetzner" src="/assets/buttons/hetzner.svg" alt="Hetzner" width=200 style="vertical-align:bottom"></a>
+	<img id="hetzner" src="/assets/buttons/hetzner.svg" alt="Hetzner" width="200" style="vertical-align:bottom"></a>
 (referral link)
 
 Hetzner is a German cloud hosting company that powers the services I run. If you are not already a customer you can sign up with my referral link to get free 20€ credits for any of Hetzner's products. (VPSes, dedicated servers, storage boxes, etc.) Once you have spent 10€ I also get 10€ in credits in return, going towards keeping my server online.
