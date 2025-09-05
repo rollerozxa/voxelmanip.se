@@ -10,6 +10,9 @@
 - url: /files/
   title: Files
 
+- url: /notes/
+  title: Notes
+
 - url: /about/
   title: About
 
