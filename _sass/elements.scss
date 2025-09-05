@@ -105,3 +105,11 @@ figure {
 		border-radius: 6px;
 	}
 }
+
+details {
+	summary {
+		background-color: rgba(255,255,255,0.05);
+		padding: 10px;
+		font-style: italic;
+	}
+}
