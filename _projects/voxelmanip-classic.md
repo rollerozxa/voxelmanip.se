@@ -15,4 +15,4 @@ Voxelmanip Classic is a Luanti server that I run. It is intended to be a recreat
 
 Many players enjoy it for its minimalism and simplicity, the limited block palette makes you think twice about how to build and it is a lightweight game that is quick to connect to and light on resources.
 
-If you would like to connect, the address is `voxelmanip.se` and port is `30001`, it is also available in the Luanti serverlist.
+If you would like to connect, the address is `server.voxelmanip.se` and port is `30001`, it is also available in the Luanti serverlist.
