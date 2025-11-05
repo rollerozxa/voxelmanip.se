@@ -5,8 +5,10 @@ description: This directory contains miscellaneous notes about things that may b
 
 <p>This directory contains miscellaneous notes about things that may be of interest to others but don't warrant an entire blog post, including but not limited to code snippets, useful commands and random musings.</p>
 
+<p>List of notes are ordered by last modified date:</p>
+
 <ul>
-	{% for note in site.notes %}
-		<li><a href="{{ note.url }}">{{ note.title }}</a></li>
+	{% for note in site.notes reversed %}
+		<li><strong>{{ note.last_modified }}</strong> &ndash; <a href="{{ note.url }}">{{ note.title }}</a></li>
 	{% endfor %}
 </ul>

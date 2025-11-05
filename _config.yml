@@ -34,6 +34,7 @@ collections:
   notes:
     output: true
     layout: note
+    sort_by: last_modified
 
 defaults:
   - scope:
