@@ -1,15 +1,25 @@
 
-- id: DT175G
-  name: Artificial Intelligence for Agents
+- id: DT166G
+  name: Presenting New Technology
   credits: 0.0
   total_credits: 7.5
   status: Ongoing
+
+- id: DT176G
+  name: Reactive Programming
+  credits: 0.0
+  total_credits: 7.5
+  status: Ongoing
+
+- id: DT175G
+  name: Artificial Intelligence for Agents
+  credits: 7.5
 
 - id: DT214G
   name: Principles and Practices in Software Testing
   credits: 0.0
   total_credits: 7.5
-  status: Ongoing
+  status: Waiting
 
 - id: DT167G
   name: Software Security
