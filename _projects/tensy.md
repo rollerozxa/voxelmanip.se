@@ -5,6 +5,7 @@ date: 2024-09-09
 timeframe: "2024-"
 technologies: C & SDL3
 license: GPLv3
+website: https://tensy.voxelmanip.se
 repo: https://github.com/rollerozxa/tensy
 ---
 
@@ -14,4 +15,9 @@ The game was inspired by [Pancelor's *Make Ten*](https://pancelor.itch.io/make-t
 
 Being written in C and using SDL, the game is very portable. It has currently been ported to 7 platforms: Windows, macOS, Linux, the Web, Android, Haiku OS and the PlayStation Vita (homebrew).
 
-While the game is still a work in progress, you can [download the latest builds of the game here](https://github.com/rollerozxa/tensy/releases/tag/rolling), or [play it in your web browser](https://tensy.voxelmanip.se/).
+It is currently in development, but is slated to release on itch.io soon. You can also try a web version of the game in development right now at [tensy.voxelmanip.se](https://tensy.voxelmanip.se).
+
+<!--
+<a href="https://rollerozxa.itch.io/tensy">
+	<img src="/assets/buttons/itch.svg" alt="Available on itch.io" style="height:80px"></a>
+-->

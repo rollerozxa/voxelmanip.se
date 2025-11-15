@@ -103,8 +103,8 @@
 
 - domain: tensy
   host: GitHub
-  source: https://github.com/rollerozxa/tensy
-  description: Web version of <a href="/projects/tensy/">Tensy</a>
+  source: https://github.com/rollerozxa/tensy.voxelmanip.se
+  description: Website for Tensy
 
 - domain: tippity-type
   host: GitHub
