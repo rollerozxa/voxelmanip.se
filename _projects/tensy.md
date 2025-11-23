@@ -15,9 +15,7 @@ The game was inspired by [Pancelor's *Make Ten*](https://pancelor.itch.io/make-t
 
 Being written in C and using SDL, the game is very portable. It has currently been ported to 7 platforms: Windows, macOS, Linux, the Web, Android, Haiku OS and the PlayStation Vita (homebrew).
 
-It is currently in development, but is slated to release on itch.io soon. You can also try a web version of the game in development right now at [tensy.voxelmanip.se](https://tensy.voxelmanip.se).
+It is available to purchase on itch.io for a minimum price of $5, but the web version is free and the source code is available on [GitHub](https://github.com/rollerozxa/tensy).
 
-<!--
 <a href="https://rollerozxa.itch.io/tensy">
 	<img src="/assets/buttons/itch.svg" alt="Available on itch.io" style="height:80px"></a>
--->
