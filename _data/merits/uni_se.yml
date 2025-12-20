@@ -1,4 +1,22 @@
 
+- id: DT133G
+  name: Independent work (Bachelor's thesis)
+  credits: 0.0
+  total_credits: 15.0
+  status: Upcoming
+
+- id: DT198G
+  name: User-focused software development
+  credits: 0.0
+  total_credits: 7.5
+  status: Upcoming
+
+- id: DT002G
+  name: Applied Computer Engineering
+  credits: 0.0
+  total_credits: 7.5
+  status: Upcoming
+
 - id: DT166G
   name: Presenting New Technology
   credits: 0.0
