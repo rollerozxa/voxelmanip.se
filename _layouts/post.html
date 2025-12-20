@@ -15,6 +15,13 @@ no_header: true
 
 {% include blogmeta.html post=page clickable_time=true %}
 
+{% if page.quite_old %}
+<div class="box">
+	<h3>Heads up!</h3>
+	<p>This blog post is quite old, several years old if you were to look at the date of which it was published. Things have likely changed since the blog post was originally written, but is still available for historical purposes.</p>
+</div>
+{% endif %}
+
 {% if page.no_cover == nil and page.cover_alt == nil %}<p class="warning">Post does not have a cover alt!</p>{% endif %}
 
 {{ content }}
