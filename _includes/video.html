@@ -1,0 +1,9 @@
+<figure>
+	<video controls
+		{% if include.max_width %}style="width:{{ include.max_width }}px"{% endif %}>
+		<source src="{% if include.url %}{{ include.url }}{% else %}/media/{{ page.slug }}/{{ include.name }}{% endif %}" type="video/webm">
+	</video>
+	{%- if include.caption -%}
+		<figcaption>{{ include.caption }}</figcaption>
+	{%- endif -%}
+</figure>
