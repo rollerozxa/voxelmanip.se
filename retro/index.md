@@ -5,6 +5,8 @@ permalink: /retro/index.htm
 ---
 
 # ROllerozxa
+<img src="raccoon.gif" style="float:right;margin-right:5px;margin-left:5px;">
+
 I'm t3h RaCco0n of d00m! Hi I'm ROllerozxa and I am mostly a programmer, though I enjoy other things sometimes. This is my homepage on the Internet where I write about things that may be interesting.
 
 <p class="center">
