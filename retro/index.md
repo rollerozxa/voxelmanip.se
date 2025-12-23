@@ -28,6 +28,10 @@ Principia is a game I have taken over the maintenance of after it became freewar
 
 The game is available for PC (Windows and Linux) as well as an experimental port to cell phones. [Read more about it here](https://principia-web.se).
 
+## More stuff
+
+There is a [gallery page](./gallery.htm) with some photos.
+
 ## Contact
 
 Want to talk to me? Catch me on IRC, if you're lucky, late in the evening.
