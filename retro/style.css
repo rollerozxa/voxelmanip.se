@@ -1,0 +1,118 @@
+
+@font-face {
+	font-display: swap;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local()
+		 url('fonts/open-sans-v43-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local()
+		 url('fonts/open-sans-v43-latin-700.woff2') format('woff2');
+}
+
+body {
+	background: url(assets/bg.png) #042004;
+	color: white;
+	font-family: 'Open Sans', verdana, geneva, sans-serif;
+	line-height: 1.3;
+	margin: 5px auto 25px;
+	font-size: 1em;
+	max-width: 960px;
+}
+
+a:hover { color: white; }
+
+a {
+	color: #FFC040;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+body, p, li {
+	line-height: 1.5;
+}
+
+code {
+	font-family: monospace, monospace;
+}
+
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.small {
+	margin-top: 0;
+	font-size: 0.85em;
+}
+
+.box {
+	width: 100%;
+	border: #305020 1px solid;
+	margin: 20px 0;
+}
+
+.content {
+	border-left: #000000 1px solid;
+	border-top: #000000 1px solid;
+}
+
+h1, h2, .content {
+	padding: 5px;
+}
+
+h1, h2 {
+	margin: 0 -5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h1 {
+	background: url(assets/tbg0.png) #042004;
+	font-size: 1.35em;
+	margin-top: -5px;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	background: url(assets/tbg0.png) #042004;
+	font-size: 1em;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.content {
+	background: url(assets/tbg1.png) #042004;
+}
+
+.special {
+	background: url(assets/tbg2.png) #042004;
+}
+
+.buttons {
+	max-width: 700px;
+	margin: auto;
+	text-align: center;
+}
+.buttons img {
+
+}
+
+.galleri {
+	text-align: center;
+}
+.galleri img {
+	height: 115px;
+}
+
+img.middle {
+	vertical-align: middle;
+}

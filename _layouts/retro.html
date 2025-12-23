@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="box">
+		<div class="content special center">
+			<p>
+				<p></p>
+
+				<a href="/">← Escape to the current year</a>
+			</p>
+		</div>
+		<div class="content">
+			{%- unless page.no_header or layout.no_header -%}
+				<h1>{{ page.title }}</h1>
+			{%- endunless -%}
+
+			{{ content }}
+		</div>
+	</div>
+</body>
+</html>
