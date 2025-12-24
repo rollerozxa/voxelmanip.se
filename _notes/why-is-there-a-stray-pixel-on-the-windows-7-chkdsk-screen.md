@@ -16,7 +16,7 @@ I ended up recording a short video where I took a screenshot of the VirtualBox s
 And if you want to check for yourself, here is that screenshot I took:
 
 {% include image.html
-	url="/media/notes/chkdsk_win7.webp" %}
+	url="chkdsk_win7.webp" %}
 
 Asking around in Windows fan communities a long time ago led to a hypothesis that it is a remnant of the old Windows Vista logo that used to be on the chkdsk screen in Windows Vista. When Windows 7 was released, the logo was removed from the screen, but a single pixel from it was accidentally left behind. This seems to make sense, given that it is near where the logo would have been in Vista, but still does not seem to be an exact match (it's a bit too far to the left, checking screenshots on the Internet).
 
