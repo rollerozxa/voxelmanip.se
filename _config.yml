@@ -13,7 +13,6 @@ lang: en_GB
 
 exclude:
   - build_production.sh
-  - "*.xcf"
 
 permalink: pretty
 paginate: 6
