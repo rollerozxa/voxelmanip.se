@@ -28,7 +28,8 @@ I originally played the Wii version of Hydroventure back in the day when I was a
 
 Previously I have made a similar kind of prototype for a Hydroventure-like water game using GDevelop back in 2021:
 
-{% include youtube.html id="DiNIz6dnQEY" %}
+{% include youtube.html id="DiNIz6dnQEY"
+	max_width=640 %}
 
 However it didn't go very far, as I quickly shelved the project due in part to GDevelop not feeling like the right choice for such a game &mdash; the backing engine of GDevelop is written in JavaScript and other web technology, and as you can see from the video above even just putting a small amount of water particles together in a simulation was enough to cause frame drops. But I still had the idea in the back of my mind, for whenever I felt I would be ready to give it another attempt.
 

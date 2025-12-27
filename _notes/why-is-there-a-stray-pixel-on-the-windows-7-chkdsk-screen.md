@@ -11,7 +11,7 @@ The pixel is in the upper part of the screen and a bit to the left of the center
 
 I ended up recording a short video where I took a screenshot of the VirtualBox screen and zoomed in on the pixel in GIMP to show it closer:
 
-{% include youtube.html id="BmYOL1eVus8" %}
+{% include youtube.html id="BmYOL1eVus8" max_width=640 %}
 
 And if you want to check for yourself, here is that screenshot I took:
 
