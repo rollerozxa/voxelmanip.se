@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>mtPlace</title>
+
+	<meta property="og:title" content="Welcome to mtPlace...">
+	<meta property="og:image" content="https://voxelmanip.se/mtplace/place.png">
+	<meta name="description" content="mtPlace was a canvas 512x512 pixels in size, and with 24 colours at your disposal.">
+	<meta property="og:description" content="mtPlace was a canvas 512x512 pixels in size, and with 24 colours at your disposal.">
+	<meta property="og:site_name" content="mtPlace">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://voxelmanip.se/mtplace/">
+	<link rel="canonical" href="https://voxelmanip.se/mtplace/">
+
+	<style>
+body {
+	background-color: #34345c;
+	color: white;
+	font-size: 14pt;
+	margin-top: 50px;
+	font-family: sans-serif;
+}
+.box {
+	max-width: 900px;
+	margin: auto;
+}
+p, li {
+	line-height: 1.75;
+}
+a {
+	color: #ffee00;
+	text-decoration: none;
+}
+
+h2 { font-size: 1.50em; margin-left: 5px; }
+h3 { font-size: 1.17em; margin-left: 15px; }
+
+.map {
+	display: block;
+	margin: auto;
+	border: 2px solid blue;
+	image-rendering: pixelated;
+}
+.caption {
+	text-align: center;
+	font-style: italic;
+	margin-top: 0;
+	font-size: 12pt;
+}
+	</style>
+</head>
+<body>
+	<div class="box">
+	<h1>mtPlace</h1>
+
+	<p>mtPlace was a canvas 512x512 pixels in size, and with 24 colours at your disposal.</p>
+
+	<p>Inspired by the Reddit r/place social experiments that took place during 2017 and 2022, mtPlace was a collaborative canvas hosted as a Minetest server. You painted the canvas by placing nodes on it within Minetest, and it would show up on the map that updated every 5 minutes.</p>
+
+	<p>The server was shut down on 2023-06-11 after running for approximately four months. Below is the final screenshot that was taken before its shutdown. A timelapse of the canvas is coming soon.</p>
+
+	<a href="place.png"><img class="map" src="place.png" width="512"></a>
+
+	<p class="caption">(Click on the image to view it in full and zoom in)</p>
+
+	<p>The source code for the game and related scripts can be found <a href="https://github.com/rollerozxa/mtPlace">here</a>, if you are so inclined.</p>
+
+	</div>
+</body>
+</html>
