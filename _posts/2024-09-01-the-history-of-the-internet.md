@@ -4,7 +4,7 @@ tags: School
 no_cover: true
 ---
 
-*This text was originally written as an assignment about the history of the Internet for my web development course in Gymnasiet during November of 2022. It has been translated from Swedish to English, but the content is preserved in its original state. The Swedish version can be found [here](https://rollerozxa.github.io/internethistoria/).*
+*This text was originally written as an assignment about the history of the Internet for my web development course in Gymnasiet during November of 2022. It has been translated from Swedish to English, but the content is preserved in its original state. The Swedish version can be found [here](/internethistoria/).*
 
 The Internet has become an essential part of our lives. Accessible via computers, smartphones, and even various ‘smart’ devices such as TVs, fridges or even a smart toaster. But how did we get to this point? And what led to the information age we live in now?
 

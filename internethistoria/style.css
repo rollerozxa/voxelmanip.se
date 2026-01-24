@@ -1,0 +1,100 @@
+/* roboto-slab-regular - latin */
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local(''),
+		url('roboto-slab-v24-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-slab-700 - latin */
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local(''),
+		url('roboto-slab-v24-latin-700.woff2') format('woff2');
+}
+
+body {
+	font-family: 'Roboto Slab';
+	font-size: 12.5pt;
+	line-height: 1.75;
+	text-align: justify;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 5px 150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	margin: 1.25em 0em 0em;
+	font-family: 'Roboto Slab';
+}
+
+/* table of contents */
+.toc {
+	border: 1px solid #888;
+	padding: 10px;
+	display: inline-block;
+	text-align: left;
+}
+
+.toc .toc_title {
+	text-align: center;
+}
+
+.toc ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.toc ul li {
+	margin: 0.7em 0em;
+}
+
+
+.side-img {
+	float: right;
+	margin: 0px 10px;
+}
+
+/* Dark mode styling */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #111;
+		color: white;
+	}
+
+	a {
+		color: rgb(77, 175, 231);
+	}
+
+	.toc {
+		background-color: #222;
+	}
+
+}
+
+/* Light mode styling */
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #dedfd9;
+	}
+
+	.toc {
+		background-color: #e8e8e8;
+	}
+
+	a {
+		color: blue;
+	}
+}
