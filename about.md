@@ -31,6 +31,8 @@ As for music, I like all kinds of tracker music, preferably played with `openmpt
 
 Since October 2020 I've been daily driving Linux on my desktop. Right now I'm sitting on Arch Linux on both my desktop and laptop, with KDE Plasma as my DE of choice and I use zsh with [my own config](https://github.com/rollerozxa/zshrc) for that nicer terminal feeling. For a more detailed list of the software I use see my [Uses](/uses/) page.
 
+I like [soused herring](/soused-herring/).
+
 ## Contact
 See [Contact](/contact/)
 

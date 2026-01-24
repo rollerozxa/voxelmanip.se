@@ -7,16 +7,23 @@ imgs:
   - url: 2021-11-03.webp
     caption: Lots of chive.
   - url: 2021-12-24.webp
-    caption: Red onions appear.
+    caption: Christmas herring. Red onions appear.
   - url: 2021-12-26.webp
+    caption: Another day of Christmas herring.
   - url: 2022-04-16.webp
+    caption: Easter herring.
   - url: 2022-05-14.webp
     caption: Very yellow potatoes!
   - url: 2022-06-24.webp
+    caption: Midsummer herring.
   - url: 2022-12-24.webp
+    caption: Christmas herring.
   - url: 2023-04-08.webp
+    caption: Easter herring.
   - url: 2023-06-23.webp
+    caption: Midsummer herring.
   - url: 2023-12-24.webp
+    caption: Christmas herring.
   - url: 2023-12-31.webp
     caption: No more chive in this economy.
 ---
