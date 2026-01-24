@@ -41,7 +41,7 @@ So for the DNS records I use to make it happen:
 
 I then use `voxelmanip.se` as the main XMPP domain that will show up in user addresses, `files.voxelmanip.se` is reused for HTTP file sharing, and `muc.voxelmanip.se` is used for hosting MUCs (and points back to the same `xmpp.voxelmanip.se` subdomain with a SRV record).
 
-You don't need to have a certificate that's valid for xmpp.voxelmanip.se, though for simplicity's sake if your DNS provider has support for it you could go with a wildcard certificate that is valid for all subdomains. If you're using Cloudflare's DNS as I do, I have [another blog post for that](https://voxelmanip.se/2025/06/23/wildcard-https-certificates-with-certbot-and-cloudflare-dns/).
+You don't need to have a certificate that's valid for xmpp.voxelmanip.se, though for simplicity's sake if your DNS provider has support for it you could go with a wildcard certificate that is valid for all subdomains. If you're using Cloudflare's DNS as I do, I have [another blog post for that](/2025/06/23/wildcard-https-certificates-with-certbot-and-cloudflare-dns/).
 
 Otherwise you'd want want to generate a single certificate using Certbot that is valid for the main XMPP server domain, the HTTP file share and the MUC subdomain, passing a comma separated list like such:
 

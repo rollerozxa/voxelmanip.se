@@ -33,11 +33,6 @@
   source: https://github.com/rollerozxa/colorbackgrounds.voxelmanip.se
   description: Colored Desktop Backgrounds
 
-- domain: danil
-  host: GitHub
-  source: https://github.com/danil275487/danil275487.github.io
-  description: Danil's site
-
 - domain: files
   host: ROllerozxa
   description: ROllerozxa's public file dump
@@ -61,45 +56,15 @@
   source: https://github.com/rollerozxa/gps.voxelmanip.se
   description: Browser geolocation viewer
 
-- domain: grejer
-  host: Github
-  source: https://github.com/rollerozxa/grejer.voxelmanip.se
-  description: (Formerly) Grejer!
-
 - domain: ketchupland
   host: GitHub
   source: https://github.com/KetchupLand/KetchupLand.github.io
   description: KetchupLand landing page
 
-- domain: mesetint
-  host: GitHub
-  source: https://github.com/rollerozxa/mesetint.voxelmanip.se
-  description: Minetest April Fool's joke site
-
-- domain: mese
-  host: GitHub
-  source: https://github.com/rollerozxa/mese-block-cult-2
-  description: Praise the mese block!
-
-- domain: mtplace
-  host: GitHub
-  source: https://github.com/rollerozxa/mtplace.voxelmanip.se
-  description: Landing page for mtPlace
-
 - domain: nodecore
   host: GitHub
   source: https://github.com/rollerozxa/nodecore.voxelmanip.se
   description: Landing page for the NodeCore Android app
-
-- domain: rollertest
-  host: GitHub
-  source: https://github.com/rollerozxa/rollertest.voxelmanip.se
-  description: Landing page for ROllertest
-
-- domain: sudoku
-  host: GitHub
-  source: https://github.com/rollerozxa/sudoku.voxelmanip.se
-  description: Landing page for the Sudoku Luanti game
 
 - domain: tensy
   host: GitHub
@@ -120,8 +85,3 @@
   host: GitHub
   source: https://github.com/rollerozxa/webcam.voxelmanip.se
   description: Webcam tester
-
-- domain: wiki
-  host: GitHub
-  source: https://github.com/rollerozxa/voxelmanip-wiki
-  description: (Formerly) The Voxelmanip Luanti Wiki
