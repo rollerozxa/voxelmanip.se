@@ -3,31 +3,31 @@
   name: Independent work (Bachelor's thesis)
   credits: 0.0
   total_credits: 15.0
-  status: Upcoming
+  status: ???
 
 - id: DT198G
   name: User-focused software development
   credits: 0.0
   total_credits: 7.5
-  status: Upcoming
+  status: Ongoing
 
 - id: DT002G
   name: Applied Computer Engineering
   credits: 0.0
   total_credits: 7.5
-  status: Upcoming
+  status: Ongoing
 
 - id: DT166G
   name: Presenting New Technology
   credits: 0.0
   total_credits: 7.5
-  status: Ongoing
+  status: Waiting
 
 - id: DT176G
   name: Reactive Programming
   credits: 0.0
   total_credits: 7.5
-  status: Ongoing
+  status: Waiting
 
 - id: DT175G
   name: Artificial Intelligence for Agents
