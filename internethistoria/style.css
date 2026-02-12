@@ -5,7 +5,7 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''),
-		url('roboto-slab-v24-latin-regular.woff2') format('woff2');
+		url('/assets/fonts/roboto-slab-v24-latin-regular.woff2') format('woff2');
 }
 
 /* roboto-slab-700 - latin */
@@ -15,7 +15,7 @@
 	font-weight: 700;
 	font-display: swap;
 	src: local(''),
-		url('roboto-slab-v24-latin-700.woff2') format('woff2');
+		url('/assets/fonts/roboto-slab-v24-latin-700.woff2') format('woff2');
 }
 
 body {
