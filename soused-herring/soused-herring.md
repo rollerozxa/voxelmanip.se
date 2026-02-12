@@ -1,5 +1,6 @@
 ---
 title: Soused herring
+description: Soused herring (Matjessill in Swedish) is a type of pickled herring that is stored in a salty preservative solution, or something like that. The Dutch apparently have a different kind of soused herring, but the Swedish version is the one I'm familiar with.
 permalink: /soused-herring/
 imgs:
   - url: 2021-07-03.webp
