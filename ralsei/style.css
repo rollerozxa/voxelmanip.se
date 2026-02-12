@@ -1,0 +1,48 @@
+html,body {
+	height: 100%;
+}
+body {
+	font-family: monospace;
+
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+canvas {
+	padding: 0;
+	margin: auto;
+	display: block;
+}
+
+#fun {
+	display: none;
+}
+
+#play_btn {
+	color:#45ca45;
+	font-weight: bold;
+	font-size: 32pt;
+	padding: 30px 60px;
+	text-align: center;
+	cursor: pointer;
+}
+#play_btn:hover {
+	color: white;
+}
+
+#audiocreds {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18pt;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: cyan;
+}
