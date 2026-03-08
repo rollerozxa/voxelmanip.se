@@ -3,7 +3,7 @@
   name: Independent work (Bachelor's thesis)
   credits: 0.0
   total_credits: 15.0
-  status: ???
+  status: Not eligible
 
 - id: DT198G
   name: User-focused software development
@@ -19,13 +19,12 @@
 
 - id: DT166G
   name: Presenting New Technology
-  credits: 0.0
-  total_credits: 7.5
-  status: Waiting
+  credits: 7.5
+  status: Incomplete (???)
 
 - id: DT176G
   name: Reactive Programming
-  credits: 0.0
+  credits: 3.0
   total_credits: 7.5
   status: Waiting
 
