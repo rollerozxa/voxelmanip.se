@@ -3,7 +3,7 @@
   name: Independent work (Bachelor's thesis)
   credits: 0.0
   total_credits: 15.0
-  status: ???
+  status: Upcoming
 
 - id: DT198G
   name: User-focused software development
@@ -13,9 +13,7 @@
 
 - id: DT002G
   name: Applied Computer Engineering
-  credits: 0.0
-  total_credits: 7.5
-  status: Ongoing
+  credits: 7.5
 
 - id: DT166G
   name: Presenting New Technology
@@ -31,9 +29,7 @@
 
 - id: DT214G
   name: Principles and Practices in Software Testing
-  credits: 0.0
-  total_credits: 7.5
-  status: Waiting
+  credits: 7.5
 
 - id: DT167G
   name: Software Security
