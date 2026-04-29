@@ -88,11 +88,11 @@ A short while later I switched to nginx, which both can absorb an influx of requ
 
 In spring of 2022 I felt that the site had outgrown being hosted out of my home, and I ended up moving principia-web onto a small VPS hosted at OVH in Germany. This is where it is still hosted to this day, along with some other things such as [Voxelmanip Classic](/projects/voxelmanip-classic/) and this blog.
 
-Around the same time I also decided to get a proper domain name. Two in fact, `principia-web.se` and `voxelmanip.se`. One for moving principia-web off of the free domain provided by Freenom and one for doing other things with, which ended up being where I moved my personal website and blog to while also using the domain as a place to host other projects under as subdomains.
+Around the same time I also decided to get a proper domain name. Two in fact, `principia-web.se` and `voxelmanip.se`. One for moving principia-web off of the free domain provided by Freenom and one for doing other things with. The latter ended up being where I moved my personal website and blog to while also using the domain as a place to host other projects under as subdomains.
 
 For the most part, things were doing fine at this point. But one thing was nagging at me, as well as a lot of other people in the community. The Principia source code.
 
-Principia was actually intended to be fully open sourced under the BSD 3-Clause license all the way back in 2016. Unfortunately the plans for it fell through at the time, and while there had been small mentions throughout the years, in spring of 2022 the game's source code has still not been released.
+Principia was actually intended to be fully open sourced under the BSD 3-Clause license all the way back in 2016. Unfortunately the plans for it fell through at the time, and while there had been small mentions throughout the years, in spring of 2022 the game's source code had still not been released.
 
 To be honest, I had somewhat lost hope in it ever happening after exhausting most non-invasive options of establishing contact with the original game's author, but in my work on principia-web and other Principia-related things I always dreamt of it truly becoming open source one day such that it can truly flourish again. Little did I know that summer was going to hold a big surprise for me, and the rest in the community.
 
