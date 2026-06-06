@@ -18,12 +18,12 @@ This page contains a list of the software I use.
 - **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty/)
 - **Shell**: [zsh](https://www.zsh.org/) (with [my own config](https://github.com/rollerozxa/zshrc))
 - **Version control**: [Git](https://git-scm.com/) / `gitui`
-- **Compiler**: [GCC](https://gcc.gnu.org/) / [Clang](https://clang.llvm.org/) / [MinGW-w64](https://www.mingw-w64.org/)
-- **Code/text editor**: [Code - OSS](https://gitlab.archlinux.org/archlinux/packaging/packages/code) / [Kate](https://kate-editor.org/sv/) / [Micro](https://micro-editor.github.io/)
-- **Diff**: [Code - OSS](https://gitlab.archlinux.org/archlinux/packaging/packages/code) / [KDiff3](https://invent.kde.org/sdk/kdiff3)
+- **Compiler**: [GCC](https://gcc.gnu.org/) / [Clang](https://clang.llvm.org/) / [mingw-w64](https://www.mingw-w64.org/)
+- **Code/text editor**: [VSCode](https://code.visualstudio.com) / [Kate](https://kate-editor.org/sv/) / [Micro](https://micro-editor.github.io/)
+- **Diff**: [VSCode](https://code.visualstudio.com) / [KDiff3](https://invent.kde.org/sdk/kdiff3)
 - **File manager**: [Dolphin](https://apps.kde.org/sv/dolphin/)
 - **Image viewer**: [Gwenview](https://apps.kde.org/gwenview/) / feh
-- **Music player**: [VLC Media Player](https://videolan.org) / [openmpt123](https://lib.openmpt.org/libopenmpt/)
+- **Music player**: [VLC Media Player](https://videolan.org) / [Audacious](https://audacious-media-player.org/) /  [openmpt123](https://lib.openmpt.org/libopenmpt/)
 - **Video player**: [VLC Media Player](https://videolan.org) / [mpv](https://mpv.io/)
 - **PDF Reader**: [Okular](https://okular.kde.org/)
 - **Office Suite**: [LibreOffice](https://www.libreoffice.org/) (but I usually use a text editor & Markdown when I can)
@@ -36,7 +36,7 @@ This page contains a list of the software I use.
 - **Hex editor**: [GHex](https://wiki.gnome.org/Apps/Ghex) / [`hexcurse`](https://github.com/LonnyGomes/hexcurse)
 - **Writing maths**: [Rnote](https://rnote.flxzt.net/)
 - **Disk space analyser**: [Filelight](https://apps.kde.org/sv/filelight/) / [QDirStat](https://github.com/shundhammer/qdirstat) / [`dust`](https://github.com/bootandy/dust)
-- **Archiver**: [Ark](https://apps.kde.org/ark/) / [`7z`](https://7-zip.org)[!]
+- **Archiver**: [Ark](https://apps.kde.org/ark/) / [`7z`](https://7-zip.org)
 - **Virtualisation**: [virt-manager](https://virt-manager.org/) (QEMU/KVM) / [quickemu](https://github.com/quickemu-project/quickemu)
 - **Screenshotter**: [Spectacle](https://apps.kde.org/spectacle/)
 - **Screen recording**: [OBS Studio](https://obsproject.com/)
@@ -53,31 +53,28 @@ This page contains a list of the software I use.
 - **Calculator**: [KCalc](https://apps.kde.org/kcalc/) / [Python](https://www.python.org/) REPL / [Lua](https://luajit.org/) REPL
 - **XMPP client**: [Gajim](https://gajim.org/)
 - **Matrix client**: Element Web
-- **IRC client**: [Quassel IRC](https://quassel-irc.org/) (formerly HexChat but GTK2 isn't getting any newer...)
-- **Content blocker**: [µBlock Origin](https://github.com/gorhill/uBlock)
+- **IRC client**: None (Previously [Quassel IRC](https://quassel-irc.org/), previously HexChat...)
+- **Content blocker**: [uBlock Origin](https://github.com/gorhill/uBlock)
 - **Performance overlay**: [MangoHud](https://github.com/flightlessmango/MangoHud)
-- **Gaming**: Steam[!], [Luanti](https://www.luanti.org/), [Principia](https://principia-web.se/)
-- **Console gaming (emulation)**: Dolphin, MelonDS, Citra, mGBA, PCSX2 etc.
-
-(`[!]` denotes software that is proprietary)
+- **Gaming**: Steam, [Luanti](https://www.luanti.org/), [Principia](https://principia-web.se/)
+- **Console gaming (emulation)**: Dolphin, Azahar, PCSX2, melonDS, mGBA etc.
 
 I version control the list of packages I have on my desktop, so you can also see a full list of what packages I have installed at the moment [here](https://github.com/rollerozxa/packages/blob/master/packages.txt). Only explicitly installed packages are listed.
 
 ### Browser extensions
 For Firefox I use various browser extensions to make the modern web a bit more bearable.
 
-- [Dark Reader](https://darkreader.org/)*
+- [Dark Reader](https://darkreader.org/)
 - [Renewed Tab](https://renewedtab.com/en/)
 - [Return YouTube Dislike](https://returnyoutubedislike.com/)
-- [SponsorBlock](https://sponsor.ajay.app/)
+- [Streetpass for Mastodon](https://streetpass.social/)
 - [Stylus](https://add0n.com/stylus.html)
-- [uBlock Origin](https://github.com/gorhill/uBlock)*
+- [uBlock Origin](https://github.com/gorhill/uBlock)
 - [Unhook YouTube](https://unhook.app/)
-- [Violentmonkey](https://violentmonkey.github.io/)
-
-Ones marked with asterisks I also use on my phone with Firefox for Android.
 
 ### Code - OSS extensions
+(TODO: This section is outdated, need to update it sometime...)
+
 Code - OSS (aka the open source upstream of VSCode) is my primary code editor, and I have various extensions to improve the experience when working with various languages.
 
 - [clangd](https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd) - C/C++ code completion & more using `clangd`
@@ -97,15 +94,17 @@ This is just a selection of some of the apps I have installed on my phone - you 
 - [Conversations](https://f-droid.org/en/packages/eu.siacs.conversations/) - XMPP Client
 - [F-Droid](https://f-droid.org/)
 - [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/) - RSS client
-- Firefox (the... technically not Free official build)
 - [Fossify Gallery](https://f-droid.org/en/packages/org.fossify.gallery/) (replacing Google Photos)
 - [Markor](https://f-droid.org/en/packages/net.gsantner.markor/) - Text editor
+- [Material Files](https://f-droid.org/en/packages/me.zhanghai.android.files/) - File manager
 - [Obsqr](https://f-droid.org/packages/trikita.obsqr/) - QR reader
-- [Revolution IRC](https://f-droid.org/en/packages/io.mrarm.irc/) - IRC client
+- [Open Camera](https://f-droid.org/en/packages/net.sourceforge.opencamera/)
 - [SchildiChat](https://f-droid.org/en/packages/de.spiritcroc.riotx/) - Matrix client
 - [Stanley](https://f-droid.org/en/packages/fr.xgouchet.packageexplorer/) - Android app analyser
 - [Termux](https://f-droid.org/en/packages/com.termux/)
 - [Tusky](https://f-droid.org/en/packages/com.keylesspalace.tusky/) - Mastodon client
 - [Vädret](https://f-droid.org/en/packages/fi.kroon.vadret/) - Weather app (sourcing data from Swedish SMHI)
+
+I used to use Firefox on my Android phone to get a subset of extensions, but had to switch back to Chrome for Android due to Firefox for Android's performance and stability degrading to the point of unusability on my phone.
 
 For my launcher and icon theme I use [Nova Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher) and [Delta icons](https://f-droid.org/packages/website.leifs.delta.foss/) which are... proprietary and non-free respectively. :(
