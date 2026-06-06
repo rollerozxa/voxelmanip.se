@@ -40,7 +40,7 @@ However, this also means there would have to be an endpoint where the game can r
 So as such I set to work scraping it all, writing some Python scripts that would iterate over all level and user IDs, downloading absolutely everything. Despite being the largest (almost 4GB at the end), thumbnails ended up being the fastest as the ratelimit for static files was much more relaxed than the one for dynamic PHP pages, allowing it to be downloaded in parallel at a break-neck speed compared to the rest. After about a day, I had meticulously scraped everything and was sitting with four folders of data, measuring several gigabytes.
 
 ## Extracting data
-When extracting data from the HTML pages, I used a combination of BeautifulSoup and simple regexes to grab stuff. [Very quick and dirty Python scripts](https://github.com/principia-game/archive-scrape-tools).
+When extracting data from the HTML pages, I used a combination of BeautifulSoup and simple regexes to grab stuff. [Very quick and dirty Python scripts](https://github.com/principia-historical/archive-scrape-tools).
 
 First thing I did was extracting a list of users, with their username and ID associated with it, which would get dumped as a JSON file. This was fairly simple, since the user ID existed in the filename of the scraped page, and the username simply exists inside of an `<h2>` HTML element. That data was then imported into the MariaDB database I'll be storing all of it in.
 
@@ -64,7 +64,7 @@ Extracting level metadata was more tricky, since there's significantly more vari
 
 After fighting with different page behaviours, malformed level pages, messed up text encodings and mojibake, I ended up with a massive JSON file with various level metadata which I then imported into the database.
 
-To parse the headers of Principia level files, usually I use the [.plvl Kaitai](https://github.com/principia-preservation-project/kaitai/blob/master/kaitai/plvl.ksy) which I wrote to document the format *a long time ago*, predating even the source code release. It still generally holds up though, and I use it for parsing uploaded levels on principia-web despite receiving the source code for an utility program that the official community site was using to extract metadata out of level files uploaded.
+To parse the headers of Principia level files, usually I use the [.plvl Kaitai](https://github.com/Bithack/principia/blob/master/utils/kaitai/plvl.ksy) which I wrote to document the format *a long time ago*, predating even the source code release. It still generally holds up though, and I use it for parsing uploaded levels on principia-web despite receiving the source code for an utility program that the official community site was using to extract metadata out of level files uploaded.
 
 I wrote a PHP script that would directly parse every level file I had locally, and then populate the database with further metadata. In addition to populating the description for locked levels, this turns out to also fix a lot of mojibake, as the titles and descriptions inside of the actual level file appears to be less prone to mojibake than if it has been stored in the old community site's MySQL database.
 

@@ -6,7 +6,7 @@ timeframe: 2020-
 technologies: LEMMP stack - Linux (Debian), Nginx, MariaDB, memcached and PHP. Frontend uses Twig as a templating engine and the CSS is compiled from SCSS stylesheets.
 license: AGPLv3
 website: https://principia-web.se
-repo: https://github.com/principia-preservation-project/principia-web
+repo: https://github.com/principia-game/principia-web
 ---
 
 Principia is a game by Bithack that was originally released back in 2013 for Android, and later 2014 for Windows. It is a sandbox game, that allows you to build various things that you were able to upload onto the game's community site. Unfortunately the game wasn't a very big success, and Bithack ran into financial issues having to abandon the game by the end of 2014. However, the community site would stay up until around the beginning of 2018 when the site was shut down without warning. The little community that still existed at that point was then splintered, with about a dozen people getting behind a Discord server that had been set up shortly before.
