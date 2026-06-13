@@ -21,6 +21,16 @@ body, p, li {
 	line-height: 2;
 }
 
+@media screen and (max-width: 640px) {
+	body {
+		font-size: 1em;
+	}
+
+	pre {
+		font-size: 0.9rem;
+	}
+}
+
 
 /// Links \\\
 
