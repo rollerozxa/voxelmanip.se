@@ -5,6 +5,8 @@ last_modified: 2026-06-13
 
 By default, wget creates a file `~/.wget-hsts` to store HSTS information for websites that wget makes requests to. If you find this annoying that wget is putting such a file right in the root of your home folder, wget has a command line argument `--hsts-file` that allows you to specify a different location for this file.
 
+<!--more-->
+
 You could then wrap wget in an alias to point it somewhere else:
 
 ```bash

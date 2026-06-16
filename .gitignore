@@ -5,3 +5,4 @@ _misc
 .sass-cache
 Gemfile.lock
 media/projects/low/
+.directory
