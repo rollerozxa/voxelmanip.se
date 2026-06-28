@@ -1,0 +1,161 @@
+# Originally retrieved from https://martin.st/temp/gcc-mingw.docker
+# ---
+
+FROM ubuntu:18.04
+
+RUN apt-get update -qq && apt-get install -qqy \
+    git wget bzip2 file unzip zip build-essential m4 gnat \
+    vim git-svn subversion && \
+    apt-get clean -y && \
+    rm -rf /var/lib/apt/lists/*
+
+
+RUN git config --global user.name "MinGW" && \
+    git config --global user.email root@localhost
+
+WORKDIR /build
+
+ENV TOOLCHAIN_PREFIX=/opt/gcc-mingw
+
+# If changing the target, also change the the enable/disable options to mingw-w64 below
+ENV TARGET_TRIPLET=x86_64-w64-mingw32
+
+# --with-dwarf2 --disable-sjlj-exceptions
+ENV GCC_OPTIONS="--enable-threads=posix"
+ENV GCC_LANGUAGES="c,c++"
+ENV DEFAULT_CRT="msvcrt"
+
+ENV GCC_VER=9.2.0
+ENV BINUTILS_VER=2.33.1
+ENV MINGW_VER=v7.0.0
+ENV GMP_VER=6.1.2
+ENV MPFR_VER=4.0.2
+ENV MPC_VER=1.1.0
+ENV MAKE_VER=4.2.1
+
+# Stage 1: Build a cross compiler from linux to windows.
+
+RUN wget http://ftp.funet.fi/pub/gnu/gnu/gmp/gmp-$GMP_VER.tar.bz2
+RUN tar -jxvf gmp-$GMP_VER.tar.bz2 && \
+    cd gmp-$GMP_VER && \
+    ./configure --prefix=$TOOLCHAIN_PREFIX --disable-shared && \
+    make -j$(nproc) && \
+    make install
+RUN wget http://ftp.funet.fi/pub/gnu/gnu/mpfr/mpfr-$MPFR_VER.tar.bz2
+RUN tar -jxvf mpfr-$MPFR_VER.tar.bz2 && \
+    cd mpfr-$MPFR_VER && \
+    ./configure --prefix=$TOOLCHAIN_PREFIX --with-gmp=$TOOLCHAIN_PREFIX --disable-shared && \
+    make -j$(nproc) && \
+    make install
+RUN wget http://www.multiprecision.org/downloads/mpc-$MPC_VER.tar.gz
+RUN tar -zxvf mpc-$MPC_VER.tar.gz && \
+    cd mpc-$MPC_VER && \
+    ./configure --prefix=$TOOLCHAIN_PREFIX --with-gmp=$TOOLCHAIN_PREFIX --disable-shared && \
+    make -j$(nproc) && \
+    make install
+RUN wget http://ftp.funet.fi/pub/gnu/gnu/binutils/binutils-$BINUTILS_VER.tar.bz2
+RUN tar -jxvf binutils-$BINUTILS_VER.tar.bz2 && \
+    cd binutils-$BINUTILS_VER && \
+    mkdir build-x86_64 && \
+    cd build-x86_64 && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX --target=$TARGET_TRIPLET --disable-werror --disable-multilib && \
+    make -j$(nproc) && \
+    make install-strip
+ENV PATH=$TOOLCHAIN_PREFIX/bin:$PATH
+RUN wget http://ftp.funet.fi/pub/gnu/gnu/gcc/gcc-$GCC_VER/gcc-$GCC_VER.tar.xz
+# First build only the compiler from the gcc package
+RUN tar -Jxvf gcc-$GCC_VER.tar.xz && \
+    cd gcc-$GCC_VER && \
+    mkdir build-x86_64 && \
+    cd build-x86_64 && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX --target=$TARGET_TRIPLET --enable-languages=$GCC_LANGUAGES --disable-multilib --with-gmp=$TOOLCHAIN_PREFIX $GCC_OPTIONS && \
+    make -j$(nproc) all-gcc && \
+    make install-strip-gcc
+# Then with the compiler, build the mingw-w64 runtime
+RUN git clone git://git.code.sf.net/p/mingw-w64/mingw-w64 && \
+    cd mingw-w64 && \
+    git checkout $MINGW_VER
+RUN cd mingw-w64/mingw-w64-headers && \
+    mkdir build-x86_64 && \
+    cd build-x86_64 && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX/$TARGET_TRIPLET --host=$TARGET_TRIPLET --with-default-msvcrt=$DEFAULT_CRT && \
+    make install && \
+    cd ../../mingw-w64-crt && \
+    mkdir build-x86_64 && \
+    cd build-x86_64 && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX/$TARGET_TRIPLET --host=$TARGET_TRIPLET --disable-lib32 --enable-lib64 --with-default-msvcrt=$DEFAULT_CRT && \
+    make -j$(nproc) && \
+    make install && \
+    cd ../../mingw-w64-libraries/winpthreads && \
+    mkdir build-x86_64 && \
+    cd build-x86_64 && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX/$TARGET_TRIPLET --host=$TARGET_TRIPLET && \
+    make -j$(nproc) && \
+    make install
+# Then with the mingw-w64 runtime in place, build the runtime parts of gcc (libgcc/libstdc++) which needs the mingw-w64 headers and runtime.
+RUN cd gcc-$GCC_VER/build-x86_64 && \
+    make -j$(nproc) && \
+    make install-strip
+
+ENV TOOLCHAIN_PREFIX=/opt/gcc-mingw-cross
+
+# Stage 2: Use the linux->windows cross compiler for compiling binutils/gcc (and their dependencies) for windows.
+# Here we only build the tools themselves; we don't need to build the runtime parts (and we can't as we can't
+# execute the binaries we've just built, unless we'd use wine etc).
+RUN rm -rf gmp-$GMP_VER && \
+    tar -jxvf gmp-$GMP_VER.tar.bz2 && \
+    cd gmp-$GMP_VER && \
+    ./configure --prefix=$TOOLCHAIN_PREFIX --host=$TARGET_TRIPLET --disable-shared && \
+    make -j$(nproc) && \
+    make install
+RUN rm -rf mpfr-$MPFR_VER && \
+    tar -jxvf mpfr-$MPFR_VER.tar.bz2 && \
+    cd mpfr-$MPFR_VER && \
+    ./configure --prefix=$TOOLCHAIN_PREFIX --host=$TARGET_TRIPLET --with-gmp=$TOOLCHAIN_PREFIX --disable-shared && \
+    make -j$(nproc) && \
+    make install
+RUN rm -rf mpc-$MPC_VER && \
+    tar -zxvf mpc-$MPC_VER.tar.gz && \
+    cd mpc-$MPC_VER && \
+    ./configure --prefix=$TOOLCHAIN_PREFIX --host=$TARGET_TRIPLET --with-gmp=$TOOLCHAIN_PREFIX --disable-shared && \
+    make -j$(nproc) && \
+    make install
+RUN cd binutils-$BINUTILS_VER && \
+    mkdir build-x86_64-cross && \
+    cd build-x86_64-cross && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX --host=$TARGET_TRIPLET --target=$TARGET_TRIPLET --disable-werror --disable-multilib && \
+    make -j$(nproc) && \
+    make install-strip
+RUN cd gcc-$GCC_VER && \
+    mkdir build-x86_64-cross && \
+    cd build-x86_64-cross && \
+    ../configure --prefix=$TOOLCHAIN_PREFIX --host=$TARGET_TRIPLET --target=$TARGET_TRIPLET --enable-languages=$GCC_LANGUAGES --disable-multilib --with-gmp=$TOOLCHAIN_PREFIX --with-native-system-header-dir=/opt/gcc-mingw/$TARGET_TRIPLET/include --disable-bootstrap $GCC_OPTIONS && \
+    make -j$(nproc) all-gcc && \
+    make install-strip-gcc
+RUN wget https://ftp.gnu.org/gnu/make/make-$MAKE_VER.tar.bz2
+RUN wget https://raw.githubusercontent.com/niXman/mingw-builds/dba8a4ab94906afe677bf11199b6330e3e1ce8a2/patches/make/make-linebuf-mingw.patch && \
+    tar -jxvf make-$MAKE_VER.tar.bz2 && \
+    cd make-$MAKE_VER && \
+    patch -p1 < ../make-linebuf-mingw.patch && \
+    ./configure --host=$TARGET_TRIPLET --prefix=$TOOLCHAIN_PREFIX --program-prefix=mingw32- --enable-job-server && \
+    make -j$(nproc) && \
+    make install-strip
+
+# Transplant the mingw-w64 installation from the linux->windows cross compiler to the windows->windows compiler we've built.
+RUN SRC=/opt/gcc-mingw && \
+    DST=$TOOLCHAIN_PREFIX && \
+    rm -rf $DST/$TARGET_TRIPLET/include && \
+    rm -rf $DST/$TARGET_TRIPLET/lib && \
+    rm -rf $DST/$TARGET_TRIPLET/include/c++ && \
+    mkdir -p $DST/$TARGET_TRIPLET/bin && \
+    cp -a $SRC/$TARGET_TRIPLET/bin/*.dll $DST/$TARGET_TRIPLET/bin && \
+    cp -a $SRC/$TARGET_TRIPLET/include $DST/$TARGET_TRIPLET && \
+    cp -a $SRC/$TARGET_TRIPLET/lib $DST/$TARGET_TRIPLET && \
+    cp -a $SRC/$TARGET_TRIPLET/include/c++ $DST/include && \
+    cp -a $SRC/$TARGET_TRIPLET/bin/*.dll $DST/bin && \
+    cp -a $SRC/$TARGET_TRIPLET/lib/*.dll $DST/bin && \
+    rm -rf $DST/lib/gcc && \
+    cp -a $SRC/lib/gcc $DST/lib
+
+RUN cd $TOOLCHAIN_PREFIX && \
+    zip -9r /gcc-mingw-cross.zip .
