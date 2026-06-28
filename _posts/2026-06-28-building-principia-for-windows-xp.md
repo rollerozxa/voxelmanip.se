@@ -4,7 +4,7 @@ tags: Projects
 cover_alt: The Windows XP logo from the boot splash is blended into a screenshot of a Principia adventure level. The Windows XP Luna taskbar is visible at the bottom showing Principia running.
 ---
 
-Back in the day when Principia originally released for Windows in 2014, the game would run on versions as far back as Windows XP. Given that Principia 1.4 was released while Windows XP still had mainstream support, this of course made sense at the time, and there was no real reason _not_ to support it given that the tooling and dependencies at the time were still compatible with it.
+Back in the day when [Principia](https://principia-web.se) originally released for Windows in 2014, the game would run on versions as far back as Windows XP. Given that Principia 1.4 was released while Windows XP still had mainstream support, this of course made sense at the time, and there was no real reason _not_ to support it given that the tooling and dependencies at the time were still compatible with it.
 
 Fast forward to today with Principia as an open source project. While the Windows version _should_ still run as far back as Windows 7, our usage of modern toolchains, dependencies and system libraries such as UCRT means that hard to truly guarantee far into the future as the ecosystem moves forward. However, this has always been something I wanted to change one day, bringing Principia back onto Windows XP and producing a fully open source build of the game that can run on it.
 
