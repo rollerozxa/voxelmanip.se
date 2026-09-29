@@ -1,0 +1,66 @@
+.box {
+	margin: auto;
+	max-width: 800px;
+	background-color: #ebebeb;
+
+	margin-bottom: 0.5em;
+}
+
+.box, blockquote {
+	border: 3px solid black;
+	padding: 5px;
+}
+
+blockquote {
+	background-color: #fcc;
+}
+
+h1 {
+	margin-top: 0.25em;
+	font-size: 1.25em;
+}
+
+p, ul li, ol li {
+	line-height: 1.5;
+}
+
+li {
+	margin: 0.5em 0;
+}
+
+.blue-underline {
+	color: blue;
+	text-decoration: underline;
+}
+
+.red {
+	color: red;
+}
+
+blockquote {
+	margin: 0;
+	padding: 5px;
+	border: 3px solid black;
+	max-width: 400px;
+}
+
+/* add dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #050505;
+		color: #eeeeee;
+	}
+	.box {
+		background-color: #252525;
+		border-color: #eeeeee;
+	}
+
+	a, .blue-underline {
+		color: cyan;
+	}
+
+	blockquote {
+		background-color: #331515;
+		border-color: #eeeeee;
+	}
+}
