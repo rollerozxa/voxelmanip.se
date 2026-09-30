@@ -32,14 +32,16 @@ lessons:
     url: 14
 ---
 
-This is a reconstructed archive of the Flower School lessons for the Origami Flowers mobile game. These lessons were intended to teach new players about the game and its features.
+This is a reconstructed archive of the Flower School lessons for the <a href="https://android.voxelmanip.se/games/origami-flowers">Origami Flowers</a> series of mobile games by Adam Schmelzle. These lessons were intended to teach new players about the game and its features.
 
 The servers for the Origami Flowers games were shut down in December 2017, and is no longer available to play. This archive has been made to preserve information about how the game worked, as explained through its own help system.
+
+The lesson texts have been reconstructed by performing OCR on the <a href="https://www.youtube.com/watch?v=9GRzC8TXLGU">only known surviving screen recording of the lesson pages</a> with Tesseract and manually cleaning up the text afterwards. There may be mistakes in the reconstruction, and the dynamic content of the pages that would be fetched from the current player's state is not present.
 
 <h3>Lessons</h3>
 
 <ul>
   {% for lesson in page.lessons %}
-    <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+    <li><a href="{{ lesson.url }}/">{{ lesson.title }}</a></li>
   {% endfor %}
 </ul>

@@ -44,7 +44,6 @@ blockquote {
 	max-width: 400px;
 }
 
-/* add dark mode */
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #050505;
