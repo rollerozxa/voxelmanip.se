@@ -10,7 +10,7 @@ However notably, I did not manage to mention anything relating to AI or LLMs, de
 
 The original text was written in Swedish but has been translated to English with some improvements to clarity. I think this will be interesting as a historical artifact for me to look back at in decades to come.
 
-ROllerozxa, 2026
+ROllerozxa, 25th of September 2026
 
 - - -
 
