@@ -5,7 +5,7 @@ description: Since 2022 I have been running the Voxelmanip Forums, a forum for d
 
 Since 2022 I have been running the Voxelmanip Forums, a forum for discussions loosely related to technology, as well as programming and other creative activities. It is a very traditional form of message board. No social media fluff, just threaded discussions separated by categories. An escape and refuge from the whims of the modern Internet.
 
-After a long time of inactivity and registrations being closed, the forum is now open for registrations again via invite from another forum member. You may also join the XMPP group chat for the forum if you do not already know someone on the forums, but would like to join.
+After a long time of inactivity and registrations being closed, the forum is now fully open for registrations again without invitation required. You may also join the Voxelmanip XMPP MUC, which functions as a real-time chat for the forum community.
 
 <div class="center"><a style="display:block" href="https://forum.voxelmanip.se"><img src="/assets/voxelmanip_forums.svg"><br>forum.voxelmanip.se</a></div>
 
