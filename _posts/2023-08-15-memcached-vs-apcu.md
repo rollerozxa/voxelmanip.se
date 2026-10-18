@@ -3,6 +3,7 @@ title: Memcached vs. APCu for PHP
 tags: PHP Web
 cover_alt: Image of the memcached rabbits running towards the left, with text on the bottom that says "Memcached vs. APCu"
 redirect_from: /2023/08/15/Memcached-Vs-APCu/
+forum_thread: 132
 ---
 
 When you are using an SQL database it is always useful to combine it with some sort of key-value store with less overhead to act as caching, either for heavy queries or if you just want to aggressively optimise page load speeds.

@@ -2,6 +2,7 @@
 title: Archiving the Archive
 tags: Projects Web
 cover_alt: Screenshot of the new community site archive site at archive.principia-web.se
+forum_thread: 134
 ---
 
 This blog post details my journey as I scraped the entirety of the Principia official community site archive and extracted the data from it to be able to recreate it myself.

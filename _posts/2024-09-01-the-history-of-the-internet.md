@@ -2,6 +2,7 @@
 title: The History of the Internet
 tags: School
 no_cover: true
+forum_thread: 137
 ---
 
 *This text was originally written as an assignment about the history of the Internet for my web development course in Gymnasiet during November of 2022. It has been translated from Swedish to English, but the content is preserved in its original state. The Swedish version can be found [here](/internethistoria/).*

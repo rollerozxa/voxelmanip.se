@@ -3,6 +3,7 @@ title: 5 Useful Command-line Utilities
 tags: Listicles Terminal
 cover_alt: Terminal output from openmpt123
 redirect_from: /2022/03/08/5-Useful-Commandline-Utilities/
+forum_thread: 124
 ---
 
 I realise I need to make more clickbaity, more digestible blog posts so I will now expand into the territory of Top 5 lists. This is how you do it right?

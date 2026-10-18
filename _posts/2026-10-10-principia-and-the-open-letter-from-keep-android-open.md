@@ -2,6 +2,7 @@
 title: Principia and the Open Letter from Keep Android Open
 tags: Android Anecdotes
 cover_alt: Pixel art of the Android robot made inside of Principia
+forum_thread: 174
 ---
 
 [Keep Android Open](https://keepandroidopen.org/) is a grassroots campaign originally launched in October 2025 by Marc Prud'hommeaux as a response to [Google's Android developer verification announcement last year](https://android-developers.googleblog.com/2025/08/elevating-android-security.html), which requires all Android developers to pay a fee and verify their identity with Google even if they do not distribute apps through the Google Play Store.

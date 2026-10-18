@@ -2,6 +2,7 @@
 title: The Line Ending Wars - Carriage Return
 tags: Humourous
 no_cover: true
+forum_thread: 143
 ---
 
 *This is an amusing story about line endings. Originally written as a post for the Voxelmanip Forums, extended and improved as a post on this blog.*

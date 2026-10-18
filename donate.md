@@ -29,6 +29,7 @@ I would very much appreciate your donations. Primarily, the donations will go to
 
 ---
 
+<span id="links"></span>
 The following methods are available for you to financially support me in some way. If you want to donate through some other means then [reach out to me privately](https://voxelmanip.se/contact/) and we can discuss the details.
 
 <br>

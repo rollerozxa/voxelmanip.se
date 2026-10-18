@@ -2,6 +2,7 @@
 title: Drawing text in the SDL renderer without SDL_ttf
 tags: Code SDL
 cover_alt: Screenshot of the main menu of Tensy, showing the text "Tensy" wiggling up and down in a sine wave pattern in front of a striped background. (The text rendering is done through what is brought up in the blog post)
+forum_thread: 155
 ---
 
 When you want to draw text in SDL, you would usually want to use SDL_ttf which in turn depends on Freetype for font rendering, giving you nice rendered fonts. But what if you do not want this? Maybe you just want some basic text rendering for a small game, and want not include the extra dependencies because something simpler would work just as well.

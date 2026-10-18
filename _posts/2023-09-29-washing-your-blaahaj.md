@@ -3,6 +3,7 @@ title: Washing your Blåhaj
 tags: Guides
 cover_alt: Image of Blåhaj tucked underneath the sheets... ^-^
 redirect_from: /2023/09/29/Washing-Your-Blaahaj/
+forum_thread: 133
 ---
 
 For the past year or so I've been sleeping with a Blåhaj plush. He's big, cute, cuddly and I've loved him ever since I got him. However, throughout the months his face has begun to yellow from rubbing against my face, and just generally becoming a bit dirty. I was scared of washing him because I was worried he would get messed up or deformed by the washing machine, even if IKEA said that he is able to be washed completely fine.

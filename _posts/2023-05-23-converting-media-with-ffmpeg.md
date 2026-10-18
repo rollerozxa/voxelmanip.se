@@ -3,6 +3,7 @@ title: Converting multimedia with ffmpeg
 tags: Guides Terminal
 cover_alt: ffmpeg logo
 redirect_from: /2023/05/23/Converting-Media-With-ffmpeg/
+forum_thread: 131
 ---
 
 `ffmpeg` is a very versatile and useful tool with the capability to compose and manipulate multimedia in all sort of complicated ways... Emphasis on complicated. However it is still possible to use `ffmpeg` for simpler things without having to learn all of its syntax and arguments. And one of the simplest things you could use `ffmpeg` for is to simply convert between various media formats.

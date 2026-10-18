@@ -2,6 +2,7 @@
 title: The Luanti Techage Backdoor
 tags: Anecdotes Informational Luanti
 cover_alt: The main screenshot of the Techage package showing the machines and such that are provided by the modpack. The code for the backdoor is semi-transparently overlaid to the right of the image.
+forum_thread: 160
 ---
 
 In early January of 2022, a modpack for Luanti (named Minetest at the time) called [Techage](https://content.luanti.org/packages/joe7575/techage_modpack/) received a pull request from a well known community member by the name of HybridDog. The pull request was about adding a config file for the Lua static analyser Luacheck, and then going through the mod's codebase to fix any warnings that it found.

@@ -2,6 +2,7 @@
 title: Small useful tools for web development
 tags: Listicles Web
 cover_alt: Screenshots of the Google Webfonts helper, RealFaviconGenerator and Pictogrammers websites stacked on top of eachother.
+forum_thread: 149
 ---
 
 This blog post goes over some small tools and utilities I have come across and that I find useful for web development. They're not things like code editors, the developer tools in your web browser or documentation resources, but small tools that help you with one specific thing that you're bound to run into when making any website.

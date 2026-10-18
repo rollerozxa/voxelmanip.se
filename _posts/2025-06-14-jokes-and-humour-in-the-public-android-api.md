@@ -2,6 +2,7 @@
 title: Jokes and Humour in the public Android API
 tags: Android Humourous
 cover_alt: Screenshot of a page on the Android developer reference website. The screenshot shows the documentation for a constant by the name of DISALLOW_FUN, which is gone over later in the blog post.
+forum_thread: 164
 ---
 
 Previously I have covered a relatively obscure now-removed placeholder string in Android that doubles as an easter egg, the fictitious carrier by the name of [El Telco Loco](/2024/10/14/el-telco-loco/). But this time it is about methods and other parts of the publicly facing Android API that may generally be more humourous than they are useful. Easter eggs, jokes, whatever you want to call them, that are visible to Android app developers rather than regular users.

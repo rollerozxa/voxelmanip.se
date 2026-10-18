@@ -2,6 +2,7 @@
 title: Setting up an XMPP server with Prosody
 tags: Guides XMPP
 cover_alt: Screenshot of the index page of the Prosody web server
+forum_thread: 166
 ---
 
 [XMPP](https://en.wikipedia.org/wiki/XMPP) (also known as Jabber) is an open chat protocol for instant messaging. It is also federated meaning that everyone can talk and communicate with people on other XMPP servers, one-to-one or in multi-user chats (MUCs). It supports transport layer encryption using TLS, as well as end-to-end encryption using OMEMO.

@@ -28,10 +28,24 @@ no_header: true
 
 <hr style="margin-top:100px">
 
-<h2>Donations</h2>
+{% if page.forum_thread %}
+	<h2>Comments & support</h2>
 
-<p>
-	Did you find the blog post to be informative, amusing or otherwise interesting?
-	All blog posts are written by a human who would appreciate a <a href="/donate/#donations">donation</a>
-	if you got some value out of this piece of writing.
-</p>
+	<p>
+		You can discuss the blog post in <a href="https://forum.voxelmanip.se/thread?id={{ page.forum_thread }}">this forum thread</a> on the Voxelmanip Forums.
+	</p>
+
+	<p>
+		All blog posts are written by a human who would also appreciate a
+		<a href="/donate/#links">donation</a>
+		if you got some value out of this piece of writing.
+	</p>
+{% else %}
+	<h2>Donations</h2>
+
+	<p>
+		Did you find the blog post to be informative, amusing or otherwise interesting?
+		All blog posts are written by a human who would appreciate a <a href="/donate/#links">donation</a>
+		if you got some value out of this piece of writing.
+	</p>
+{% endif %}

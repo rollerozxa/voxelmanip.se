@@ -2,6 +2,7 @@
 title: TOTP - The most misunderstood 2FA method
 tags: Informational Guides
 cover_alt: "'TOTP - Time-based one time password'. The Google Authenticator logo is used as an asterisk above TOTP, in the background are screenshots of 2FA instructions for various services."
+forum_thread: 147
 ---
 
 Time-based one-time password (TOTP), RFC 6238, is an authentication method commonly provided as a means of 2FA for many services. It is a great alternative to other 2FA methods such as SMS.

@@ -3,6 +3,7 @@ title: The Linux file structure
 tags: Informational Linux School
 no_cover: true
 redirect_from: /2022/02/12/The-Linux-File-Structure/
+forum_thread: 123
 ---
 
 When I first tried out Linux, one of the things that stood out to me was its file structure. It is structured in a completely different way to Windows, and I believe that when you understand it you can see how it clearly is a superior way of structuring things.

@@ -2,6 +2,7 @@
 title: Visualising disk usage on a headless server with QDirStat
 tags: Guides Linux
 cover_alt: Screenshot of the treemap of QDirStat showing a lot of coloured blocks representing differently sized files.
+forum_thread: 148
 ---
 
 If you've ever got a long running headless server that gets some amount of use, it will eventually accumulate files and data on the disk until the point where the allocated disk space for the server runs out and you will need to clean some things out. Running `df -h` tells you it is completely full, but how will you be able to see what is taking up the space?

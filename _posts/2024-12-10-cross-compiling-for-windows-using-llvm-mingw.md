@@ -2,6 +2,7 @@
 title: Cross-compiling for Windows using llvm-mingw
 tags: Guides Linux Windows
 cover_alt: Screenshot of terminal output from configuring SDL for crosscompiling using llvm-mingw. The LLVM logo and the MinGW-w64 logo is shown to the right.
+forum_thread: 150
 ---
 
 **[llvm-mingw](https://github.com/mstorsjo/llvm-mingw)** is an LLVM-based MinGW-w64 toolchain distribution for compiling C/C++ programs for Windows. Prebuilt toolchains are provided as plain archives both for compiling natively on Windows, or for cross-compiling from Linux and macOS.

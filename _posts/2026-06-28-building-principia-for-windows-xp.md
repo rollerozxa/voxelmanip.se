@@ -2,6 +2,7 @@
 title: Building Principia for Windows XP
 tags: Projects
 cover_alt: The Windows XP logo from the boot splash is blended into a screenshot of a Principia adventure level. The Windows XP Luna taskbar is visible at the bottom showing Principia running.
+forum_thread: 171
 ---
 
 Back in the day when [Principia](https://principia-web.se) originally released for Windows in 2014, the game would run on versions as far back as Windows XP. Given that Principia 1.4 was released while Windows XP still had mainstream support, this of course made sense at the time, and there was no real reason _not_ to support it given that the tooling and dependencies at the time were still compatible with it.

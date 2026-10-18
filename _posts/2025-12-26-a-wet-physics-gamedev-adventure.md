@@ -2,6 +2,7 @@
 title: A wet physics gamedev adventure
 tags: Gamedev Projects
 cover_alt: A screenshot of the water simulation game
+forum_thread: 169
 ---
 
 This is a blog post chronicling the initial development of a physics-based water game of sorts using C, Box2D, SDL3 and OpenGL. The idea of it is something I have been wanting to make into reality for a long time, and the concept is inspired by one of my favourite games of all time.

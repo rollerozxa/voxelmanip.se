@@ -2,6 +2,7 @@
 title: Tensy has been released
 tags: Announcement
 cover_alt: Tensy logo with coloured numbers surrounding it on a blue background
+forum_thread: 168
 ---
 
 Yesterday I released the first official version of Tensy on itch.io. It is a puzzle game where you match numbers that sum up to ten, with a nice pixel art style and some tracker music soundtrack, available for a very wide range of platforms. It has been in development for a while, and you have likely read posts mentioning it in some way on my blog for the last year.

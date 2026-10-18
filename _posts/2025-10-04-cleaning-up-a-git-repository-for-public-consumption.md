@@ -2,6 +2,7 @@
 title: Cleaning up a Git repository for public consumption
 tags: Git Guides
 cover_alt: Screenshot of the most recent Git commit history in flower-web, as seen in gitui.
+forum_thread: 167
 ---
 
 When you're considering making a previously private Git repository public, with all the history potentially spanning back years, it's rarely an easy decision. The repository and its history may contain all sorts of things you don't want to inadvertently publish, whether it be sensitive information or even just embarrassing things you never expected to end up being public when developing it in private.

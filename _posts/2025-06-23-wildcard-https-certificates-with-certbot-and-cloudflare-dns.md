@@ -2,6 +2,7 @@
 title: Wildcard HTTPS certificates with Certbot and Cloudflare DNS
 tags: Guides Web
 cover_alt: Screenshot of Firefox viewing the certificate for voxelmanip.se, which includes the wildcard *.voxelmanip.se domain. The Let's Encrypt and Cloudflare logos are shown to the right.
+forum_thread: 165
 ---
 
 Wildcard HTTPS certificates allow you to generate a certificate that will be valid across every subdomain of a domain, which is a great convenience if you manage a lot of subdomains. However with great power comes great responsibility as in order for Let's Encrypt to validate that you are in control of the entire domain, you will need to pass a DNS-based challenge, as compared to a traditional HTTP-based challenge for an individual subdomain.

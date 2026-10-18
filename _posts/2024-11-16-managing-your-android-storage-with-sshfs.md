@@ -2,6 +2,7 @@
 title: Managing your Android storage with SSHFS
 tags: Android Guides
 cover_alt: Screenshot of the root of my Android phone's external storage as mounted through SSHFS.
+forum_thread: 145
 ---
 
 As you're on your phone you may be downloading memes, files, taking pictures, writing notes and whatnot. But after a certain point you'd want to go through these and move anything you want to keep to your computer since let's face it, your phone is not for permanent storage.

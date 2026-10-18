@@ -2,6 +2,7 @@
 title: Trying Out Claude's C Compiler
 tags: C/C++ Informational
 cover_alt: "Screenshot of the top of CCC's readme that says: 'A C compiler written entirely from scratch in Rust, targeting x86-64, i686, AArch64, and RISC-V 64. Zero compiler-specific dependencies - the frontend, SSA-based IR, optimizer, code generator, peephole optimizers, assembler, linker, and DWARF debug info generation are all implemented from scratch. Claude's C Compiler produces ELF executables without any external toolchain.'"
+forum_thread: 170
 ---
 
 On the 5th of February Anthrophic published an article on their engineering blog detailing [the creation of a C compiler using a team of parallel Claude agents](https://www.anthropic.com/engineering/building-c-compiler) over the course of two weeks. The compiler in question is called Claude's C Compiler (`ccc` for short) and is a ~180k line Rust codebase that they published onto [GitHub](https://github.com/anthropics/claudes-c-compiler).

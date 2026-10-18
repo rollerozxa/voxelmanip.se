@@ -2,6 +2,7 @@
 title: Goodbye Google Play
 tags: Android
 cover_alt: Screenshot of the Google Play Console dashboard, with a red banner at the top saying "Your Developer Profile and all apps will be removed from Google Play on 3 February 2025", as well as a red warning message on the home page saying the same thing.
+forum_thread: 157
 ---
 
 As of the 3rd of February this year, my Google Play developer account will be permanently deleted, along with the apps I had published throughout the years. It was my decision to do it, but my hand was more or less forced by Google's new Google Play developer verification policy update which makes it not really viable for me as an individual app developer to remain on Google Play anymore.

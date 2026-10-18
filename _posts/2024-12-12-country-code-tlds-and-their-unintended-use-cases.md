@@ -2,6 +2,7 @@
 title: Country Code TLDs and their unintended use cases
 tags: Listicles
 cover_alt: "Collage of logos for ccTLDs, from left to right: .cc, .ar, .me, .ml, .io, .tv, .gl, .co, .nu, .tk and .ai"
+forum_thread: 151
 ---
 
 Country Code TLDs (ccTLDs) are top level domains that are assigned to countries with names based on their ISO 3166 2-character country code. Their intended usecase are for regional, local sites or otherwise is tied to a country. But due to two-letter TLDs being reserved to ccTLDs, and there being fewer gTLDs in the past than there were now, a lot of effort has been put into repurposing ccTLDs, as well as creating clever domain hacks and short domains out of obscure but convenient country codes.

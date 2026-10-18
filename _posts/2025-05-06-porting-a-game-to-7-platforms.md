@@ -2,6 +2,7 @@
 title: Porting a game to 7 platforms
 tags: Projects SDL
 cover_alt: Screenshot of the Tensy main menu showing the game title. Around it are the logos for Windows, Android, Linux (AppImage right behind it), WebAssembly, PSVita, Haiku OS and macOS.
+forum_thread: 163
 ---
 
 When making a game or another kind of general purpose program, you would usually want to ensure that it runs on more than one platform. Targeting a higher-level, cross-platform library rather than OS-specific APIs usually gets you most of the way there, but there are still many other considerations that are needed if you want it to be available and function across several platforms.

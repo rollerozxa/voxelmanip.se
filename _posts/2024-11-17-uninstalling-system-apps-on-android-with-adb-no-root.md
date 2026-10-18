@@ -2,6 +2,7 @@
 title: Uninstalling system apps on Android with ADB (No root required)
 tags: Android Guides
 cover_alt: Photo of a tablet showing the app drawer. All apps have been uninstalled except for the Settings app (and a "Tethering" app that is part of the settings app).
+forum_thread: 146
 ---
 
 If you've ever owned a couple Android devices you're definitively familiar with the kind of pre-installed system "bloatware" apps that may come with it from your manufacturer. Or maybe you're lucky and only get the base Google apps, or sometimes even that is too much for you.

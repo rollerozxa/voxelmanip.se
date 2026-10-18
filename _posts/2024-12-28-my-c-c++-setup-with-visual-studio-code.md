@@ -2,6 +2,7 @@
 title: My C/C++ setup with Visual Studio Code (Code - OSS)
 tags: C/C++ Informational
 cover_alt: Screenshot of Code - OSS showing some C code. The Visual Studio Code logo is shown to the right.
+forum_thread: 153
 ---
 
 Visual Studio Code is a code editor that has become quite popular since its introduction in 2016. Out of the box it is not necessarily an IDE, but because of the rich extension ecosystem you can compose together your own powerful IDE for any language you can think of.

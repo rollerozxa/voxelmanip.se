@@ -2,6 +2,7 @@
 title: That time I broke the laws of physics
 tags: School
 cover_alt: 3D render of an overbalanced wheel in what looks like a lab environment.
+forum_thread: 173
 ---
 
 During the first year of Gymnasiet (equiv. to 10th grade) we had an assignment about creating a perpetual motion machine - a machine that can be run indefinitely without an energy source to produce energy and by extension, electricity.

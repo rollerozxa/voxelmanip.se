@@ -2,6 +2,7 @@
 title: Display Managers, and Ly
 tags: Anecdotes Informational Linux
 cover_alt: Screenshot of the Ly display manager at the log in screen. There is green text flowing down the screen in the background, and an ASCII art box is visible in the center containing fields for entering user credentials.
+forum_thread: 159
 ---
 
 A display manager is an essential component in a typical Linux graphical environment. Its origins date to the original design of the X Window System with client and server components that may be on other ends of a network, managing authentication for remote graphical X environments.

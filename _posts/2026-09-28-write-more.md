@@ -2,6 +2,7 @@
 title: Write More
 tags: Meta Personal
 cover_alt: Standing on a big rock overlooking the sea, seeing more rocky formations in the distance.
+forum_thread: 172
 ---
 
 During the past year or so, I have not been writing for my blog as much as I was doing previously. I find this unfortunate, not because I haven't been productive and doing other stuff in the meantime, but I feel that I enjoy writing and should write more blog posts. But sometimes it is hard to actually find the motivation and "spark" that makes the writing just flow out.

@@ -2,6 +2,7 @@
 title: The story of principia-web
 tags: Projects Web
 cover_alt: Screenshot of the front page of principia-web.se, showing the navigation bar and the featured levels at the time of the screenshot.
+forum_thread: 154
 ---
 
 [principia-web](https://principia-web.se/) is two things: it is both an open source implementation of a Principia community site that can communicate with the client, and it is the name of the new Principia community site. While Principia is now [an open source project](https://github.com/Bithack/principia/) with the source code being available for everyone to read and understand how things work, when I started working on principia-web in late 2019 this was far from the case.

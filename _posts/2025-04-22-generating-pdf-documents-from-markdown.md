@@ -2,6 +2,7 @@
 title: Generating PDF documents from Markdown
 tags: Guides Markdown
 cover_alt: Screenshot of the Markdown source for the "The Luanti Techage Backdoor" blog post to the left, and to the right is a generated PDF version of it run through the process that is described in this blog post.
+forum_thread: 161
 ---
 
 When you are supposed to write something and submit it as a PDF document, generally the most common tool that comes to mind are traditional word processors such as LibreOffice Writer. Such word processors also provide various WYSIWYG formatting tools, and then allow you to export the document as a PDF.

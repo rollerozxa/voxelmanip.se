@@ -2,6 +2,7 @@
 title: El Telco Loco
 tags: Android History
 no_cover: true
+forum_thread: 144
 ---
 
 When developers need to put placeholder strings or values in code, they tend to be very creative in what they come up with. Sometimes it may be obscene and cause issues for their company when it eventually shows up in binaries or released source code. But most of the time it is nothing more than an amusing joke, maybe an inside joke in the development team with a backstory.

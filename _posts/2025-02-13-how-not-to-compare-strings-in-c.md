@@ -2,6 +2,7 @@
 title: How (not) to compare strings in C
 tags: Anecdotes C/C++ Informational
 cover_alt: Screenshot of some C code with a screenshot of a message box laid on top of it describing an assertion failure occurring in the shown code. An X_X (dead eyes) emoticon is visible below the message box, signifying some kind of embarrassment.
+forum_thread: 158
 ---
 
 When you are previously used to working with higher-level programming languages and pick up a lower-level language, there tends to be a lot of things you previously took for granted working at a higher level that suddenly become visible. And the programmer becomes more thoughtful, more resourceful.

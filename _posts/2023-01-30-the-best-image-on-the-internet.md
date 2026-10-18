@@ -3,6 +3,7 @@ title: The (arguably) Best Image on the Internet - An Analysis
 tags: Humourous
 cover_alt: "The [BEST] Image on the Internet..."
 redirect_from: /2023/01/30/The-Best-Image-On-The-Internet/
+forum_thread: 129
 ---
 
 A while back I came across an image while randomly browsing the internet, a meme starring ~~Pepe~~ Apu Apustaja (apparently that's the name of the cute somewhat derpy looking Pepe variation) and everyone's favourite streamer Jerma. I personally consider it to be the best image on the Internet.

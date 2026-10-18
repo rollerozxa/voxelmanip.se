@@ -2,6 +2,7 @@
 title: "Post-mortem: The 2025-04-18 IP spoofing attack"
 tags: Anecdotes Sysadmin
 cover_alt: "Screenshot of the reminder email received from OVH's abuse team the day after the attack. The background is a tiling list of firewall logs that were attached to the abuse reports showing a bunch of dropped and blocked connections to a certain IP. Some text in the email is scaled up which is the following: 'As explained in a previous message, this problem requires immediate action. Should the abusive behavior continue, we would be forced to suspend your service, as per our Terms. Please answer to this e-mail indicating which measures you've taken to stop the abuse behaviour.'"
+forum_thread: 162
 ---
 
 DDoS attacks are an unfortunate reality on the Internet when you are hosting websites, or any other kind of service. The concept of a DDoS attack is relatively simple: you have a bunch of attacker-controlled computers, and you have one victim. They all send requests to the victim at once and the target gets overloaded, happening either at the network or at the software layer.

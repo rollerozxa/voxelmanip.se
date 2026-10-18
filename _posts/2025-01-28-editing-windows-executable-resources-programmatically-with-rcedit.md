@@ -2,6 +2,7 @@
 title: Editing Windows executable resources programmatically with rcedit
 tags: Informational Windows
 cover_alt: Screenshot of a Windows desktop, showing a game.exe file with the LÖVE icon to the left, and an arrow pointing at a box_smasher.exe file to the right with the Box Smasher logo. A rcedit.exe file is visible in the center right above the arrow, symbolising the process of editing the executable metadata.
+forum_thread: 156
 ---
 
 Sometimes you are in a situation where you need to modify an already built Windows executable, whether it be a program without available sources or where it is more convenient to use already available prebuilt binaries for your own purposes. In this case you usually also want to edit the metadata embedded within the executable as resources.

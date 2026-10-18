@@ -2,6 +2,7 @@
 title: How to check if you are behind CGNAT
 tags: Guides
 cover_alt: Screenshot of terminal output from trying to do a traceroute on voxelmanip.se.
+forum_thread: 140
 ---
 
 Carrier-grade NAT (CGNAT) is a technique used by some ISPs where many customers will share one single public IP address, in order to mitigate IPv4 address exhaustion. However this also has the added downside that you cannot easily host a publicly accessible server from home, even if you have port forwarded.

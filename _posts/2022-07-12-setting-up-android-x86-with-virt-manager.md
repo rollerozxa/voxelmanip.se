@@ -3,6 +3,7 @@ title: Setting up Android-x86 with Virt-Manager
 tags: Android Guides
 cover_alt: Screenshot of Apparatus running under Android-x86
 redirect_from: /2022/07/12/Setting-Up-Android-x86-With-Virt-Manager/
+forum_thread: 127
 ---
 
 Android-x86 is a project which aims to make a flavour of Android that is suitable to run natively on any regular x86-based desktop computer. It might therefore be a good option to use Android-x86 in a virtual machine you want to run Android apps on Linux, and find other options such as Anbox to either not work with your app of choice or you simply do not meet the system requirements to run Anbox.
