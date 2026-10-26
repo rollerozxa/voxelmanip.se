@@ -12,3 +12,4 @@ This page contains a list of more miscellaneous pages on my website that are lis
 - [Base64 Encoder/Decoder](/base64/) - web-based Base64 encoder and decoder running fully locally in your browser.
 - [The World in 2072](/the-world-in-2072/) - a short story about a theoretical future world in 2072, originally written as a school assignment.
 - [Origami Flower School Archive](/origami-flowers/school/) - reconstructed archive of Flower School lessons from the defunct Origami Flowers mobile game.
+- [Attack Chopper - The Guide](/game-guides/attack-chopper/) - a text guide to the 2006 J2ME game Attack Chopper.
