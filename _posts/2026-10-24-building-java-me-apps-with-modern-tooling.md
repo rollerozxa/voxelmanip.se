@@ -2,6 +2,7 @@
 title: Building Java ME Apps with Modern Tooling
 tags: Guides Java
 cover_alt: A Sony Ericsson S312 running an app with a bunch of raccoon icons scattered across the screen, on top of a cobblestone background.
+forum_thread: 179
 ---
 
 Java ME (Micro Edition, also referred to as J2ME) is a platform for running Java applications on small resource constrained devices, such as feature phones from before the iPhone era. It is largely considered a dead platform with the advent of smartphones, and modern feature phones such as KaiOS use web technologies instead for their apps.
