@@ -35,7 +35,7 @@ The specific placement of the extra "r" is a bit interesting as it creates the w
 
 > If the date/time on your iPod was changed, this could cause the game to get confused, and is the only thing I can think of to cause this type of *behavior* [emphasis added].
 
-However, he also uses the British form of "behaviour" once in the Flower School texts written some years after the above forum posts, so trying to make out any consistent kind of writing style is not possible (like many English speakers, native or non-native, the correct spelling is just the one that you think of first):
+However, he also uses the British form of "behaviour" once in the Flower School texts written some years after the above forum posts, so trying to make out any consistent kind of writing style isn't really possible:
 
 > Bad behaviour will result in losing chat privileges or even player-2-player messages and having your name censored.
 
