@@ -55,7 +55,7 @@ I then dove into the Ly configuration file and did some tweaks from the default 
 For me this was just wonderful, and just like that I had swapped out a module of my Linux system with something else in its place.
 
 ### Customising Ly
-I'm not going to be writing up a full reference of the Ly configuration file here. You can find it in `/etc/ly/config.ini` and you should be able to read it through and configure things to your liking based on the comments in it. And [here](https://gist.github.com/rollerozxa/cee62f0df8ce2112d3440babf4d21228) is the config file I use, a demonstration of which you can see above.
+I'm not going to be writing up a full reference of the Ly configuration file here. You can find it in `/etc/ly/config.ini` and you should be able to read it through and configure things to your liking based on the comments in it. And [here](/notes/my-ly-config/) is the config file I use, a demonstration of which you can see above.
 
 However there are some things not enabled by default that I find to be rather interesting or useful features that are worth mentioning.
 
@@ -68,5 +68,5 @@ animation = matrix
 Another nice to have thing that's not enabled by default is the big clock, which tells the time with large ASCII block characters. Nice for telling the time from a distance if it remains on the login screen for any prolonged period of time.
 
 ```ini
-bigclock = true
+bigclock = en
 ```
