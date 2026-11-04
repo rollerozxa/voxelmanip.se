@@ -12,7 +12,7 @@ However, if you push through and search for "centrennium" verbatim, you will sti
 <!--more-->
 
 ## Origami Flowers
-The first time I came across this word was, of course in Origami Flowers, as a length unit - the length at which light passes over the span of a centrennium.
+The first time I came across this word was of course in [Origami Flowers](https://android.voxelmanip.se/games/origami-flowers), as a length unit - the length at which light passes over the span of a centrennium.
 
 {% include image.html
 	name="flower_stats.webp"
