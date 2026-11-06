@@ -7,7 +7,7 @@
 		<th>Credits</th>
 		<th>Status</th>
 	</tr>
-	{% for course in site.data.merits.uni_se %}
+	{% for course in include.course_data %}
 		{%- assign total_credits = total_credits | plus: course.credits -%}
 		<tr>
 			<td class="right mono">{{ course.id }}</td>
