@@ -4,8 +4,8 @@ image: luascript_cheatsheet
 date: 2024-07-23
 timeframe: "2024"
 technologies: "HTML & CSS"
-license: N/A
-website: https://rollerozxa.itch.io/principia-luascript-api-cheatsheet
+license: CC-BY 4.0
+website: https://principia-web.se/luascript-api-cheatsheet
 repo: https://github.com/principia-game/luascript-cheatsheet
 ---
 
@@ -15,6 +15,4 @@ repo: https://github.com/principia-game/luascript-cheatsheet
 
 There are countless amounts of reference sheets for working with various programming languages, libraries, programs, etc. available on the internet in printable PDF form, usually labelled as "Cheatsheets". As such, I decided to make a cheatsheet of my own that details the entire LuaScript API in Principia. I designed and layouted it using web technology with HTML and CSS and then rendered it to a PDF using Weasyprint.
 
-The resulting cheatsheet, one colour version and one version optimised for greyscale printers, are available for purchase on itch.io:
-
-<iframe frameborder="0" src="https://itch.io/embed/2862096?bg_color=0f0f0f&fg_color=fff&link_color=fa5c5c&border_color=3f3f3f" width="552" height="167" style="max-width:100%"><a href="https://rollerozxa.itch.io/principia-luascript-api-cheatsheet" target="_blank">Principia LuaScript API cheatsheet by ROllerozxa</a></iframe>
+Originally the resulting cheatsheet was available for purchase on itch.io, but in 2026 it was released freely under the CC-BY 4.0 license after the goal of the [Principia August 2026 donation drive](https://principia-web.se/august-2026-donation-drive) was reached. It can now be found for download on the [Principia website](https://principia-web.se/luascript-api-cheatsheet) and the source files are available on [GitHub](https://github.com/principia-game/luascript-cheatsheet).

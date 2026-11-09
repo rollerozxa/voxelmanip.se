@@ -5,6 +5,7 @@ date: 2026-04-03
 timeframe: "2026-"
 technologies: C++ & SDL3
 license: N/A
+website: https://washbear.voxelmanip.se
 repo: https://github.com/rollerozxa/washbear
 ---
 
