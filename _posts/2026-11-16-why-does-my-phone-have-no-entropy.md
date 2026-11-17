@@ -2,6 +2,7 @@
 title: Why does my phone have no entropy?
 cover_alt: Bugdroid lying on its back with the stomach open and a red warning sign in front.
 tags: Android Anecdotes
+forum_thread: 187
 ---
 
 In mbedTLS 3.6.6, the fallback entropy generator was switched from `/dev/urandom` to `/dev/random` as a result of CVE-2026-34871 published on the 31st of March 2026, to ensure that the library always gets cryptographically secure randomness for entropy initialisation. Some months later, I was sitting with my previous phone to test Principia on it, but was greeted with nothing but a black screen as it hanged right when attempting to initialise libcurl. After debugging, the hang was traced into mbedTLS, and it turned out that my phone just had no entropy.
