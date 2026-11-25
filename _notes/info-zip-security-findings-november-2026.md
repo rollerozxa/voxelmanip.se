@@ -50,7 +50,7 @@ References for distributions taking action:
 - Date of discovery: 2026-11-09
 - Source file: `fileio.c`
 - Function: `dos_to_unix_time`
-- Build conditions: Unzip needs to be built without `HAS_MKTIME` defined on a Unix platform.
+- Build conditions: Unzip needs to be built without `HAVE_MKTIME` defined on a Unix platform.
 
 In the `dos_to_unix_time` function which converts a DOS datetime value found in a ZIP file into a Unix timestamp, it unpacks the DOS datetime into year, month and day values:
 
